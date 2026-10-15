@@ -1,0 +1,11 @@
+[project]
+name = "place-search"
+version = "0.1.0"
+dependencies = ["qdrant-client", "fastembed", "beautifulsoup4", "numpy", "pymysql", "python-dotenv"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
