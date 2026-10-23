@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,6 +12,8 @@ STOPOVER_TABLE = os.getenv("STOPOVER_TABLE", "stopover")
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 EMBED_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 EMBED_DIM = 384
+
+MODEL_CACHE_DIR = os.getenv("MODEL_CACHE_DIR", str(Path(__file__).resolve().parents[2] / "models"))
 BATCH = 16
 TAG_VERSION = "taxonomy-v2"
 
@@ -18,7 +21,7 @@ TAG_VERSION = "taxonomy-v2"
 CATEGORY_THR = 0.55
 CATEGORY_MARGIN = 0.05
 TAG_THR = 0.75
-TAG_BOOST = 0.15
+TAG_BOOST = 0.45
 CANDIDATE_MULT = 4
 
 # ---------- MySQL ----------
@@ -66,7 +69,15 @@ SELECT p.stopover_id,
        p.status,
        p.user_id,
        p.website,
-       p.category_id
+       p.category_id,
+       COALESCE(
+           (
+               SELECT JSON_ARRAYAGG(i.image_url)
+               FROM stopover_image i
+               WHERE i.stopover_id = p.stopover_id
+           ),
+           JSON_ARRAY()
+       ) AS image_urls
 FROM {STOPOVER_TABLE} p
 WHERE p.category_id IS NOT NULL
   AND p.category_id <> ''

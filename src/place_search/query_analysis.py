@@ -37,21 +37,33 @@ TAG_PROTOTYPES = {
 
 
 def _build_protos(protos):
-    return {k: _unit(embed_dense(v)) for k, v in protos.items()}
+    result = {}
 
+    for k, v in protos.items():
+        vectors = embed_dense(v)
+        normalized_vectors = _unit(vectors)
+        result[k] = normalized_vectors
+
+    return result
 
 CAT_VECS = _build_protos(CATEGORY_PROTOTYPES)
 TAG_VECS = _build_protos(TAG_PROTOTYPES)
 
 
 def similarities(q_vec, vecs):
-    return {k: float((m @ q_vec).max()) for k, m in vecs.items()}
+    result = {}
 
+    for k, m in vecs.items():
+        scores = m @ q_vec
+        best_score = scores.max()
+        result[k] = float(best_score)
+
+    return result
 
 CATEGORY_KEYWORDS = {
     "cat-hotel": ["khach san", "hotel", "resort", "noi nghi", "cho nghi"],
     "cat-cafe": ["ca phe", "cafe", "coffee", "phong tra"],
-    "cat-park": ["cong vien", "vuon hoa"],
+    "cat-park": ["cong vien", "vuon hoa", "tap the duc", "chay bo", "di dao", "tap yoga"],
     "cat-culture": ["bao tang", "di tich", "dia diem van hoa"],
     "cat-restaurant": ["quan an", "nha hang", "quan pho", "quan bun", "an uong", "mon an"],
 }
@@ -75,11 +87,33 @@ def route_category(q_vec, q_fold, q_raw=""):
         return c1, scores
     return None, scores
 
+# Luật cho truy vấn: cụm chữ thường không dấu, KHÔNG dùng regex
+QUERY_TAG_RULES = {
+    "quiet": ["yen tinh", "yen binh", "thanh tinh", "it on", "thu gian", "tranh on"],
+    "lively": ["soi dong", "nao nhiet", "vui nhon", "nhon nhip", "dong vui"],
+    "romantic": ["lang man", "hen ho", "nguoi yeu", "ky niem"],
+    "family": ["gia dinh", "tre em", "tre nho", "cho be"],
+    "couple": ["cap doi", "trang mat", "nguoi yeu", "vo chong"],
+    "solo": ["di mot minh", "o mot minh", "du lich bui"],
+    "business": ["doanh nhan", "cong tac", "phong hop"],
+    "lake-view": ["view ho", "nhin ra ho", "huong ho", "ben ho"],
+    "balcony": ["ban cong"],
+    "pool": ["ho boi", "be boi"],
+    "local-food": ["dac san", "am thuc", "mon an truyen thong", "bun cha"],
+    "breakfast": ["bua sang", "an sang", "buffet sang"],
+    "spa": ["spa", "mat xa", "matxa", "massage", "tri lieu"],
+    "classic": ["co dien"],
+    "neoclassical": ["tan co dien"],
+    "modern": ["hien dai"],
+    "luxury": ["sang trong", "dang cap", "xa hoa", "cao cap", "thuong luu", "5 sao", "nam sao"],
+    "minimalist": ["toi gian"],
+    "indochine": ["dong duong", "indochine"],
+}
 
-QUERY_TAG_RULES = {tag: [fold(p) for p in pats] for tag, pats in TAG_RULES.items()}
-QUERY_TAG_RULES["romantic"] += ["nguoi yeu", "ky niem"]
-QUERY_TAG_RULES["couple"] += ["nguoi yeu", "vo chong"]
-QUERY_TAG_RULES["quiet"] += ["thu gian", "tranh on"]
+
+def _has_phrase(p, text):
+    # khớp nguyên từ: "an sang" không còn khớp trong "san sang"
+    return re.search(rf"(?<![a-z0-9]){re.escape(p)}(?![a-z0-9])", text) is not None
 
 
 def fuzzy_contains(phrase, text, cutoff=0.88):
@@ -95,8 +129,8 @@ def infer_query_tags(q_vec, q_fold):
     tags = set()
     for tag, pats in QUERY_TAG_RULES.items():
         for p in pats:
-            plain = re.fullmatch(r"[a-z ]{6,}", p) is not None
-            if re.search(p, q_fold) or (plain and fuzzy_contains(p, q_fold)):
+            # fuzzy chỉ cho cụm dài (chịu lỗi gõ), cụm ngắn phải khớp đúng
+            if _has_phrase(p, q_fold) or (len(p) >= 10 and fuzzy_contains(p, q_fold, 0.9)):
                 tags.add(tag)
                 break
     for tag, s in similarities(q_vec, TAG_VECS).items():
@@ -105,7 +139,6 @@ def infer_query_tags(q_vec, q_fold):
     if "quiet" in tags and "lively" in tags:
         tags -= {"quiet", "lively"}
     return sorted(tags)
-
 
 # (lat, lon, bán kính mét)
 LANDMARKS = {

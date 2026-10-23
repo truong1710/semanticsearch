@@ -8,12 +8,14 @@ def health():
     return {"status": "ok"}
 
 @app.get("/search")
+
+# ... là yêu cầu phải gửi trong python
 def search(q: str = Query(..., min_length=1, max_length=200),
            top_k: int = Query(5, ge=1, le=20)):
     hits = smart_search(q, top_k=top_k)
     return {
         "query": q,
-        "result": [
+        "results": [
             
             {
                 **h.payload,

@@ -3,12 +3,14 @@ import time
 from fastembed import SparseTextEmbedding, TextEmbedding
 from qdrant_client import models
 
-from .config import BATCH, EMBED_DIM, EMBED_MODEL
+
 from .text_utils import fold
+from .config import BATCH, EMBED_DIM, EMBED_MODEL, MODEL_CACHE_DIR
+
 
 t0 = time.perf_counter()
-dense_model = TextEmbedding(model_name=EMBED_MODEL)
-sparse_model = SparseTextEmbedding(model_name="Qdrant/bm25", disable_stemmer=True)
+dense_model = TextEmbedding(model_name=EMBED_MODEL, cache_dir=MODEL_CACHE_DIR)
+sparse_model = SparseTextEmbedding(model_name="Qdrant/bm25", disable_stemmer=True, cache_dir=MODEL_CACHE_DIR)
 print(f"Đã nạp model trong {time.perf_counter() - t0:.1f}s")
 
 
