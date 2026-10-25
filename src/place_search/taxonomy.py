@@ -75,7 +75,12 @@ TAG_RULES = {
                    r"cà phê trứng", r"bún chả", r"bánh cuốn"],
     "breakfast": [r"bữa sáng", r"ăn sáng", r"buffet sáng"],
     "spa": [r"\bspa\b", r"mát[\s-]?xa", r"massage", r"trị liệu", r"chăm sóc cơ thể"],
-        "classic": [
+    "classic": [
+        r"cổ kính",
+        r"phong cách cổ kính",
+        r"kiến trúc cổ kính",
+        r"cổ xưa",
+        r"hoài cổ",
         r"phong cách cổ điển",
         r"kiến trúc cổ điển",
         r"thiết kế cổ điển",
@@ -115,11 +120,9 @@ TAG_RULES = {
         r"kiến trúc đông dương",
         r"thiết kế đông dương",
     ],
+    
 }
-NEG_PREFIX = re.compile(
-    r"(?:không|chưa|chẳng|không hề|chưa hề)"
-    r"(?:\s+\w+){0,2}\s*$"
-)
+
 
 NEG_SUFFIX = re.compile(
     r"^\s*(?:"

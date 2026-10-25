@@ -31,9 +31,8 @@ def batched(iterable, n):
 
 
 def text_hash(text):
-    # gắn cả tên model: đổi model thì hash đổi, vector được tính lại
-    return hashlib.sha1((EMBED_MODEL + "\n" + text).encode("utf-8")).hexdigest()
-
+    key = f"{EMBED_MODEL}|{EMBED_DIM}\n{text}"
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()
 
 def existing_hashes(ids):
     pts = client.retrieve(COLLECTION, ids=ids, with_payload=["text_hash"], with_vectors=False)
@@ -108,7 +107,11 @@ def ingest_places(place_list):
         # văn bản đổi hoặc điểm mới: embed lại rồi upsert
         if changed:
             ts = [texts[p["id"]] for p in changed]
-            dense = embed_dense(ts, batch_size=len(ts))
+            dense = embed_dense(
+                ts,
+                batch_size=BATCH,
+                task_type="RETRIEVAL_DOCUMENT",
+            )
             sparse = embed_sparse_docs(ts)
             points = [
                 models.PointStruct(

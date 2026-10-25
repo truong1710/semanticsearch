@@ -33,6 +33,7 @@ TAG_PROTOTYPES = {
     "lake-view": ["view hồ", "nhìn ra hồ", "bên hồ"],
     "local-food": ["đặc sản", "món ăn truyền thống", "ẩm thực Hà Nội"],
     "breakfast": ["ăn sáng", "bữa sáng"],
+    "classic": [ "khách sạn cổ điển", "khách sạn mang phong cách cổ kính", "khách sạn có nét kiến trúc cổ xưa", "khách sạn phong cách hoài cổ",],
 }
 
 
@@ -102,12 +103,12 @@ QUERY_TAG_RULES = {
     "local-food": ["dac san", "am thuc", "mon an truyen thong", "bun cha"],
     "breakfast": ["bua sang", "an sang", "buffet sang"],
     "spa": ["spa", "mat xa", "matxa", "massage", "tri lieu"],
-    "classic": ["co dien"],
     "neoclassical": ["tan co dien"],
     "modern": ["hien dai"],
     "luxury": ["sang trong", "dang cap", "xa hoa", "cao cap", "thuong luu", "5 sao", "nam sao"],
     "minimalist": ["toi gian"],
     "indochine": ["dong duong", "indochine"],
+    "classic": ["co dien","co kinh","mang net co xua","phong cach co xua",],
 }
 
 

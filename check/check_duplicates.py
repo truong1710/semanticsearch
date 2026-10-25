@@ -12,8 +12,7 @@ from dotenv import load_dotenv
 # ==================================================
 # 1. CẤU HÌNH
 # ==================================================
-
-PROJECT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv(PROJECT_DIR / ".env")
 

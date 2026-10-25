@@ -10,8 +10,8 @@ load_dotenv()
 COLLECTION = os.getenv("COLLECTION", "places_demo")
 STOPOVER_TABLE = os.getenv("STOPOVER_TABLE", "stopover")
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
-EMBED_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-EMBED_DIM = 384
+EMBED_MODEL = "gemini-embedding-001"
+EMBED_DIM = 768
 
 MODEL_CACHE_DIR = os.getenv("MODEL_CACHE_DIR", str(Path(__file__).resolve().parents[2] / "models"))
 BATCH = 16
@@ -35,26 +35,6 @@ DB_CONFIG = dict(
     charset="utf8mb4",
 )
 # cursorclass sẽ truyền trong db.py khi gọi pymysql.connect
-
-# SQL_PLACES = """
-# SELECT p.stopover_id,
-#        p.stopover_name,
-#        p.address,
-#        p.description,
-#        p.is_active + 0 AS is_active,
-#        p.latitude,
-#        p.longitude,
-#        p.opening_hours,
-#        p.price_range,
-#        p.status,
-#        p.user_id,
-#        p.website,
-#        p.category_id
-# FROM stopover p
-# WHERE p.category_id IS NOT NULL
-#   AND p.category_id <> ''
-# """
-
 
 SQL_PLACES = f"""
 SELECT p.stopover_id,

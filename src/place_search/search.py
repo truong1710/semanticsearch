@@ -1,4 +1,3 @@
-
 from qdrant_client import models
 
 from .config import CANDIDATE_MULT, COLLECTION, TAG_BOOST
@@ -67,19 +66,27 @@ def _flt(category=None, geo=None, price_max=None, district=None):
 def search_dense(query, top_k=5, flt=None):
     """Tìm kiếm dense vector."""
     return client.query_points(
-        collection_name=COLLECTION,
-        query=embed_dense([query])[0],
-        using="dense",
-        query_filter=flt,
-        limit=top_k,
-        with_payload=True,
-    ).points
+    collection_name=COLLECTION,
+    query=embed_dense(
+        [query],
+        task_type="RETRIEVAL_QUERY",
+    )[0],
+    using="dense",
+    query_filter=flt,
+    limit=top_k,
+    with_payload=True,
+).points
+
+    
 
 
 def search_hybrid(query, top_k=5, flt=None, q_dense=None):
     """Tìm kiếm hybrid dense + sparse bằng RRF."""
     if q_dense is None:
-        q_dense = embed_dense([query])[0]
+        q_dense = embed_dense(
+            [query],
+            task_type="RETRIEVAL_QUERY",
+        )[0]
 
     candidate_count = max(top_k * CANDIDATE_MULT, 20)
 
@@ -114,7 +121,10 @@ def smart_search(query, top_k=5, debug=False):
     text, price_max, district = parse_query(query)
 
     # 2. Tạo embedding từ nội dung đã tách điều kiện.
-    q_dense = embed_dense([text])[0]
+    q_dense = embed_dense(
+        [text],
+        task_type="RETRIEVAL_QUERY",
+    )[0]
     q_vec = _unit(q_dense)
     q_fold = fold(query)
 
