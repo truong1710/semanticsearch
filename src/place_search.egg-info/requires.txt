@@ -1,6 +1,0 @@
-qdrant-client
-fastembed
-beautifulsoup4
-numpy
-pymysql
-python-dotenv

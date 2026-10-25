@@ -5,7 +5,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 qdrant_data/
-src/place_search.egg-info/
+*.egg-info/
 
 # cache AI và dữ liệu thô sinh lại được
 ai_cache*.json
