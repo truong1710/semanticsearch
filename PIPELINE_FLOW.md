@@ -2,6 +2,16 @@
 
 Tài liệu này giải thích thứ tự chạy các bước và file nào xử lý từng bước. Pipeline đi từ dữ liệu crawl đến MySQL, Qdrant, rồi API tìm kiếm.
 
+## Cách chạy pipeline
+
+`core/pipeline.py` là CLI gom nhiều lệnh, mỗi lần chạy thực hiện **một bước**. Ví dụ: `python -m core.pipeline crawl <URL>`, `python -m core.pipeline check`, `python -m core.pipeline import`, hoặc `python -m core.pipeline embed`.
+
+Các lệnh trên là bốn lần chạy riêng. `crawl` không tự chuyển sang `check`; `check` không tự nhập dữ liệu; `import` cũng không tự chạy `embed`. Hiện không có lệnh `all` hoặc `run-all` chạy toàn bộ tự động.
+
+Giữa `check` và `import`, cần mở các file trong `data/checked/` để duyệt. Đây là bước chủ động trước khi ghi dữ liệu vào MySQL. Sau đó mới chạy `embed` để đồng bộ dữ liệu MySQL lên Qdrant.
+
+Xem tất cả lệnh bằng `python -m core.pipeline --help`. Sau khi cài package editable theo phần dưới, có thể gọi các lệnh này từ thư mục bất kỳ.
+
 ## Sơ đồ tổng quan
 
 ```text
@@ -34,7 +44,7 @@ retrieval/query.py + retrieval/search.py
 app/router/api.py → app/main.py → API
 ```
 
-## 1. Cài đặt và cấu hình
+## 1. Cài đặt và cấu hình một lần
 
 Chạy các lệnh từ bất kỳ thư mục nào sau khi cài package editable:
 
@@ -56,7 +66,7 @@ docker compose -f docker/docker-compose.yml up -d
 
 MySQL cần chạy và có sẵn các bảng cần thiết trước khi nhập hoặc đồng bộ dữ liệu.
 
-## 2. Crawl trang web
+## 2. Bước 1 — Crawl trang web
 
 ```bash
 python -m core.pipeline crawl https://example.com
@@ -82,7 +92,9 @@ Xem nhanh dữ liệu vừa crawl:
 python -m core.pipeline inspect-crawl
 ```
 
-## 3. Kiểm tra trùng và duyệt dữ liệu
+`inspect-crawl` chỉ hiển thị thống kê file crawl, không tự chạy `check`.
+
+## 3. Bước 2 — Kiểm tra trùng và duyệt dữ liệu
 
 ```bash
 python -m core.pipeline check
@@ -96,7 +108,9 @@ Lệnh này chạy `scripts/check_duplicates.py --run`. Script đọc `data/craw
 
 Hãy xem lại các file kết quả trước khi nhập. Đây là điểm kiểm soát để loại bản ghi sai hoặc trùng.
 
-## 4. Nhập địa điểm mới vào MySQL
+Khi lệnh `check` kết thúc, pipeline dừng ở đây. Tự kiểm tra `places_new.json`, `places_duplicates.json` và `places_needs_review.json` rồi mới quyết định chạy bước tiếp theo.
+
+## 4. Bước 3 — Nhập địa điểm mới vào MySQL
 
 Sau khi duyệt `places_new.json`, chạy:
 
@@ -106,7 +120,7 @@ python -m core.pipeline import
 
 Lệnh gọi `import_places()` trong `crawldata/db.py`, đọc JSON đã kiểm tra, xác thực trường dữ liệu rồi upsert địa điểm và ảnh vào MySQL. `USER_ID` phải là ID hợp lệ trong hệ thống.
 
-## 5. Tạo embedding và đồng bộ Qdrant
+## 5. Bước 4 — Tạo embedding và đồng bộ Qdrant
 
 ```bash
 python -m core.pipeline embed
@@ -121,13 +135,15 @@ Luồng xử lý:
 
 Nội dung không đổi sẽ được nhận diện bằng hash để tránh tạo lại embedding không cần thiết. Qdrant phải truy cập được tại `QDRANT_URL`.
 
+Lệnh `embed` kết thúc sau khi cập nhật Qdrant; nó không tự chạy tìm kiếm hay khởi động API.
+
 Kiểm tra collection:
 
 ```bash
 python -m core.pipeline qdrant
 ```
 
-## 6. Tìm kiếm và API
+## 6. Bước 5 — Tìm kiếm và API
 
 Tìm kiếm từ terminal:
 
@@ -152,7 +168,7 @@ Ví dụ gọi API:
 GET /search?q=khách%20sạn%20yên%20tĩnh%20ở%20Tây%20Hồ&top_k=5
 ```
 
-## 7. Đánh giá chất lượng tìm kiếm
+## 7. Bước tùy chọn — Đánh giá chất lượng tìm kiếm
 
 ```bash
 python -m core.pipeline evaluate
@@ -160,15 +176,62 @@ python -m core.pipeline evaluate
 
 Hàm đánh giá nằm trong `retrieval/search.py`, tính recall@k và MRR cho dense, hybrid và smart search. Hiện `EVAL_SET` đang để trống; cần thêm câu hỏi và tập ID đúng trước khi có kết quả đánh giá.
 
-## Thứ tự chạy rút gọn
+## Thứ tự chạy đầy đủ
 
-```text
-1. Cấu hình .env và khởi chạy MySQL/Qdrant
-2. python -m core.pipeline crawl <URL>
-3. python -m core.pipeline check
-4. Xem lại data/checked/places_*.json
-5. python -m core.pipeline import
-6. python -m core.pipeline embed
-7. python -m core.pipeline search "câu hỏi"
-   hoặc khởi chạy API bằng uvicorn app.main:app
+Chạy các lệnh dưới đây theo thứ tự, mỗi lệnh là một lần chạy riêng. Chờ lệnh hiện tại kết thúc rồi mới chạy bước tiếp:
+
+```bash
+pip install -e ".[api]"
 ```
+
+Nếu dùng Qdrant qua Docker, bật dịch vụ:
+
+```bash
+docker compose -f docker/docker-compose.yml up -d
+```
+
+### Bước 1 — Crawl URL cần lấy dữ liệu
+
+```bash
+python -m core.pipeline crawl https://example.com
+```
+
+### Bước 2 — Tùy chọn: xem JSON vừa crawl
+
+```bash
+python -m core.pipeline inspect-crawl
+```
+
+### Bước 3 — So sánh kết quả crawl với MySQL
+
+```bash
+python -m core.pipeline check
+```
+
+### Bước 4 — Duyệt rồi nhập dữ liệu
+
+**Dừng để duyệt** các file trong `data/checked/`. Sau khi đã kiểm tra `places_new.json`, chạy lệnh nhập:
+
+```bash
+python -m core.pipeline import
+```
+
+### Bước 5 — Tạo embedding và đồng bộ Qdrant
+
+```bash
+python -m core.pipeline embed
+```
+
+### Bước 6 — Khi Qdrant đã có dữ liệu, tìm kiếm
+
+```bash
+python -m core.pipeline search "quán cà phê yên tĩnh gần Hồ Tây"
+```
+
+Để khởi động HTTP API, chạy riêng:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Thay `https://example.com` bằng URL cần crawl. Cần MySQL chạy cho `check`, `import`, `embed`; Gemini cho crawl/embedding; Qdrant cho `embed`, `search` và API tìm kiếm.
