@@ -1,11 +1,33 @@
 [project]
 name = "place-search"
 version = "0.1.0"
-dependencies = ["qdrant-client", "fastembed", "beautifulsoup4", "numpy", "pymysql", "python-dotenv"]
+dependencies = [
+    "beautifulsoup4",
+    "fastembed",
+    "fastapi",
+    "google-genai",
+    "mysql-connector-python",
+    "numpy",
+    "pymysql",
+    "python-dotenv",
+    "qdrant-client",
+    "requests",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+api = ["uvicorn[standard]"]
+browser = ["playwright"]
+test = ["pytest"]
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+py-modules = ["config"]
+
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["app*", "common*", "core*", "crawldata*", "database*", "embedding*", "indexing*", "retrieval*"]
+namespaces = true

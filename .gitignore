@@ -1,0 +1,17 @@
+models/
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+qdrant_data/
+*.egg-info/
+
+# cache AI và dữ liệu thô sinh lại được
+ai_cache*.json
+raw/
+
+# IDE / hệ điều hành
+.vscode/
+.idea/
+.DS_Store
