@@ -2,7 +2,7 @@ import uuid
 from itertools import islice
 
 from qdrant_client import QdrantClient, models
-
+from indexing.ai_tagger import suggest_tags
 from config import BATCH, COLLECTION, EMBED_DIM, QDRANT_URL, TAG_VERSION
 from embedding.vectors import embed_dense, embed_sparse_docs
 from common.taxonomy import (
@@ -167,36 +167,125 @@ def ingest_places(place_list):
     print(f"  embed mới/đổi: {embedded} | không đổi (bỏ qua embed): {skipped}")
     return embedded + skipped
 
+# def sync_places(place_list):
+#     if not place_list:
+#         raise RuntimeError("MySQL không trả về dòng nào hợp lệ, huỷ đồng bộ để tránh xoá hết Qdrant.")
+
+#     ensure_collection()
+
+#     PLACE_TAGS_BY_ID.clear()
+#     TAG_SOURCE_BY_ID.clear()
+#     for p in place_list:
+#         ev = rule_tags_with_evidence(clean_text(p["description"]))
+#         tags = sorted(ev)
+#         errs = validate_tags(tags)
+#         if errs:
+#             print("LỖI NHÃN", p["id"], errs)
+#         PLACE_TAGS_BY_ID[p["id"]] = tags
+#         TAG_SOURCE_BY_ID[p["id"]] = {t: "rule" for t in tags}
+
+#     n = ingest_places(place_list)
+
+#     # Xoá điểm không còn trong MySQL
+#     keep = {point_id(p["id"]) for p in place_list}
+#     existing, offset = set(), None
+#     while True:
+#         pts, offset = client.scroll(COLLECTION, limit=256, offset=offset, with_payload=False)
+#         existing |= {str(pt.id) for pt in pts}
+#         if offset is None:
+#             break
+#     stale = list(existing - keep)
+#     if stale:
+#         client.delete(COLLECTION, points_selector=models.PointIdsList(points=stale), wait=True)
+#     print(f"Đã upsert {n}, xoá {len(stale)} điểm cũ")
+
+
 def sync_places(place_list):
     if not place_list:
-        raise RuntimeError("MySQL không trả về dòng nào hợp lệ, huỷ đồng bộ để tránh xoá hết Qdrant.")
+        raise RuntimeError(
+            "MySQL không trả về dòng nào hợp lệ, "
+            "huỷ đồng bộ để tránh xoá hết Qdrant."
+        )
 
     ensure_collection()
 
     PLACE_TAGS_BY_ID.clear()
     TAG_SOURCE_BY_ID.clear()
+
     for p in place_list:
-        ev = rule_tags_with_evidence(clean_text(p["description"]))
-        tags = sorted(ev)
+        description = clean_text(p.get("description"))
+
+        # BƯỚC 1: Dùng regex nhận diện tag trước.
+        rule_evidence = rule_tags_with_evidence(description)
+        rule_tags = set(rule_evidence.keys())
+
+        # BƯỚC 2: Gemini đề xuất tag bổ sung.
+        # Chỉ chọn tag thuộc taxonomy và phù hợp category.
+        ai_tags = suggest_tags(
+            text=description,
+            existing_tags=sorted(rule_tags),
+            allowed_tags=sorted(ALLOWED_TAGS),
+            category=p.get("category"),
+        )
+
+        # BƯỚC 3: Gộp tag regex và AI, loại trùng.
+        tags = sorted(rule_tags | set(ai_tags))
+
+        # BƯỚC 4: Kiểm tra tính hợp lệ của tag.
         errs = validate_tags(tags)
         if errs:
             print("LỖI NHÃN", p["id"], errs)
-        PLACE_TAGS_BY_ID[p["id"]] = tags
-        TAG_SOURCE_BY_ID[p["id"]] = {t: "rule" for t in tags}
 
+        # Lưu tag để build_payload() và place_to_text() sử dụng.
+        PLACE_TAGS_BY_ID[p["id"]] = tags
+
+        # Ghi rõ nguồn tạo ra từng tag.
+        tag_sources = {
+            tag: "rule"
+            for tag in rule_tags
+        }
+
+        for tag in ai_tags:
+            # Ưu tiên nguồn rule nếu tag đã được rule nhận diện.
+            tag_sources.setdefault(tag, "ai")
+
+        TAG_SOURCE_BY_ID[p["id"]] = tag_sources
+
+        print(
+            f"[TAG] {p.get('name', p['id'])}: "
+            f"rule={len(rule_tags)}, "
+            f"ai={len(set(ai_tags) - rule_tags)}, "
+            f"total={len(tags)}"
+        )
+
+    # BƯỚC 5: Embedding và cập nhật payload lên Qdrant.
     n = ingest_places(place_list)
 
-    # Xoá điểm không còn trong MySQL
+    # BƯỚC 6: Xoá các điểm không còn trong MySQL.
     keep = {point_id(p["id"]) for p in place_list}
     existing, offset = set(), None
+
     while True:
-        pts, offset = client.scroll(COLLECTION, limit=256, offset=offset, with_payload=False)
-        existing |= {str(pt.id) for pt in pts}
+        pts, offset = client.scroll(
+            COLLECTION,
+            limit=256,
+            offset=offset,
+            with_payload=False,
+        )
+        existing.update(str(pt.id) for pt in pts)
+
         if offset is None:
             break
+
     stale = list(existing - keep)
+
     if stale:
-        client.delete(COLLECTION, points_selector=models.PointIdsList(points=stale), wait=True)
+        client.delete(
+            COLLECTION,
+            points_selector=models.PointIdsList(points=stale),
+            wait=True,
+        )
+
     print(f"Đã upsert {n}, xoá {len(stale)} điểm cũ")
 
 

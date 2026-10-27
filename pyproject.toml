@@ -12,7 +12,8 @@ dependencies = [
     "python-dotenv",
     "qdrant-client",
     "requests",
-    "uvicorn"
+    "uvicorn",
+    "pytest"
 ]
 
 [project.optional-dependencies]
@@ -31,3 +32,8 @@ py-modules = ["config"]
 where = ["."]
 include = ["app*", "common*", "core*", "crawldata*", "database*", "embedding*", "indexing*", "retrieval*"]
 namespaces = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

@@ -1073,6 +1073,7 @@ dependencies = [
     { name = "mysql-connector-python" },
     { name = "numpy" },
     { name = "pymysql" },
+    { name = "pytest" },
     { name = "python-dotenv" },
     { name = "qdrant-client" },
     { name = "requests" },
@@ -1090,6 +1091,11 @@ test = [
     { name = "pytest" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "beautifulsoup4" },
@@ -1100,6 +1106,7 @@ requires-dist = [
     { name = "numpy" },
     { name = "playwright", marker = "extra == 'browser'" },
     { name = "pymysql" },
+    { name = "pytest" },
     { name = "pytest", marker = "extra == 'test'" },
     { name = "python-dotenv" },
     { name = "qdrant-client" },
@@ -1108,6 +1115,9 @@ requires-dist = [
     { name = "uvicorn", extras = ["standard"], marker = "extra == 'api'" },
 ]
 provides-extras = ["api", "browser", "test"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.1.1" }]
 
 [[package]]
 name = "playwright"
