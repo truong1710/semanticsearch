@@ -19,6 +19,12 @@ TAXONOMY = {
 }
 ALLOWED_TAGS = {tag for group in TAXONOMY.values() for tag in group}
 
+TAG_GROUP = {
+    tag: group
+    for group, tags in TAXONOMY.items()
+    for tag in tags
+}
+
 TAG_VI = {
     "quiet": "yên tĩnh", "lively": "sôi động", "romantic": "lãng mạn",
     "family": "phù hợp gia đình", "couple": "phù hợp cặp đôi",

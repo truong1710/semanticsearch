@@ -6,8 +6,11 @@ from qdrant_client import QdrantClient, models
 from config import BATCH, COLLECTION, EMBED_DIM, QDRANT_URL, TAG_VERSION
 from embedding.vectors import embed_dense, embed_sparse_docs
 from common.taxonomy import (
+    TAXONOMY,
+    ALLOWED_TAGS,
     CATEGORY_VI,
     TAG_VI,
+    TAG_GROUP,
     rule_tags_with_evidence,
     validate_tags,
 )
@@ -43,19 +46,49 @@ def existing_hashes(ids):
     pts = client.retrieve(COLLECTION, ids=ids, with_payload=["text_hash"], with_vectors=False)
     return {str(p.id): (p.payload or {}).get("text_hash") for p in pts}
 
+
 def build_payload(p, h):
     pmin, pmax = parse_price_range(p.get("price_range"))
+    tags = PLACE_TAGS_BY_ID[p["id"]]
+
+    # Tự động gom tag theo nhóm Taxonomy.
+    tags_by_group = {}
+
+    for tag in tags:
+        group = TAG_GROUP.get(tag)
+
+        if group is not None:
+            tags_by_group.setdefault(group, []).append(tag)
+
+    # Tự động tạo payload cho mọi nhóm Taxonomy.
+    # Ví dụ: ambiance, audience, feature, style...
+    taxonomy_payload = {
+        group: tags_by_group.get(group, [])
+        for group in TAXONOMY
+    }
+
     return {
         **p,
-        "location": {"lat": p["latitude"], "lon": p["longitude"]},
-        "tags": PLACE_TAGS_BY_ID[p["id"]],
+        "location": {
+            "lat": p["latitude"],
+            "lon": p["longitude"],
+        },
+
+        # Các nhóm tag được sinh tự động từ TAXONOMY.
+        **taxonomy_payload,
+
+        # Giữ trường cũ để không ảnh hưởng code tìm kiếm.
+        "tags": tags,
+       
         "tag_source": TAG_SOURCE_BY_ID[p["id"]],
         "tag_version": TAG_VERSION,
+
         "price_min": pmin,
         "price_max": pmax,
         "district": parse_district(p.get("address")),
         "text_hash": h,
     }
+
 
 def ensure_collection():
     if client.collection_exists(COLLECTION):
