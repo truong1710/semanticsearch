@@ -1,6 +1,6 @@
 USE `travel_app`;
 
-CREATE TABLE IF NOT EXISTS `stopover_test` (
+CREATE TABLE IF NOT EXISTS `stopover` (
     `stopover_id` VARCHAR(36) NOT NULL,
     `address` VARCHAR(500) NOT NULL,
     `description` TEXT DEFAULT NULL,

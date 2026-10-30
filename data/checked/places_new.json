@@ -1,84 +1,41 @@
 [
   {
-    "name": "Phòng trà Trixie",
-    "description": "Phòng trà Hà Nội sang, xịn, đông khách nhất nhì Hà thành, thường xuyên tổ chức các minishow cho ca sĩ nổi tiếng. Không gian ấm cúng, ngập tràn ánh đèn và nổi bật với gam màu xanh huyền bí, menu đa dạng các món nước và món ăn nhẹ.",
-    "address": "Tầng M tòa nhà Sông Hồng, 165 Thái Hà, Hà Nội",
+    "name": "Indoor Xuân La",
+    "description": "Indoor Xuân La mang đến cảm giác an yên nhờ không gian 2 tầng rộng rãi, sân vườn nhiều cây xanh và hồ cá yên bình. Tầng rooftop là điểm ngắm hoàng hôn lý tưởng, trong khi tầng dưới phù hợp để học tập, làm việc cả ngày với bàn ghế êm, ổ điện đầy đủ và giá sách cao kịch trần. Menu phong phú từ cà phê, trà đến bánh ngọt, phù hợp với nhiều gu thưởng thức.",
+    "address": "Số 16A ngách 50, ngõ 38 Xuân La, Tây Hồ, Hà Nội",
     "review": null,
     "latitude": null,
     "longitude": null,
-    "opening_hours": "19h – 0h",
-    "price_range": "45.000 – 200.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-02.jpg"
-    ],
+    "opening_hours": "07:00 – 23:00",
+    "price_range": "50.000 – 60.000 VND",
+    "image_urls": [],
     "category_id": "cat-cafe",
     "verified_in_source": true,
     "coord_source": null,
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
+    "source_url": "https://www.vietnamairlines.com/go/vi/plan-book/travel/travel-guide/quan-cafe-chill-o-ha-noi"
   },
   {
-    "name": "Phòng trà Trịnh Ca Hà Nội",
-    "description": "Điểm hẹn lý tưởng cho những trái tim yêu mến nhạc Trịnh, không gian decor theo phong cách cổ điển gồm nhiều bức chân dung cố nhạc sĩ Trịnh Công Sơn, phục vụ những giai điệu tình cảm và sâu lắng.",
-    "address": "Ngõ 233 Tô Hiệu, Hà Nội",
+    "name": "Tropical T Coffee",
+    "description": "Tropical T Coffee mang phong cách nhiệt đới rực rỡ với màu cam, xanh ngọc nổi bật và rất nhiều cây xanh. Không gian rộng rãi, thoáng sáng, bài trí nhiều góc chụp ảnh đẹp. Cuối tuần, quán còn có các buổi nhạc mộc nhẹ nhàng.",
+    "address": "Số 14 LK15, đối diện 124 Lê Lai, Hà Trì, Hà Đông, Hà Nội",
     "review": null,
     "latitude": null,
     "longitude": null,
-    "opening_hours": "20h45 – 0h",
-    "price_range": "20.000 – 55.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-03.jpg",
-      "http://booking-static.vinpearl.com/tours/e7fcffc8256546e8bdcfd5ccfbe69783_VINKE2%20(1)_vinke-ve-vao-cua-truc-tiep.jpg",
-      "http://booking-static.vinpearl.com/tours/7b7d88b3d9e34ce886cafbf3f7adab2d_3_vinke-ve-vao-cua-truc-tiep.jpg",
-      "http://booking-static.vinpearl.com/tours/40fc72547fe242f8b6bbbbc428885848_065A8735_aquafield-nha-trang.jpg",
-      "http://booking-static.vinpearl.com/tours/fc4f413869aa4e5d9784e37b5b1719b5_Times-Aquarium%20(1)_thuy-cung-vinpearl-aquarium-times-city.jpg",
-      "http://booking-static.vinpearl.com/tours/9e056e7ece47484ab71d2d093913b1ae_DSC_6409_vinke-ve-vao-cua-truc-tiep.jpg"
-    ],
+    "opening_hours": "08:00 – 22:00",
+    "price_range": "30.000 – 60.000 VND",
+    "image_urls": [],
     "category_id": "cat-cafe",
     "verified_in_source": true,
     "coord_source": null,
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
-    "name": "Ấy Lounge",
-    "description": "Phòng trà nhạc sống chuyên phục vụ các dòng nhạc khác nhau như acoustic, pop, rock. Không gian bài trí sang trọng, bắt mắt với hệ thống đèn huyền ảo tạo cảm giác chill và thư giãn.",
-    "address": "Số 65 Hàng Bún, Hà Nội",
-    "review": null,
-    "latitude": null,
-    "longitude": null,
-    "opening_hours": "21h30 – 23h30",
-    "price_range": "30.000 – 100.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-04.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
-    "name": "Phòng trà Hà Nội Phố",
-    "description": "Phòng trà mang phong cách cổ điển, đậm chất Hà Nội xưa cũ, phục vụ nhạc bolero, nhiều loại trà truyền thống của Việt Nam cùng menu bánh ngọt và đồ ăn nhẹ đa dạng.",
-    "address": "ngõ 106 Hoàng Quốc Việt, Hà Nội",
-    "review": null,
-    "latitude": 21.0514291,
-    "longitude": 105.7926306,
-    "opening_hours": "20h30 – 23h30",
-    "price_range": "25.000 – 100.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-05.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
+    "source_url": "https://www.vietnamairlines.com/go/vi/plan-book/travel/travel-guide/quan-cafe-chill-o-ha-noi"
   },
   {
     "name": "Hoa Tâm Các",
-    "description": "Quán cafe yên tĩnh mang đến sự nhẹ nhàng và thư thái, không gian thưởng thức trà Việt nổi tiếng, thỉnh thoảng có các đêm nhạc vào dịp cuối tuần với các loại trà Việt Nam cao cấp và bánh đặc sản.",
+    "description": "Hoa Tâm Các là quán cafe yên tĩnh luôn mang đến cho du khách sự nhẹ nhàng và thư thái mỗi khi ghé thăm. Nơi đây vốn là không gian thưởng thức trà Việt cực kỳ nổi tiếng, thỉnh thoảng sẽ có các đêm nhạc vào những ngày cuối tuần. Khi đến đây, bạn sẽ được thưởng thức các loại trà Việt Nam cao cấp và các loại bánh đặc sản chỉ Hà Nội mới có.",
     "address": "Số 26 Vạn Phúc, Hà Nội",
     "review": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 21.03334016060363,
+    "longitude": 105.81810400636465,
     "opening_hours": "7h – 23h",
     "price_range": "50.000 – 100.000 VNĐ",
     "image_urls": [],
@@ -88,63 +45,12 @@
     "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
   },
   {
-    "name": "Swing Music Lounge",
-    "description": "Phòng trà quen thuộc của nhiều ca sĩ nổi tiếng với không gian rực rỡ, lộng lẫy và đẳng cấp, sân khấu lớn cùng band nhạc chuyên nghiệp, menu đồ uống đa dạng từ cà phê, trà, cocktail đến rượu.",
-    "address": "21 Tràng Tiền, Hà Nội",
-    "review": null,
-    "latitude": 21.0244498,
-    "longitude": 105.8562075,
-    "opening_hours": "20h – 20h45",
-    "price_range": "50.000 – 999.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-06.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
-    "name": "Xóm Cà Phê",
-    "description": "Quán cafe đẹp mang phong cách vintage, hoài cổ, không gian rộng rãi, thoáng mát, có nhiều cây xanh và tổ chức biểu diễn ca nhạc acoustic vào thứ 6 hoặc thứ 7 hàng tuần.",
-    "address": "Số 54 – BT2, Nguyễn Khuyến, Hà Nội",
-    "review": null,
-    "latitude": 21.0452944,
-    "longitude": 105.8409351,
-    "opening_hours": "7h – 22h",
-    "price_range": "25.000 – 50.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-07.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_name",
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
-    "name": "Cafe Cuối Ngõ",
-    "description": "Phòng trà nhạc Trịnh nằm trong con ngõ nhỏ, thiết kế theo lối kiến trúc xưa cũ với tường gạch mộc, khung cửa gỗ và đèn tre, có chương trình ca nhạc acoustic hoặc hát bolero vào chiều tối.",
-    "address": "Số 4, ngách 78, ngõ 68 Cầu Giấy, Hà Nội",
-    "review": null,
-    "latitude": 21.0332125,
-    "longitude": 105.8025686,
-    "opening_hours": "7h – 22h30",
-    "price_range": "35.000 – 60.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-08.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_name",
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
     "name": "Cà Phê Không",
-    "description": "Phòng trà acoustic thu hút giới trẻ với nhiều góc sống ảo, đồ uống ngon và các màn trình diễn nhạc hiện đại như pop, ballad, R&B cùng nhiều món nước hấp dẫn.",
+    "description": "Cà Phê Không là điểm check-in có nhiều góc sống ảo, đồ uống ngon và các màn trình diễn acoustic đặc sắc. Quán phục vụ đa dạng các thể loại nhạc hiện đại như pop, ballad, R&B… cùng menu nhiều món nước hấp dẫn như trà, soda, smoothie, cocktail, rượu…",
     "address": "103 D9 Ngõ 63 Thái Thịnh, Hà Nội",
     "review": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 21.009503545826895,
+    "longitude": 105.81867315054221,
     "opening_hours": "9h – 22h",
     "price_range": "40.000 – 70.000 VNĐ",
     "image_urls": [],
@@ -155,11 +61,11 @@
   },
   {
     "name": "Polygon Music",
-    "description": "Quán cafe nhạc sống và phòng trà nổi tiếng với sân khấu hoành tráng, band nhạc chuyên nghiệp, dàn âm thanh ánh sáng lớn, phục vụ dòng nhạc Âu – Mỹ hiện đại từ pop, rock đến country.",
+    "description": "Polygon Music là quán cafe nhạc sống và phòng trà nổi tiếng với sân khấu hoành tráng, band nhạc chuyên nghiệp cùng dàn âm thanh ánh sáng cực khủng. Đây là một trong số ít các phòng trà phục vụ dòng nhạc Âu – Mỹ hiện đại với đa dạng thể loại từ pop, rock đến country, và là nơi các nhóm nhạc đình đám như Bức Tường hay O-plus thường xuyên chọn làm điểm biểu diễn.",
     "address": "29 ngách 31, ngõ 167, Hà Nội",
     "review": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 21.010875413236292,
+    "longitude": 105.82702751615814,
     "opening_hours": "20h45 – 23h00",
     "price_range": "40.000 – 100.000 VNĐ",
     "image_urls": [
@@ -171,29 +77,12 @@
     "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
   },
   {
-    "name": "Quán cafe phòng trà Hà Nội G4U",
-    "description": "Điểm đến quen thuộc với đa dạng dòng nhạc phòng trà, thu hút đông đảo khách ghé thăm ngày lẫn đêm, cho phép khách giao lưu và biểu diễn cùng band nhạc.",
-    "address": "29 Nguyễn Khang, Hà Nội",
-    "review": null,
-    "latitude": 21.0197045,
-    "longitude": 105.8010217,
-    "opening_hours": "19h – 23h",
-    "price_range": "35.000 VNĐ – 100.000 VNĐ",
-    "image_urls": [
-      "https://static.vinwonders.com/production/phong-tra-ha-noi-10.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
-  },
-  {
     "name": "Phòng trà, cafe nhạc Trịnh 101 Trung Kính",
-    "description": "Phòng trà nhạc Trịnh ẩn mình trên phố nhỏ Trung Kính, nội thất hoàn toàn bằng tre mộc mạc, gần gũi, là điểm hẹn thưởng thức giai điệu xưa cũ bên đèn lồng giấy lung linh và thức uống ngon.",
+    "description": "Phòng trà nhạc Trịnh này nằm ẩn mình trên con phố nhỏ Trung Kính, gây ấn tượng với du khách nhờ nội thất hoàn toàn bằng tre, gợi cảm giác mộc mạc và gần gũi. Đây là điểm hẹn yêu thích để thả hồn vào những giai điệu xưa cũ, ngắm nhìn những chiếc đèn lồng giấy lung linh về đêm và thưởng thức nhiều thức uống hấp dẫn.",
     "address": "101 Trung Kính, Hà Nội",
     "review": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 21.01390649487392,
+    "longitude": 105.79789790451476,
     "opening_hours": "6h – 23h",
     "price_range": "20.000 – 90.000 VNĐ",
     "image_urls": [
@@ -205,5 +94,39 @@
     "verified_in_source": true,
     "coord_source": null,
     "source_url": "https://vinwonders.com/vi/wonderpedia/news/phong-tra-ha-noi/"
+  },
+  {
+    "name": "Trixie Cafe & Lounge",
+    "description": "Trixie nổi bật với không gian hiện đại, kết hợp ánh sáng dịu nhẹ và nội thất sang trọng, tạo nên một địa điểm thưởng thức âm nhạc lãng mạn giữa lòng Hà Nội. Quán thường xuyên tổ chức các mini show ca nhạc với sự góp mặt của nhiều ca sĩ nổi tiếng như Đàm Vĩnh Hưng, Mỹ Tâm, Hồ Ngọc Hà, Tuấn Hưng, Vũ Cát Tường, Duy Mạnh, mang đến không khí sôi động và lôi cuốn.",
+    "address": "Tầng M, Tòa nhà Sông Hồng, 165 Phố Thái Hà, Đống Đa,",
+    "review": null,
+    "latitude": 21.0149617177084,
+    "longitude": 105.81721678732272,
+    "opening_hours": "06:00 – 23:30 hàng ngày",
+    "price_range": "Từ 20.000 – 100.000 VND/người",
+    "image_urls": [
+      "https://trixie.com.vn/media/images/article/49852107/21731597_544420325889441_2643102319506332994_o.jpg",
+      "https://trixie.com.vn/media/images/article/49852107/21739992_544394219225385_1025356258218177379_n.jpg",
+      "https://trixie.com.vn/media/images/article/49852107/17362414_454074501590691_5324194374923947863_n.jpg"
+    ],
+    "category_id": "cat-cafe",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.vietnamairlines.com/ch/vi/plan-book/travel/travel-guide/phong-tra-ha-noi"
+  },
+  {
+    "name": "Phòng trà Trịnh Ca",
+    "description": "Phòng trà Trịnh Ca mang đậm không gian hoài cổ với mái ngói đỏ, tường gạch mộc, khung cửa sổ gỗ và đèn tre. Nơi đây thường xuyên tổ chức các buổi biểu diễn nhạc Trịnh, mang đến không gian ấm cúng và gần gũi cho những người yêu nhạc Trịnh vào các tối Thứ 4, 5, 6, 7 và Chủ Nhật hàng tuần, từ 20h30 đến 22h30.",
+    "address": "Ngách 2, Ngõ 233, phố Tô Hiệu, quận Cầu Giấy",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "Từ 8:00 - 23:00",
+    "price_range": "50.000 – 100.000 VND/người",
+    "image_urls": [],
+    "category_id": "cat-cafe",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.vietnamairlines.com/ch/vi/plan-book/travel/travel-guide/phong-tra-ha-noi"
   }
 ]

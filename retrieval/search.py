@@ -136,7 +136,12 @@ def smart_search(query, top_k=5, debug=False):
 
     # 4. Phát hiện địa danh có hỗ trợ tìm theo bán kính.
     landmark_name, geo = detect_landmark(q_fold)
-
+    PRICED = {"cat-hotel", "cat-cafe", "cat-restaurant"}
+    if price_max is not None:
+        if category is None:
+            category = "cat-hotel"      # không nói rõ loại mà có giá: thường là khách sạn
+        elif category not in PRICED:
+            price_max = None            # công viên, văn 
     # 5. Tạo các lượt tìm kiếm.
     # Chỉ nới lỏng bán kính địa lý; không tự ý bỏ giá,
     # quận hoặc danh mục vì đó là điều kiện người dùng yêu cầu.

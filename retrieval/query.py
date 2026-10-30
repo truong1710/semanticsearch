@@ -31,7 +31,7 @@ DISTRICTS = [
 _NUM = r"(\d{1,3}(?:[.,]\d{3})+|\d+(?:[.,]\d+)?)"
 
 # Các đơn vị tiền thường gặp.
-_UNIT = r"(triệu|tr|m|k|nghìn|ngàn|đồng|vnd|đ)?"
+_UNIT = r"(triệu|tr|m|k|nghìn|ngàn|đồng|vnd|đ)?\b"
 
 _PRICE_PATTERN = _NUM + r"\s*" + _UNIT
 
@@ -150,6 +150,7 @@ def parse_query(query):
     price_pattern = (
         r"(?:dưới|ít hơn|thấp hơn|không quá|tối đa|<=|<)\s*"
         + _PRICE_PATTERN
+        + r"(?!\s*sao)"
     )
 
     match = re.search(price_pattern, text, re.I)
@@ -160,10 +161,13 @@ def parse_query(query):
 
         price_max = _to_vnd(number, unit)
 
-        # Chỉ xóa điều kiện nếu phân tích được số tiền.
+        # Số trần không đơn vị mà quá nhỏ (vd "dưới 5") thì không phải giá VND.
+        if price_max is not None and not unit and price_max < 10_000:
+            price_max = None
+
+        # Chỉ xóa điều kiện khỏi câu khi thật sự là giá.
         if price_max is not None:
             text = text[:match.start()] + " " + text[match.end():]
-
     text = normalize_text(text)
 
     # Tìm quận bằng chuỗi đã bỏ dấu.
@@ -282,7 +286,7 @@ def route_category(q_vec, q_fold, q_raw=""):
 
 # Luật cho truy vấn: cụm chữ thường không dấu, KHÔNG dùng regex
 QUERY_TAG_RULES = {
-    "quiet": ["yen tinh", "yen binh", "thanh tinh", "it on", "thu gian", "tranh on"],
+    
     "lively": ["soi dong", "nao nhiet", "vui nhon", "nhon nhip", "dong vui"],
     "romantic": ["lang man", "hen ho", "nguoi yeu", "ky niem"],
     "family": ["gia dinh", "tre em", "tre nho", "cho be"],
@@ -301,6 +305,17 @@ QUERY_TAG_RULES = {
     "minimalist": ["toi gian"],
     "indochine": ["dong duong", "indochine"],
     "classic": ["co dien","co kinh","mang net co xua","phong cach co xua",],
+
+    "quiet": [
+        "yen tinh", "yen binh", "thanh tinh", "thanh binh",
+        "it on", "thu gian", "tranh on", "tranh tieng on",
+        "khong gian yen tinh",
+    ],
+    "shuttle": [
+        "dua don", "don san bay", "xe don", "shuttle", "airport transfer",
+    ],
+    "wifi": ["wifi", "internet", "mang mien phi"],
+    "cozy": ["am cung", "gan gui", "de chiu"],
 }
 
 

@@ -58,10 +58,13 @@ CÁC TRƯỜNG CẦN TRÍCH XUẤT:
 - review: đánh giá của từng khách sạn.
 - latitude: Vĩ độ nếu nguồn ghi.
 - longitude: Kinh độ nếu nguồn ghi.
-- opening_hours: Giờ mở cửa nếu nguồn ghi.
-- price_range: Nếu nguồn có nhãn giá như "Giá phòng:", "Giá tham khảo:", "Giá vé:", "Giá:" thì sao chép nguyên văn mức giá. Không có thì null.
+- opening_hours: Giờ mở cửa nếu nguồn ghi, chỉ lấy số không lấy các thông tin khác như giờ hay mở của từ mấy giờ.
+- price_range: Nếu nguồn có nhãn giá như "Giá phòng:", "Giá tham khảo:", "Giá vé:", "Giá:" thì sao chép nguyên văn mức giá. Không có thì null, sau khi lấy được giá chỉ lấy số không lấy các thông tin như loại tiền.
 - image_urls: luôn trả về [].
 - category_id: Một giá trị trong danh sách bên dưới.
+- is_active cho cố định là 1.
+- status cho cố định là CONFIRMED.
+
 
 DANH SÁCH category_id HỢP LỆ:
 {cats}
