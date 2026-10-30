@@ -11,6 +11,7 @@ CATEGORY_ID_MAP = {
     "cat-park": "cat-park",
     "cat-culture": "cat-culture",
     "cat-restaurant": "cat-restaurant",
+    "cat-bar": "cat-bar"
 }
 
 

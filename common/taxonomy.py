@@ -143,6 +143,7 @@ CATEGORY_VI = {
     "cat-park": "công viên",
     "cat-culture": "bảo tàng, chùa và địa điểm văn hóa",
     "cat-restaurant": "quán ăn và nhà hàng",
+    "cat-bar": "Quán bar",
 }
  
 TAG_RULES = {
