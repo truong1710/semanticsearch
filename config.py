@@ -18,7 +18,8 @@ _model_cache_path = Path(os.getenv("MODEL_CACHE_DIR", "models"))
 if not _model_cache_path.is_absolute():
     _model_cache_path = PROJECT_ROOT / _model_cache_path
 MODEL_CACHE_DIR = str(_model_cache_path)
-BATCH = 16
+BATCH = 98
+EMBED_BATCH_DELAY_SECONDS = 70
 TAG_VERSION = "taxonomy-v2"
 _search_eval_path = Path(os.getenv("SEARCH_EVAL_FILE", "data/search_eval.json"))
 SEARCH_EVAL_FILE = (

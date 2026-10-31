@@ -1,13 +1,19 @@
+import time
 import uuid
 from itertools import islice
 
 from qdrant_client import QdrantClient, models
-from indexing.ai_tagger import suggest_tags
-from config import BATCH, COLLECTION, EMBED_DIM, QDRANT_URL, TAG_VERSION
+from config import (
+    BATCH,
+    COLLECTION,
+    EMBED_BATCH_DELAY_SECONDS,
+    EMBED_DIM,
+    QDRANT_URL,
+    TAG_VERSION,
+)
 from embedding.vectors import embed_dense, embed_sparse_docs
 from common.taxonomy import (
     TAXONOMY,
-    ALLOWED_TAGS,
     CATEGORY_VI,
     TAG_VI,
     TAG_GROUP,
@@ -125,7 +131,9 @@ def place_to_text(place: dict, tags=()) -> str:
 
 def ingest_places(place_list):
     embedded = skipped = 0
-    for batch in batched(place_list, BATCH):
+    total_batches = (len(place_list) + BATCH - 1) // BATCH
+
+    for batch_number, batch in enumerate(batched(place_list, BATCH), start=1):
         texts = {p["id"]: place_to_text(p, PLACE_TAGS_BY_ID[p["id"]]) for p in batch}
         hashes = {pid: text_hash(t) for pid, t in texts.items()}
         old = existing_hashes([point_id(p["id"]) for p in batch])
@@ -163,6 +171,13 @@ def ingest_places(place_list):
 
         embedded += len(changed)
         skipped += len(same)
+
+        if batch_number < total_batches:
+            print(
+                f"  Xong batch {batch_number}/{total_batches}; "
+                f"chờ {EMBED_BATCH_DELAY_SECONDS} giây trước batch tiếp theo..."
+            )
+            time.sleep(EMBED_BATCH_DELAY_SECONDS)
 
     print(f"  embed mới/đổi: {embedded} | không đổi (bỏ qua embed): {skipped}")
     return embedded + skipped
@@ -219,17 +234,8 @@ def sync_places(place_list):
         rule_evidence = rule_tags_with_evidence(description)
         rule_tags = set(rule_evidence.keys())
 
-        # BƯỚC 2: Gemini đề xuất tag bổ sung.
-        # Chỉ chọn tag thuộc taxonomy và phù hợp category.
-        ai_tags = suggest_tags(
-            text=description,
-            existing_tags=sorted(rule_tags),
-            allowed_tags=sorted(ALLOWED_TAGS),
-            category=p.get("category"),
-        )
-
-        # BƯỚC 3: Gộp tag regex và AI, loại trùng.
-        tags = sorted(rule_tags | set(ai_tags))
+        # Tạm thời tắt Gemini AI tagging; chỉ dùng tag nhận diện bằng luật.
+        tags = sorted(rule_tags)
 
         # BƯỚC 4: Kiểm tra tính hợp lệ của tag.
         errs = validate_tags(tags)
@@ -245,16 +251,11 @@ def sync_places(place_list):
             for tag in rule_tags
         }
 
-        for tag in ai_tags:
-            # Ưu tiên nguồn rule nếu tag đã được rule nhận diện.
-            tag_sources.setdefault(tag, "ai")
-
         TAG_SOURCE_BY_ID[p["id"]] = tag_sources
 
         print(
             f"[TAG] {p.get('name', p['id'])}: "
             f"rule={len(rule_tags)}, "
-            f"ai={len(set(ai_tags) - rule_tags)}, "
             f"total={len(tags)}"
         )
 
