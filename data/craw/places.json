@@ -1,872 +1,1669 @@
 [
   {
-    "name": "Camelia Lounge",
-    "description": "Nằm ở tầng 3 khách sạn Melia Hà Nội, phục vụ âm nhạc thời thượng như Electronic Lounge, Latin Groove, Vintage, Deep Vocal House, Funky House. Nội thất thiết kế bằng gỗ, da và tường sơn mài; tiên phong phong cách ẩm thực Nikkei tại Nhật Bản kèm món ăn Peru.",
-    "address": "Số 44 Lý Thường Kiệt, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    "name": "Phở Lý Quốc Sư",
+    "description": "Phở Lý Quốc Sư mang đến thực đơn đa dạng với các lựa chọn như phở bò, phở tái, phở nạm... Mỗi phần ăn được chế biến tỉ mỉ với bánh phở dai mềm, nước phở thơm ngon và đậm đà từ xương, để lại ấn tượng khó phai cho thực khách.",
+    "address": "+ CS1: 156 Võ Chí Công, Hà Nội\n+ CS2: 210 Võ Chí Công, Hà Nội\n+ CS3: Km số 0+600 Võ Văn Kiệt, Hà Nội",
     "review": null,
-    "latitude": 21.024708156766913,
-    "longitude": 105.84842364542283,
-    "opening_hours": "17:00 – 02:00",
-    "price_range": "100.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-2.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-2.jpg",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/camelia-lounge-diem-vui-choi-sang-chanh-bac-nhat-thu-do-1668175722-1-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg",
-      "http://channel.vcmedia.vn/thumb_w/640/prupload/164/2016/08/img20160812013937262.jpg",
-      "https://lamcaigihot.com/public/uploads/article/1472546038_Camelia-Lounge-tham-vong-dat-Ha-Noi-len-ban-do-party-Chau-a_301.jpg",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/camelia-lounge-diem-vui-choi-sang-chanh-bac-nhat-thu-do-1668175722-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/camelia-lounge-diem-vui-choi-sang-chanh-bac-nhat-thu-do-1668175723-1-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg",
-      "https://images2.thanhnien.vn/Uploaded/ttt/images/Content/tin-tuc/su-kien/2016_08_w1/camelia_lounge/672A7415.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Push Club",
-    "description": "Quán bar mang phong cách kiến trúc Châu Âu tráng lệ, có hệ thống đèn chiếu sáng hiện đại, nội thất sang trọng cùng hệ thống âm thanh chất lượng, không khí nóng bỏng với sự góp mặt của các DJ đình đám.",
-    "address": "23M Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.024587266146067,
-    "longitude": 105.8528283533566,
-    "opening_hours": null,
+    "latitude": 21.0673319,
+    "longitude": 105.8076802,
+    "opening_hours": "06:00 – 24:00 (24/24)",
     "price_range": null,
     "image_urls": [
-  
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/quan-bar-ha-noi2.jpg",
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/quan-bar-ha-noi3.jpg",
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/quan-bar-ha-noi5-1.jpg",
-      "https://grandworld.vinhomes.vn/wp-content/uploads/2023/12/push-bar-club.jpg",
-      "https://hanoireview.vn/wp-content/uploads/2025/10/quan-bar-o-hai-ba-trung-1759283159.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-2.jpg"
     ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://www.vntrip.vn/cam-nang/quan-bar-ha-noi-81073"
-  },
-  {
-    "name": "The Rooftop",
-    "description": "Quán bar được giới trẻ yêu thích, nằm trên tầng 19 của tòa Pacific Place mang lại không gian sang trọng, tráng lệ và ngắm nhìn Hà Nội về đêm. Thường mời nhiều ca sĩ nổi tiếng và DJ hàng đầu tới biểu diễn.",
-    "address": "Tầng 19 Pacific Place, 83B Lý Thường Kiệt, Hà Nội",
-    "review": null,
-    "latitude": 21.025392088140308,
-    "longitude": 105.84349797611168,
-    "opening_hours": null,
-    "price_range": null,
-    "image_urls": [
-      "https://vietair.com.vn/Media/Images/the-rooftop.jpg",
-      "https://topgo.vn/wp-content/uploads/2018/07/The-Rooftop-83B-Ly-Thuong-Kiet-1.jpg",
-      "https://pasgo.vn/Upload/anh-chi-tiet/the-rooftop-bar-ha-noi-diem-giai-tri-bac-nhat-ha-thanh-12-normal-120941910204.webp",
-      "https://www.therooftopguide.com/rooftop-bars-in-hanoi/Bilder/TheRooftop_10_slide.jpg",
-      "https://www.therooftopguide.com/rooftop-bars-in-hanoi/Bilder/TheRooftop_8_slide.jpg"
-        
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
-  },
-  {
-    "name": "Hair of the Dog",
-    "description": "Quán bar có không gian thiết kế độc đáo và sáng tạo, không khí trẻ trung sôi động, sở hữu quầy shisha và lounge với nhiều loại rượu nhập khẩu được pha chế bởi bartender chuyên nghiệp kết hợp nhạc DJ.",
-    "address": "32 Mã Mây, Hoàn Kiếm, Hà Nội.",
-    "review": null,
-    "latitude": 21.03559953462253,
-    "longitude": 105.8531412993943,
-    "opening_hours": null,
-    "price_range": null,
-    "image_urls": [
-      "https://vietair.com.vn/Media/Images/hair-of-the-dog.jpg",
-      "https://hairofthedogbar.wordpress.com/wp-content/uploads/2014/04/bar-hair-of-the-dog-32-ma-may-0918001559-7.jpg",
-      "https://vietnamnightlife.com/uploads/images/2024/09/1725870850-single_product2-hairofthedoghoiancover.jpg",
-      "https://down-vn.img.susercontent.com/vn-11134259-7r98o-lwfqtse52nyx0c@resize_ss640x400",
-      "https://topgo.vn/wp-content/uploads/2017/05/Hair-of-the-dog-2.jpg"
-    
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
-  },
-  {
-    "name": "Nineteen Bar",
-    "description": "Quán bar mang phong cách hiện đại, trẻ trung và năng động, thiết kế hợp thời đại cùng hệ thống âm thanh ánh sáng đẳng cấp.",
-    "address": "19 Chả Cá, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.035412,
-    "longitude": 105.850931,
-    "opening_hours": null,
-    "price_range": null,
-    "image_urls": [
-      "https://vietair.com.vn/Media/Images/nineteen-bar.jpg",
-      "https://go2joy.vn/blog/wp-content/uploads/2024/06/quan-nineteen-bar-ha-noi.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
-  },
-  {
-    "name": "Taboo Lounge & Bar",
-    "description": "Quán bar có thiết kế mang dáng dấp chiếc du thuyền hiện đại, gần Hồ Tây. Phục vụ nhạc sôi động, cho phép ngắm cảnh và thưởng thức rượu vang.",
-    "address": "2 Thụy Khuê, Tây Hồ, Hà Nội",
-    "review": null,
-    "latitude": 21.045431,
-    "longitude": 105.831522,
-    "opening_hours": null,
-    "price_range": null,
-    "image_urls": [
-      "https://vietair.com.vn/Media/Images/taboo-lounge-bar.jpg",
-    "https://cdn.xaluannews.com/images/news/Image/2021/11/25/6619fa42c6ead8.img.jpg",
-    "https://vcdn1-dulich.vnecdn.net/2014/11/12/9pm-vn-taboo-5985-1415767846.jpg?w=1020&h=0&q=100&dpr=2&fit=crop&s=Elqn2YLsWxoDDYj42Wk8RQ",
-    "https://vcdn1-ngoisao.vnecdn.net/2011/12/07/anh-1-405925-1368132665.jpg?w=300&h=180&q=100&dpr=2&fit=crop&s=X6_qcFfq4cPgngmfVP7IUg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
-  },
- 
-  {
-    "name": "Luxury Club",
-    "description": "Quán bar nằm ngay tại phố cổ với không gian hiện đại, sang chảnh, có sự góp mặt của nhiều ca sĩ nổi tiếng cùng hệ thống âm thanh hiện đại bậc nhất.",
-    "address": "70 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.025112,
-    "longitude": 105.849123,
-    "opening_hours": "200.000 – 500.000",
-    "price_range": null,
-    "image_urls": [
-     "https://vietair.com.vn/Media/Images/luxury-bar.jpg",
-      "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/486491kyi/anh-mo-ta.png",
-      "https://product.hstatic.net/1000268128/product/452289452_462378703210899_6139743942519943313_n-min_17c99cfeb63a4a679d652b752148b539_large.jpg",
-      "https://statics.vinpearl.com/hanoi-night-clubs-01_1686898930.jpg",
-      "https://evivatour.com/wp-content/uploads/2024/03/1900-Le-Theatre-Bar-and-its-vibrant-nightlife-900x565.jpg"
-    
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
-  },
-  {
-    "name": "Bar Civilize",
-    "description": "Quán bar gồm 2 phòng với 2 dòng nhạc khác nhau: một phòng nhạc hiphop, electro, tophits và một phòng nhạc house funky dirty beat.",
-    "address": "210 Trần Quang Khải, Hà Nội",
-    "review": null,
-    "latitude": 21.031524,
-    "longitude": 105.858312,
-    "opening_hours": "21:00 – 03:00",
-    "price_range": "200.000 – 500.000",
-    "image_urls": [
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/quan-bar-ha-noi16.jpg",
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/08/quan-bar-ha-noi96.jpg",
-      "https://go2joy.vn/blog/wp-content/uploads/2024/06/quan-bar-civilize-ha-noi.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://www.vntrip.vn/cam-nang/quan-bar-ha-noi-81073"
-  },
-  {
-    "name": "1900 Le Theater",
-    "description": "Nằm ngay trung tâm khu vui chơi phố Tạ Hiện, giữ nét đẹp sân khấu dân ca xưa kết hợp hình ảnh văn hóa thủ đô. Căn phòng rộng rãi có gác lửng, quầy chính ở giữa trang trí bắt mắt. Áp dụng quy định chặt chẽ về độ tuổi, hệ thống loa, ánh sáng, nhạc cụ hiện đại và dàn DJ chuyên nghiệp.",
-    "address": "Số 8B Tạ Hiện, Hàng Buồm, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.0350514,
-    "longitude": 105.8518825,
-    "opening_hours": "20:30 – 01:00",
-    "price_range": "70.000 – 500.000 VNĐ/người",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-1.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "A Plus Hanoi Bar",
-    "description": "Quán bar Hà Nội có không gian sang trọng và thanh lịch, được trang trí bắt mắt. Quán mời các ca sĩ hàng đầu Việt Nam và DJ nổi tiếng, không áp dụng thêm phí khác, có bãi đậu xe ô tô và xe máy rộng rãi miễn phí. Hệ thống âm thanh hiện đại, dàn DJ chuyên nghiệp, không gian rộng có sức chứa lớn.",
-    "address": "Số 78 Yên Phụ, Tây Hồ, Hà Nội",
-    "review": null,
-    "latitude": 21.049312,
-    "longitude": 105.843112,
-    "opening_hours": "21:00 – 03:00",
-    "price_range": "300.000 – 1.000.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-1-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-2-1.jpg",
-      "http://file.hstatic.net/1000268128/article/1__9__7f513fd52ad547e18c9b690046395ed9_1024x1024.png",
-      "https://karaokehanoi.net/wp-content/uploads/2025/03/IMG_3977.jpeg",
-      "https://product.hstatic.net/1000268128/product/424907481_122113116044191545_538872523616917174_n-min_48530e271ed54631af7077c1f0bc644f.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Bar New Square",
-    "description": "Được đặt biệt danh là “bar Hà Nội lão làng”, New Square sở hữu hệ thống âm thanh, ánh sáng hiện đại, hợp xu hướng và thị hiếu giới trẻ.",
-    "address": "Số 360 Kim Mã, Ngọc Khánh, Ba Đình, Hà Nội",
-    "review": null,
-    "latitude": 21.028451,
-    "longitude": 105.815241,
-    "opening_hours": "18:00 – 01:00",
-    "price_range": "100.000 – 550.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-4.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2023/03/Ba-Vi.jpg",
-      "https://hanoitoplist.com/wp-content/uploads/2019/03/bar-new-square.jpg",
-      "https://toplist.vn/images/800px/bar-new-square-1356886.jpg",
-      "https://cdn2.tuoitre.vn/nld/2014/VutruongNewSquare-904e2.JPG"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Fein Club",
-    "description": "Quán bar nằm tại quận Hoàn Kiếm, không gian giao lưu âm nhạc lý tưởng với âm nhạc đa dạng, luôn cập nhật bài hát mới nhất. Thiết kế trẻ trung, đa dạng màu sắc, trang bị hệ thống âm thanh, ánh sáng hiện đại và thường xuyên có chương trình ưu đãi khi đặt bàn trước.",
-    "address": "Số 44 Mây Mã, quận Hoàn Kiếm, thành phố Hà Nội",
-    "review": null,
-    "latitude": 21.035599,
-    "longitude": 105.853141,
-    "opening_hours": "20:30 – 03:00",
-    "price_range": "200.000 – 600.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-3-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-4-1.jpg",
-      "https://vietnamnightlife.com/uploads/images/2024/07/1721124990-single_product2-feinclubhanoicover.jpg",
-      "https://product.hstatic.net/1000268128/product/416077736_122120878130106836_5048488913038238401_n_6669510134cc4bc0bdef54c6d94769d8.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "O2 Space",
-    "description": "Điểm đến giải trí đặc sắc với không gian mới mang đến 2 không gian khác biệt là Opera với Hip-hop và nhạc điện tử. Phục vụ đồ uống hấp dẫn pha chế bởi bartender chuyên nghiệp.",
-    "address": "Số 18 Lương Ngọc Quyến, quận Hoàn Kiếm, thành phố Hà Nội",
-    "review": null,
-    "latitude": 21.033124,
-    "longitude": 105.852112,
-    "opening_hours": "20:00 – 03:00",
-    "price_range": "250.000 – 800.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-6-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-7-1.jpg",
-      "https://photo-cms-ngaynay.epicdn.me/w890/Uploaded/2023/aobfjop/2023_12_13/z4969160566977-509ebfe1d90474e1384e46d281bf76ea-1110.jpg",
-      "https://product.hstatic.net/1000268128/product/fe7b8ce5d010074e5e01_c27d918f3ae243199829e5707ea856ce_master.jpg",
-      "https://mixmag.asia/assets/uploads/images/_columns2/A%CC%89nh-3-1-1.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Fame Bar & Lounge",
-    "description": "Nằm ngay tại trung tâm Hoàn Kiếm với không gian âm nhạc hoành tráng, thoáng đãng và phong cách ấn tượng. Nâng cấp hệ thống âm thanh, chơi nhạc bởi DJ chuyên nghiệp, phục vụ đồ ăn và đồ uống hấp dẫn.",
-    "address": "Số 25 Ngô Văn Sở, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.0207798,
-    "longitude": 105.8439367,
-    "opening_hours": "20:00 – 02:30",
-    "price_range": "200.000 – 600.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-9-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-10-1.jpg",
-      "https://giaitriktv.com/wp-content/uploads/2024/05/anh_chinh__ef71855d4e2440ae98315e7960ca2e9b_master.webp",
-      "https://topgo.vn/wp-content/uploads/2020/01/Anh-coverpage-Fame-Bar.jpg",
-      "https://topgo.vn/wp-content/uploads/2020/01/Anh-Thumnail-Fame-Bar.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Quán HEY CLUB",
-    "description": "Quán bar nổi tiếng với không gian tiệc tùng âm nhạc hoàn hảo và đẳng cấp, sự xuất hiện thường xuyên của các DJ nổi tiếng. Lối thiết kế Châu Âu, thiết bị ánh sáng huyền ảo, nội thất sang trọng, dàn vũ công chuyên nghiệp và menu đồ uống chất lượng.",
-    "address": "Số 55 Cửa Nam, quận Hoàn Kiếm, thành phố Hà Nội",
-    "review": null,
-    "latitude": 21.026112,
-    "longitude": 105.846123,
-    "opening_hours": "20:30 – 03:00",
-    "price_range": "300.000 – 1.000.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-11-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-12-1.jpg",
-      "https://9club.vn/wp-content/uploads/2024/11/Hey-club-1.jpeg",
-      "https://topgo.vn/wp-content/uploads/2019/11/bar-hey-club-dat-anh-dai-dien-1.jpg",
-      "https://9club.vn/wp-content/uploads/2024/11/Hey-club-4.jpeg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Volume Club",
-    "description": "Điểm đến giải trí nổi bật tại khu Mỹ Đình với không gian đẹp, rộng rãi, phong cách sang trọng từ từng chi tiết nội thất. Sở hữu hệ thống âm thanh hiện đại, cập nhật liên tục các bản hit hot, đa dạng thực đơn đồ ăn và đồ uống.",
-    "address": "Số 10 ngõ 63 Lê Đức Thọ – Mỹ Đình – Hà Nội",
-    "review": null,
-    "latitude": 21.0205027,
-    "longitude": 105.7639271,
-    "opening_hours": "20:30 – 03:00",
-    "price_range": "250.000 – 700.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-15-1.jpg",
-      "https://karaokektvhanoi.vn/wp-content/uploads/2026/04/z7762784886002_9d27cf36c1c6522d174303b07cf49501.jpg",
-      "https://karaokehanoi.net/wp-content/uploads/2025/03/IMG_3975.jpeg",
-      "https://chill9.com.vn/wp-content/uploads/2025/05/chill9-com-vn-holwfCrasB.webp"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Downtown Bar",
-    "description": "Quán cocktail nổi bật với style Hồng Kông mới lạ, không gian bụi bặm nhưng hiện đại và trẻ trung. Âm nhạc chăm chút kỹ lưỡng bởi DJ trẻ trung, tài năng cùng sự xuất hiện của các ca sĩ, rapper hàng đầu. Phục vụ cocktail mang hương vị mới lạ và rượu nhập khẩu cao cấp.",
-    "address": "Số 46 Mã Mây, quận Hoàn Kiếm, thành phố Hà Nội",
-    "review": null,
-    "latitude": 21.035612,
-    "longitude": 105.853241,
-    "opening_hours": "18:00 – 02:00",
-    "price_range": "200.000 – 600.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-16-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-17-1.jpg",
-      "https://chillvietnam.com/wp-content/uploads/2022/09/308495833_1051718105514661_2133181481518167566_n.jpg",
-      "https://giaitriktv.com/wp-content/uploads/2024/05/410342333_770924385075866_6575160245589266512_n_e4ff0b8ca3ae405db4074f649d6a1d03_master.webp"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "DDU DU Gastrobar",
-    "description": "Quán bar có không gian rộng rãi, bài trí độc đáo và mới lạ, hệ thống âm thanh ánh sáng chất lượng cao đạt tiêu chuẩn quốc tế. Có sự biểu diễn của dàn DJ chuyên nghiệp và vũ công nổi tiếng, phục vụ đồ uống hấp dẫn và món ăn nhậu đặc biệt.",
-    "address": "Tầng 7, số 47 Thái Hà, Trung Liệt, quận Đống Đa, thành phố Hà Nội",
-    "review": null,
-    "latitude": 21.012541,
-    "longitude": 105.822312,
-    "opening_hours": "17:00 – 01:00",
-    "price_range": "200.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-18-1.jpg",
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-20-1.jpg",
-      "https://product.hstatic.net/1000268128/product/2_8aed3f191a1b451faad327a1654b407b_master.jpg",
-      "https://product.hstatic.net/1000268128/product/0c9bff0bd97d0f23566c_4e63d6f2eb4d49f0b77294600a1db008.jpg",
-      "https://product.hstatic.net/1000268128/product/0c9bff0bd97d0f23566c_34338d0698a34dd58bf620d53d87d8d0.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "The Bank",
-    "description": "Chiếm diện tích 1000 m2 tại tầng 6, chia thành hai phòng chơi hip hop, electro, top hit, house funky dirty beats. Có khu vực sân vườn mở phục vụ cocktail, đồ uống pha chế, champagne và đồ ăn nhẹ do đầu bếp Pháp, Tây Ban Nha sáng tạo.",
-    "address": "Capital Building, 41 P. Hai Bà Trưng, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.024312,
-    "longitude": 105.853241,
-    "opening_hours": "19:00 – 01:00",
-    "price_range": "500.000 – 1.000.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-5.jpg",
-      "https://travelhanoi.org/wp-content/uploads/the-bank-entertainment-hanoi.jpg",
-      "https://travelhanoi.org/wp-content/uploads/the-bank.jpg",
-      "https://hanoitoplist.com/wp-content/uploads/2019/03/the-bank-bar-10.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Hero Bar",
-    "description": "Nổi tiếng với dàn DJ thế giới chuyên nghiệp, là điểm xả stress cuối tuần với MC duyên dáng và hài hước.",
-    "address": "Số 42M đường Yên Phụ, Trúc Bạch, Ba Đình, Hà Nội",
-    "review": null,
-    "latitude": 21.047512,
-    "longitude": 105.843112,
-    "opening_hours": "21:00 – 04:00",
-    "price_range": "60.000 – 300.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-6.jpg",
-      "https://product.hstatic.net/1000268128/product/3638be9c-54bc-438e-a780-1d61b12af26b_807c1dfb037743d6b6025026e748d90e_master.jpg",
-      "https://heroclubhn.com/assets/space/space-03.webp",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/hero-club-quan-pub-binh-dan-phu-hop-voi-gioi-tre-ha-noi-1668175052-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Don’s Tay Ho",
-    "description": "Khu phức hợp gồm nhà hàng sang trọng và quầy bar với không gian mở trên tầng mái gần Hồ Tây. Cung cấp thực đơn hải sản tươi sống nhập khẩu, đồ uống nổi tiếng và khu vực lãng mạn ngắm cảnh Hồ Tây về đêm.",
-    "address": "số 16/27 đường Xuân Diệu, Tây Hồ, Hà Nội",
-    "review": null,
-    "latitude": 21.061212,
-    "longitude": 105.828512,
-    "opening_hours": "09:00 – 22:00",
-    "price_range": "300.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-10.jpg",
-      "https://winevn.com/wp-content/uploads/2024/07/18-dons-tay-ho.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "The Opera Club",
-    "description": "Địa điểm tổ chức tiệc mới cho giới trẻ yêu thích dòng nhạc EDM, kết hợp giữa Fuse Bar và XOXO Club với ánh sáng phong cách, không gian sôi động và âm nhạc cuồng nhiệt.",
-    "address": "18 Lương Ngọc Quyến, Hàng Buồm, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.033124,
-    "longitude": 105.852112,
-    "opening_hours": "21:00 – 2:00",
-    "price_range": "50.000 – 1.000.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-11.jpg",
-      "https://topgo.vn/wp-content/uploads/2020/02/The-opera-nightclub-20.jpg",
-      "https://topgo.vn/wp-content/uploads/2020/02/The-opera-nightclub-22-1024x633.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Lacasa Bar",
-    "description": "Kết hợp phong cách kiến trúc đẹp và khác biệt với không gian hoành tráng, hệ thống âm thanh ánh sáng hiện đại cùng đội ngũ nhân viên nhiệt tình, thân thiện.",
-    "address": "Số 23M đường Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.024587,
-    "longitude": 105.852828,
-    "opening_hours": "20:00 – 23:00",
-    "price_range": "100.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-12.jpg",
-      "https://lacasahotel.com.vn/wp-content/uploads/2019/12/36.jpg",
-      "https://lacasahotel.com.vn/wp-content/uploads/2019/12/39.jpg"
-     ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Jigger Cocktail & Wine Bar",
-    "description": "Quán bar phong cách speakeasy với thiết kế hiện đại độc đáo, ánh sáng, chỗ ngồi và bảng đèn neon tạo không gian tinh tế, thân thiện. Phục vụ các loại thức uống cân bằng hương vị do bar trưởng Helen Nguyễn pha chế.",
-    "address": "59 Nam Ngư, Cửa Nam, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.025512,
-    "longitude": 105.845112,
-    "opening_hours": "18:30 – 24:00",
-    "price_range": "250.000 – 300.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-13.jpg",
-      "https://pasgo.vn/Upload/anh-chi-tiet/jigger-cocktail-and-wine-bar-nam-ngu-1-normal-1015417839103.webp",
-      "https://pasgo.vn/Upload/anh-chi-tiet/jigger-cocktail-and-wine-bar-nam-ngu-2-normal-1015418339104.webp",
-      "https://pasgo.vn/Upload/anh-chi-tiet/jigger-cocktail-and-wine-bar-nam-ngu-8-normal-1015420939110.webp"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Polite & Co",
-    "description": "Tiền thân là Polite Pub mở cửa năm 1995 (quán rượu đầu tiên của thủ đô), thiết kế lại theo cảm hứng hộp đêm quý ông thượng lưu những năm 1920. Phục vụ rượu whisky, xì gà và menu cocktail thay đổi nửa năm một lần bao gồm cả cocktail cảm hứng từ Hà Nội như The Street Vendor.",
-    "address": "5B Ngõ Bảo Khánh, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.0307105,
-    "longitude": 105.8502817,
-    "opening_hours": "17:00 – 24:00",
-    "price_range": "100.000 – 550.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-14.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Lift Bar & Lounge",
-    "description": "Thiết kế không gian hoành tráng, sang trọng, âm nhạc hip-hop và house mix bởi các DJ hàng đầu trong và ngoài nước.",
-    "address": "Tầng 11, số 18 Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.024712,
-    "longitude": 105.848512,
-    "opening_hours": "15:00 – 23:30",
-    "price_range": "300.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-15.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Pharaoh’s Bar & Upper",
-    "description": "Quán bar tọa lạc trên tầng 63 và 64 của tòa nhà Lotte Hanoi, sở hữu view thành phố từ trên cao vô cùng chất lượng, không gian ấm cúng, có 2 pho tượng xác ướp Pharaoh ấn tượng cùng nhiều món cocktail sang trọng.",
-    "address": "Tầng 63 - 64 tòa nhà Lotte Hanoi, Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội",
-    "review": "4.1 /5 (Đánh giá bởi Google)",
-    "latitude": 21.0318761,
-    "longitude": 105.8123032,
-    "opening_hours": "17h30 - 0h00",
-    "price_range": "60.000 - 17.500.000",
-    "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152025434122.jpg",
-      "https://img.lottehotel.com/cms/asset/2025/03/14/23690/250313-4-1920-mai-LTHA.webp",
-      "https://img.lottehotel.com/cms/asset/2025/02/20/17914/210628-2-2000-din-LTHA.jpg.thumb.1440.1440_11zon.webp",
-      "https://img.lottehotel.com/cms/asset/2025/02/20/17913/210628-5-2000-din-LTHA.jpg.thumb.1440.1440_11zon.webp"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
-  },
-  {
-    "name": "Gallery Bespoke Cocktail Bar",
-    "description": "Quán bar đầu tiên sở hữu dịch vụ đặt chỗ riêng và có nơi pha chế thức uống tùy theo sở thích với bầu không khí tuyệt vời và âm nhạc thời thượng.",
-    "address": "số 95 phố Phùng Hưng, phường Hàng Bồ, quận Hoàn Kiếm, thủ đô Hà Nội.",
-    "review": null,
-    "latitude": 21.036512,
-    "longitude": 105.848512,
-    "opening_hours": "21:00 – 02:00",
-    "price_range": "200.000 – 500.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-17.jpg",
-      "https://noithatkendesign.vn/storage/app/media/uploaded-files/review-Gallery-Bespoke-Cocktail-Bar-4.jpg",
-      "https://noithatkendesign.vn/storage/app/media/uploaded-files/review-Gallery-Bespoke-Cocktail-Bar-1.jpg",
-      "https://www.asia-bars.com/wp-content/uploads/2019/08/gallery-cocktail-bar-1140x641.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Lighthouse Sky Bar",
-    "description": "Nằm ở tầng 10 của La Siesta Premium Hotel, là một rooftop bar chất lượng hàng đầu.",
-    "address": "số 27 phố Hàng Bè, Old Quarter, quận Hoàn Kiếm, thủ đô Hà Nội.",
-    "review": null,
-    "latitude": 21.033512,
-    "longitude": 105.853512,
-    "opening_hours": "16:00 – 22:00",
-    "price_range": "100.000 – 350.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-18.jpg",
-      "https://skybars.vn/wp-content/uploads/2022/10/Skybar-HangBe-02-copy-1500-600x400.jpg",
-      "https://lasiestahotels.com/hangbe/wp-content/uploads/2019/03/6-1.png",
-      "https://noithatkendesign.vn/storage/app/media/--------thuhoai/thiet-ke-lighthouse-%20Sky-%20Bar-Restaurant-12.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
-  },
-  {
-    "name": "Top of Hanoi",
-    "description": "Nằm trên tầng cao nhất tại khách sạn Lotte Hà Nội với tầm nhìn toàn cảnh thành phố, phục vụ ẩm thực châu Á hiện đại, chỗ ngồi hoàn toàn ở ngoài trời.",
-    "address": "số 54 phố Liễu Giai, phường Ngọc Khánh, quận Ba Đình, Hà Nội.",
-    "review": null,
-    "latitude": 21.032209,
-    "longitude": 105.812702,
-    "opening_hours": "17:00 – 22:00",
-    "price_range": "100.000 – 300.000",
-    "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-19.jpg"
-    ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": "geocode_name",
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Terraço Sky Bar",
-    "description": "Quán bar tọa lạc trên lầu 8, sở hữu view ngắm cảnh hoành tráng, sang trọng cùng không gian trong nhà cực kỳ ấm cúng, nhẹ nhàng, thích hợp cho hẹn hò riêng tư.",
-    "address": "Rooftop, 35 Phố Hàng Dầu, Quận Hoàn Kiếm, Thành phố Hà Nội",
-    "review": "4.6 /5",
-    "latitude": 21.0309771,
-    "longitude": 105.8540207,
-    "opening_hours": "16:00 - 00:00",
-    "price_range": "115.000 - 4.000.000",
-    "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152040044795.jpg",
-      "https://lasinfoniavietnam.com/wp-content/uploads/2023/06/spectacular-panorama-terraco-sky-bar-1-1024x683.jpg",
-      "https://lasinfoniavietnam.com/wp-content/uploads/2023/06/Terraco-view-1-1024x683.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
-  },
-  {
-    "name": "Moonlight Sky Bar",
-    "description": "Thuộc đẳng cấp EHG với thiết kế độc đáo và tầm nhìn từ trên cao, là điểm sáng mới giữa lòng phố cổ.",
-    "address": "94 Phố Mã Mây, quận Hoàn Kiếm, Hà Nội.",
+    "name": "Phở Bát Đàn",
+    "description": "Phở Bát Đàn nổi danh gần xa với những bát phở đầy ắp thịt bò mềm mại và sợi phở dai ngon. Nước dùng phở được chế biến đặc biệt thơm ngon từ kết quả của những giờ ninh xương kỳ công và nêm nếm gia vị, thu hút đông đảo người yêu thích hương vị phở xưa xếp hàng thưởng thức.",
+    "address": "49 Bát Đàn, Hoàn Kiếm, Hà Nội",
     "review": null,
-    "latitude": 21.035812,
-    "longitude": 105.853412,
-    "opening_hours": "17:00 – 23:00",
-    "price_range": "200.000 – 500.000",
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://ticotravel.com.vn/wp-content/uploads/2022/12/bar-ha-noi-21.jpg",
-      "https://chillvietnam.com/wp-content/uploads/2022/11/moonlight-sky-bar-quan-bar-rooftop-dep-bac-nhat-thu-do-1668616711-scaled.jpeg",
-      "https://channel.mediacdn.vn/2020/6/5/photo-1-1591325869249100498833.jpg",
-      "https://skybars.vn/wp-content/uploads/2023/09/resize_NEXT-124.jpg"
-      ],
-    "category_id": "cat-cafe",
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-3.jpg"
+    ],
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": null,
-    "source_url": "https://ticotravel.com.vn/bar-ha-noi/"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Bar 1900 Le Theatre",
-    "description": "Quán pub nổi tiếng nằm ngay giữa con phố bia Tạ Hiện sầm uất. Điểm tổ chức các show nhạc hoành tráng với không gian phiêu, nhạc đỉnh, đồ uống chất.",
-    "address": "8 Tạ Hiện, Hoàn Kiếm, Hà Nội",
+    "name": "Bún thang số 11 Hàng Hòm",
+    "description": "Bún thang số 11 Hàng Hòm là địa chỉ thu hút cả dân địa phương lẫn du khách với bát bún đầy đặn và hấp dẫn. Các nguyên liệu từ trứng thái mỏng, giò lụa, thịt gà mềm dai cho đến củ cải dầm vị ngọt thanh, giòn giòn đều được chọn lựa và chế biến tận tâm.",
+    "address": "11 Hàng Hòm, P. Hoàn Kiếm, Hà Nội",
     "review": null,
-    "latitude": 21.0350514,
-    "longitude": 105.8518825,
-    "opening_hours": "10:00 - 01:00",
-    "price_range": "60.000",
+    "latitude": 21.0320869,
+    "longitude": 105.848758,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://prosound.vn/cdn/upload/images/tin-tuc/anh-tin-tuc-4/1-1900.jpg",
-      "https://stc.wilque.vn/uploads/2024/01/25/_i65b223dc79066.jpg",
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/04/bar-1900-ta-hien.jpg",
-      "https://ta-img.tatinta.com/resize/1024/webp/destination/file-1627583769094.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-4.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": "geocode_address",
-    "source_url": "https://prosound.vn/nhung-dia-diem-quan-bar-pub-lounge-o-ha-noi-khong-the-bo-lo"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Hero Club",
-    "description": "Điểm vui chơi nổi tiếng với dàn DJ đẳng cấp, chất lượng âm thanh ánh sáng đỉnh cao và đồ uống pha chế đặc biệt.",
-    "address": "42M Đường Yên Phụ, Quận Ba Đình, T.p Hà Nội",
+    "name": "Bún thang Hàng Trống",
+    "description": "Còn gọi là quán Tư Lùn, tuy không gian không quá rộng rãi nhưng luôn tấp nập thực khách. Quán phục vụ bún thang thơm ngon với sợi bún dai dai, nước dùng đậm đà và topping luôn đầy đặn trong tô.",
+    "address": "5 Hàng Trống, Hà Nội",
     "review": null,
-    "latitude": 21.047512,
-    "longitude": 105.843112,
-    "opening_hours": "06:00 – 03:00",
-    "price_range": "70.000",
+    "latitude": 21.0311779,
+    "longitude": 105.8493001,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://prosound.vn/cdn/upload/images/tin-tuc/anh-tin-tuc-4/2-hero-club.jpg",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/hero-club-quan-pub-binh-dan-phu-hop-voi-gioi-tre-ha-noi-1668175052-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg",
-      "https://chillvietnam.com/wp-content/uploads/elementor/thumbs/hero-club-quan-pub-binh-dan-phu-hop-voi-gioi-tre-ha-noi-1668175041-q0mn9fkpi6o5tg2pntejbo3s7z7u4o5tb5ic9mbzc8.jpeg",
-      "https://vietnamnightlife.com/uploads/images/2022/07/1657358128-single_product2-heroclubhanoicoverphoto.png"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-5.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún mọc Hàng Lược",
+    "description": "Bún mọc Hàng Lược có hơn 30 năm tuổi đời, là biểu tượng ẩm thực Thủ đô với món ăn thuần chất gồm mọc giò sống, mọc nấm, mộc nhĩ và măng ninh. Mặc dù vô cùng đơn giản nhưng quán luôn đông đúc vào mỗi buổi sáng.",
+    "address": "57 Hàng Lược, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-6.jpg"
+    ],
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": null,
-    "source_url": "https://prosound.vn/nhung-dia-diem-quan-bar-pub-lounge-o-ha-noi-khong-the-bo-lo"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Solist Pub",
-    "description": "Quán pub với không gian ấm cúng và đậm chất cổ điển, ánh đèn mờ ảo cùng tiếng nhạc du dương. Đồ uống phong phú với sinh tố và bia.",
-    "address": "27A Xuân Diệu, Tây Hồ, Hà Nội",
+    "name": "Bún riêu cua Hà Nội Hàng Bạc",
+    "description": "Bún riêu Hàng Bạc nổi tiếng với hương vị truyền thống cùng nước dùng thanh nhẹ, không váng mỡ nhiều và có độ trong vắt. Gạch cua tan mềm kết hợp với các topping đầy đủ như đậu rán, giò, bò...",
+    "address": "11 Hàng Bạc, Hà Nội",
     "review": null,
-    "latitude": 21.0628034,
-    "longitude": 105.8285916,
-    "opening_hours": "17:00 – 02:00",
-    "price_range": "50.000 – 250.000",
+    "latitude": 21.0338976,
+    "longitude": 105.8524126,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://file.hstatic.net/200000568629/file/solist_pub_dc34d529a8ee443285a351e30ec336cb.jpg",
-      "https://noithatkendesign.vn/storage/app/media/uploaded-files/thiet-ke-brew-sister-solist-pub-11.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-7.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": "geocode_address",
-    "source_url": "https://prosound.vn/nhung-dia-diem-quan-bar-pub-lounge-o-ha-noi-khong-the-bo-lo"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Factory 47",
-    "description": "Quán bar mang phong cách trẻ trung, năng động, có chút bụi bặm, thiết kế ấn tượng với các chiếc bánh cưa và đường ống treo, phục vụ thức uống và món ăn nhanh độc lạ.",
-    "address": "47 Phố Hàng Buồm, Quận Hoàn Kiếm, Thành phố Hà Nội",
-    "review": "4.2 /5",
-    "latitude": 21.035721,
-    "longitude": 105.8516948,
-    "opening_hours": "16:00 - 03:00",
-    "price_range": "90.000 - 3.450.000",
+    "name": "Bún ốc Thúy ngõ chợ Đồng Xuân",
+    "description": "Bún ốc Thúy là quán lâu đời hoạt động suốt 70 năm qua, chuyên phục vụ bún ốc truyền thống và bún ốc chuối đậu. Thực khách có thể thưởng thức các topping kèm như đậu, ốc, chuối, mắm tôm giữ nguyên hương vị truyền thống.",
+    "address": "11 Ngõ Chợ Đồng Xuân, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152050517724.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/10/image/News/Images/2026/10/24/6594275/image3_202610241500078697.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/6/image/News/Images/2026/06/04/6593050/image5_202606041607471612.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/4/image/News/Images/2026/04/20/1592700/image4_202604202253038649.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/4/image/News/Images/2026/04/20/1592675/image7_202604201615439664.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/4/image/News/Images/2026/04/19/1592636/image3_202604192209492599.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/4/image/News/Images/2026/04/16/1592586/image5_202604171658082066.jpg",
-      "https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/3/image/News/Images/2026/03/05/1590563/image10_202603060033116851.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-8.jpg"
     ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
-  },
-  {
-    "name": "Avalon Café and Lounge",
-    "description": "Quán lounge ăn khách có nhiều tầng nhìn ra Hồ Gươm, phục vụ nhạc sôi động, cocktail và có phong cách phục vụ chuyên nghiệp.",
-    "address": "73 Cầu Gỗ, Hoàn Kiếm, Hà Nội",
-    "review": null,
-    "latitude": 21.0322852,
-    "longitude": 105.8516246,
-    "opening_hours": "07:00 – 23:00",
-    "price_range": "40.000 – 200.000",
-    "image_urls": [
-      "https://prosound.vn/cdn/upload/images/tin-tuc/anh-tin-tuc-4/6-avalon-cafe-and-lounge.jpg",
-      "https://lyoncoffee.com.vn/wp-content/uploads/quan-ca-phe-ho-guom-2.jpg",
-      "https://cdn.livingnomads.com/2017/03/20/Avalon-Cafe-Lounge-hanoi-3.jpg"
-      ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://prosound.vn/nhung-dia-diem-quan-bar-pub-lounge-o-ha-noi-khong-the-bo-lo"
-  },
-  {
-    "name": "Amelia Lounge & Coffee Hào Nam",
-    "description": "Lounge kết tinh phong cách bohemia với tranh thổ dân, gồm 4 tầng và 2 tầng thượng phục vụ không gian mở ngắm phố phường.",
-    "address": "36 Hào Nam, Đống Đa, Hà Nội",
-    "review": null,
-    "latitude": 21.0295633,
-    "longitude": 105.8297088,
-    "opening_hours": "20:00 – 02:00",
-    "price_range": "50.000 – 300.000",
-    "image_urls": [
-      "https://file.hstatic.net/200000568629/file/lounge-noi-tieng-ha-noi-3_cde5ff5dfcb94eeaa344bd4418566041.jpg",
-    "https://file.hstatic.net/200000568629/file/lounge-noi-tieng-ha-noi-4_b4efca04fe994a4b9bdf84eae1793ec0.jpg"
-    ],
-    "category_id": "cat-cafe",
-    "verified_in_source": true,
-    "coord_source": "geocode_address",
-    "source_url": "https://prosound.vn/nhung-dia-diem-quan-bar-pub-lounge-o-ha-noi-khong-the-bo-lo"
-  },
-  {
-    "name": "1900 Le Théâtre",
-    "description": "Quán bar đình đám nằm ngay tại khu phố Tạ Hiện, nổi tiếng với những bản nhạc remix sôi động, đồ uống ngon độc đáo và giá cả phải chăng.",
-    "address": "số 8 Tạ Hiện Hoàn Kiếm Hà Nội",
-    "review": null,
-    "latitude": 21.0350514,
-    "longitude": 105.8518825,
-    "opening_hours": "20:30 – 03:00",
-    "price_range": "100.000 – 500.000",
-    "image_urls": [
-      "https://vietair.com.vn/Media/Images/1900-bar.jpg",
-      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/04/bar-1900-ta-hien.jpg",
-      "https://media.gody.vn/images/ha-noi/1900-le-theatre-ha-noi/87f73ab796a258e3c6cfea4b34d9e0a4323ccb7b.jpg"
-      ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": null,
-    "source_url": "https://vietair.com.vn/du-lich-trong-nuoc/bar-ha-noi.html"
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Nê Cocktail bar",
-    "description": "Quán bar nổi tiếng với các món nước dễ chịu, độc đáo thích hợp với phái nữ, không gian nhẹ nhàng, sâu lắng, ấm cúng và có các bartender giàu kinh nghiệm, thân thiện.",
-    "address": "3B Phố Tống Duy Tân, Hàng Bông, Quận Hoàn Kiếm, Thành phố Hà Nội",
-    "review": "4.6 /5",
-    "latitude": 21.0295943,
-    "longitude": 105.8440539,
-    "opening_hours": "19:30 - 02:00",
-    "price_range": "100.000 - 3.680.000",
+    "name": "Bún ốc cô Huệ",
+    "description": "Quán lâu đời và quen thuộc với hai món chính là bún ốc nóng và bún ốc nguội. Bún ốc nóng có topping gồm ốc, cà chua và rau thơm, trong khi bún ốc nguội dùng nước luộc ốc và xương ninh cùng giấm bỗng, ớt chưng tạo vị mát, cay và chua dịu.",
+    "address": "43 Nguyễn Siêu, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0365557,
+    "longitude": 105.8516799,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152031363317.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-9.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "The Alchemist",
-    "description": "Quán bar tọa lạc ở con phố ngắn cổ kính bên hông chợ Hàng Da, mang phong cách hiện đại, ấm cúng, đậm chất Tây phương, phục vụ các món cocktail sang trọng, pha chế cầu kì.",
-    "address": "25 Phố Bát Sứ, Phường Hàng Bồ, Quận Hoàn Kiếm, Thành phố Hà Nội",
-    "review": "4.6 /5",
-    "latitude": 21.0348647,
-    "longitude": 105.8475351,
-    "opening_hours": "19:00 - 01:00",
-    "price_range": "120.000 - 300.000",
+    "name": "Bún giả ba ba Cầu Gỗ",
+    "description": "Quán chuyên phục vụ bún chan và bún chấm sử dụng chung nguyên liệu và nước dùng. Món ăn được chế biến công phu với sườn sụn, móng giò, chuối xanh, đuôi heo, đậu nướng vàng cùng nước dùng chua thanh dịu, hơi ngọt và thơm lừng mùi tía tô.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152031363317.jpg",
-      "https://noithatkendesign.vn/storage/app/media/uploaded-files/review-ne-cocktail-1.jpg",
-      "https://noithatkendesign.vn/storage/app/media/uploaded-files/review-ne-coctail-3.jpeg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-10.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
+    "coord_source": null,
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Beatro - Cafe, Eatery & Bara",
-    "description": "Quán bar thiết kế theo kiểu speakeasy với kiến trúc đương đại, chi tiết ốp tường ấm cúng, bảng đèn neon rực rỡ và phục vụ nhiều món nước giản đơn mang hương vị tinh tế.",
-    "address": "1 Tràng Tiền, Phường Phan Chu Trinh, Quận Hoàn Kiếm, Thành phố Hà Nội",
-    "review": "4.6 /5",
-    "latitude": 21.0240878,
-    "longitude": 105.8584438,
-    "opening_hours": "10:00 - 23:30",
-    "price_range": "75.000 - 2.350.000",
+    "name": "Miến lươn Đông Thịnh",
+    "description": "Chuyên bán các món từ lươn như miến lươn xào, súp lươn, miến lươn nước, miến lươn trộn với tùy chọn lươn giòn hoặc mềm. Quán có tầng trên sạch sẽ tạo không gian thoải mái, ấm cúng cho thực khách.",
+    "address": "87 Hàng Điếu, Hà Nội",
+    "review": null,
+    "latitude": 21.0318532,
+    "longitude": 105.8469051,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152037343664.jpg",
-      "https://topgo.vn/wp-content/uploads/2023/04/BEATRO-GASTRO-LOUNGE-1.jpg",
-      "https://topgo.vn/wp-content/uploads/2023/04/Beatro-Gastro-Lounge-18.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-11.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "The Dios",
-    "description": "Quán bar mang không gian nhẹ nhàng, sâu lắng, ấm cúng, có những bản nhạc du dương, dàn loa và hệ thống ánh sáng hiện đại cùng menu nước hấp dẫn.",
-    "address": "76 Phố Tuệ Tĩnh, Phường Nguyễn Du, Quận Hai Bà Trưng, Thành phố Hà Nội",
-    "review": "4.8 /5",
-    "latitude": 21.0152664,
-    "longitude": 105.8489833,
-    "opening_hours": "Cả ngày",
-    "price_range": "150.000 - 499.000",
+    "name": "Bún riêu Trang Hàng Buồm",
+    "description": "Bún riêu tại đây có nước dùng màu vàng óng, thơm ngon với nhiều gạch cua nêm nếm chuẩn vị, kết hợp vị cay của ớt và hương thơm đặc biệt từ hành khô phi.",
+    "address": "23 Nguyễn Siêu, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0364933,
+    "longitude": 105.8516265,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152045580523.jpg",
-      "https://product.hstatic.net/1000268128/product/410625633_360923706618999_4171624129726985244_n_a6145ae3c37f45039d1bbe7b749864cd_master.jpg",
-      "https://quananngonhanoi.com/wp-content/uploads/2026/06/The-Dios.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-12.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
-    "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
   },
   {
-    "name": "Nightshift Cocktail & Wine Bar",
-    "description": "Quán bar có không gian cực chill, ấm cúng thích hợp làm việc, kết hợp cùng khu sân thượng thoáng đãng, náo nhiệt để vui chơi, giải trí.",
-    "address": "68 Phố Yên Ninh, Phường Nguyễn Trung Trực, Quận Ba Đình, Thành phố Hà Nội",
-    "review": "4.6 /5",
-    "latitude": 21.0421053,
-    "longitude": 105.8440176,
-    "opening_hours": "19:00 - 03:00",
-    "price_range": "20.000 - 2.600.000",
+    "name": "Bún chả Đắc Kim",
+    "description": "Điểm đến quen thuộc từ năm 1965 tại phố Hàng Mành. Quán nổi bật với sự cầu kỳ trong việc lựa chọn thịt lợn (thịt nách hoặc ba chỉ), băm nhỏ, tẩm ướp gia vị, hành tỏi và nước mắm ngon rồi nướng trên than hoa, phục vụ suất ăn đầy đặn và nhiều thịt.",
+    "address": "1 Hàng Mành, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0322599,
+    "longitude": 105.8482188,
+    "opening_hours": null,
+    "price_range": null,
     "image_urls": [
-      "https://cdn.tgdd.vn/Files/2023/08/15/1542790/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-202308152048237408.jpg",
-      "https://topgo.vn/wp-content/uploads/2020/10/nightshift2.jpg",
-      "https://topgo.vn/wp-content/uploads/2020/10/nightshift23.jpg"
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-13.jpg",
+      "http://booking-static.vinpearl.com/tours/fc4f413869aa4e5d9784e37b5b1719b5_Times-Aquarium%20(1)_thuy-cung-vinpearl-aquarium-times-city.jpg",
+      "http://booking-static.vinpearl.com/tours/9e056e7ece47484ab71d2d093913b1ae_DSC_6409_vinke-ve-vao-cua-truc-tiep.jpg",
+      "http://booking-static.vinpearl.com/tours/fce787978a914e66863264f5925c1d04_tour-kham-pha-van-hoa-viet-vinwonders-nam-hoi-an-668ca102bcc29_vinwonders-nam-hoi-an-ve-vao-cua.jpg",
+      "http://booking-static.vinpearl.com/tours/386831c83cf645d4bb1b16bf250d8b14_VIN2725_-08746%20(2)_vinwonders-nam-hoi-an-ve-vao-cua.jpg",
+      "http://booking-static.vinpearl.com/tours/7b7d88b3d9e34ce886cafbf3f7adab2d_3_vinke-ve-vao-cua-truc-tiep.jpg",
+      "http://booking-static.vinpearl.com/tours/e7fcffc8256546e8bdcfd5ccfbe69783_VINKE2%20(1)_vinke-ve-vao-cua-truc-tiep.jpg",
+      "http://booking-static.vinpearl.com/tours/40fc72547fe242f8b6bbbbc428885848_065A8735_aquafield-nha-trang.jpg"
     ],
-    "category_id": "cat-cafe",
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi xéo chị Mây Hàng Bài",
+    "description": "Quán xôi xéo nổi tiếng gây ấn tượng với cách gói xôi nhanh chóng, điệu nghệ. Món ăn gồm xôi nếp dẻo không bị nát hay khô, đỗ xanh thơm bùi, nước mỡ và hành phi mang đậm hương vị truyền thống Hà Nội xưa.",
+    "address": "Ngã tư Hàng Bài, Lý Thường Kiệt (đối diện số 15 ngõ Vọng Đức), Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-14.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi rán Hàng Điếu",
+    "description": "Thực đơn đa dạng với các món xôi rán trứng kho, xôi rán thịt kho, xôi rán thập cẩm, xôi rán chả... Xôi được chế biến giòn bên ngoài, dẻo thơm bên trong, kết hợp vị trứng, pate thơm lừng và lạp xưởng béo ngậy.",
+    "address": "02 Hàng Điếu, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-15.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi Yến",
+    "description": "Mở cửa từ năm 1997, Xôi Yến cung cấp thực đơn đa dạng tới 18 loại như xôi gà luộc, xôi chả mỡ, xôi ruốc, xôi giò lụa, xôi xéo chả cốm... Các món xôi luôn được nấu mềm dẻo và giữ độ ngon đặc trưng.",
+    "address": "35B Nguyễn Hữu Huân, Hà Nội",
+    "review": null,
+    "latitude": 21.0326141,
+    "longitude": 105.8544957,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-16.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Cháo sườn Hàng Bồ",
+    "description": "Quán cháo sườn tồn tại hơn 30 năm, mang lại hương vị bình dị, thơm ngon và chuẩn vị nhà nấu do những người gắn bó lâu năm với Hà Thành chế biến.",
+    "address": "32 Hàng Bồ, Hà Nội",
+    "review": null,
+    "latitude": 21.0341766,
+    "longitude": 105.8494769,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-17.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh khúc Cầu Gỗ",
+    "description": "Quán nổi tiếng trên phố Cầu Gỗ với mức giá hợp lý, có lớp vỏ xôi dẻo bên ngoài và nhân bên trong gồm lá bánh, đỗ xanh béo ngậy, thịt ba chỉ và chút vị cay của tiêu.",
+    "address": "35 Cầu Gỗ, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.032204,
+    "longitude": 105.8534912,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-18.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Mì vằn thắn Đinh Liệt",
+    "description": "Phục vụ các phần ăn nóng hổi với sợi mì dai ngon, sủi cảo mềm thơm, thịt xá xíu và gan bùi bùi xắt mỏng. Quán còn nổi tiếng với món mì khô dùng kèm loại nước sốt chế biến riêng.",
+    "address": "9A Đinh Liệt, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0334765,
+    "longitude": 105.8519725,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-19.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Mì vằn thắn Hàng Chiếu",
+    "description": "Từng có tên 'Mì Phố Cổ' trước khi đổi tên thành 'Bình Tây', quán nổi tiếng với nước dùng thanh, không lợ, đậm vị từ xương hầm, kết hợp sợi mì dai thơm, lá hẹ và sủi cảo nhân tôm thịt hấp dẫn.",
+    "address": "54 Hàng Chiếu, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0371679,
+    "longitude": 105.850796,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-20.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh mì Hai Mập",
+    "description": "Nổi tiếng với việc tự làm vỏ bánh có độ mềm và ẩm tự nhiên. Bánh mì chuẩn Sài Gòn tại đây có các loại nhân như xúc xích tỏi, pate mịn, giò lụa, giò thủ, giò bì, jambon, xá xíu, ruốc, sốt trứng tươi kết hợp vị cay của ớt xanh.",
+    "address": "23 Hàng Đường, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0353613,
+    "longitude": 105.8500086,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-21.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Tiệm bánh mì xíu mại Hàng Vải",
+    "description": "Mỗi ổ bánh mì đi kèm thịt ba chỉ nướng, 2 viên xíu mại to tròn bọc trứng muối mặn bùi, pate thơm ngon cùng rau thơm và rau củ bào sợi.",
+    "address": "22 Hàng Vải, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0355778,
+    "longitude": 105.8467523,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-22.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh mì Phố",
+    "description": "Quán chủ yếu phục vụ mang đi với nhiều cơ sở trong hệ thống, thu hút thực khách nhờ lớp nhân xúc xích, thịt nguội, chả, pate thơm béo và rau các loại.",
+    "address": "61E Hàng Mã/ số 8 Quán Sứ/ 64 Hàng Bông/ 57C Đinh Tiên Hoàng/ 29A Trần Bình Trọng/ 21 Phạm Ngọc Thạch/ số 2 ngõ 62 Nguyễn Chí Thanh, Hà Nội",
+    "review": null,
+    "latitude": 21.0099118,
+    "longitude": 105.8360645,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-23.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_name",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh mì 25 Hàng Cá",
+    "description": "Phục vụ khoảng 300 ổ bánh mì mỗi ngày với menu đa dạng các loại như bánh mì pate xá xíu, thập cẩm, bánh mì chảo, bánh mì nhân chay ở mức giá bình dân.",
+    "address": "25 Hàng Cá, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0361708,
+    "longitude": 105.8487212,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-24.jpg",
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-25.jpg",
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-26.jpg",
+      "https://static.vinwonders.com/production/an-sang-pho-co-ha-noi-27.jpg",
+      "http://booking-static.vinpearl.com/tours/24fe9c8016b84abb990209ca59bc905c_tour-kham-pha-van-hoa-viet-vinwonders-nam-hoi-an-668ca102bcc29_vinwonders-nam-hoi-an-ve-vao-cua.jpg",
+      "http://booking-static.vinpearl.com/tours/b1d175857e1c4d9297a9ccc6a7e943f3__D8H4322_friend-combo-vinwonders-nam-hoi-an-ve-vao-cua.jpg",
+      "http://booking-static.vinpearl.com/tours/eef6c265568141e2bf3b5f346507dab2_f0a53632395bb605ef4a6_vinwonders-nam-hoi-an-ve-vao-cua.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://vinwonders.com/vi/wonderpedia/news/23-quan-an-sang-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún chả Hàng Quạt",
+    "description": "Bún chả Hàng Quạt nằm trong ngõ 74 Hàng Quạt, Hoàn Kiếm, là hàng bún chả ra đời từ lâu và lúc nào cũng tấp nập khách ra vào. Miếng chả băm to, xen cả nạc cả mỡ nên nướng xong không bị khô, cháy cạnh dậy mùi khói than hoa. Nước chấm pha chua ngọt vừa miệng, thêm đu đủ ngâm chua giòn. Thích cùng phong cách có thể ghé thêm bún chả Hoa ở 17 ngõ Yên Thế gần đó. Điểm cộng của quán nằm ở tỷ lệ nạc – mỡ trong miếng chả băm: đủ mỡ để khi nướng trên than hoa không bị khô xác, nhưng không nhiều đến mức ngấy. Lớp ngoài cháy cạnh nhẹ tạo mùi khói đặc trưng của nướng than hoa, khác hẳn vị nướng bằng bếp điện. Nước chấm là phần quyết định: pha đủ độ chua ngọt để trung hoà độ béo của chả, đu đủ ngâm giòn thêm lớp kết cấu giòn xen giữa miếng chả mềm. Ngõ 74 Hàng Quạt vốn nhỏ nên buổi trưa dễ kín bàn, đi đông người nên tính trước giờ ăn hoặc chọn khung giờ vãn khách hơn.",
+    "address": "Ngõ 74 Hàng Quạt, Hoàn Kiếm, Hà Nội (thêm: bún chả Hoa, 17 Ngõ Yên Thế)",
+    "review": null,
+    "latitude": 21.0324643,
+    "longitude": 105.8489735,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-bun-cha-hang-quat.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_name",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún đậu mắm tôm Hàng Khay",
+    "description": "Bún đậu mắm tôm Hàng Khay nằm trong ngõ 31 Hàng Khay, Hoàn Kiếm, nổi bật với suất ăn đầy đặn và nhiều món kèm. Đậu rán vàng ươm, giòn ngoài mềm trong, ăn cùng bún trắng và mắm tôm dậy mùi đặc trưng. Ngoài đậu và bún, quán còn có thịt chân giò, chả cốm, nem rán để chọn thêm tuỳ khẩu vị. Suất bún đậu ở đây có giá trung bình từ 30.000 đồng, khá dễ chịu cho một bữa trưa no bụng. Đậu phụ được rán ngập dầu tới khi lớp vỏ ngoài giòn rụm, giữ được độ mềm ẩm bên trong – kỹ thuật quen thuộc để đậu không bị khô xác khi nguội. Mắm tôm pha đúng độ, dậy mùi nhưng không gắt, hoà cùng chút mỡ nóng và chanh ớt tạo vị béo the đặc trưng của món bún đậu. Điểm được lòng thực khách là sự đa dạng: ngoài đậu và bún còn thêm thịt chân giò luộc, chả cốm rán, nem rán để ai không quen mắm tôm vẫn có món ăn kèm hợp khẩu vị. Vì nằm trong ngõ nhỏ, khung giờ trưa từ 11h30 nên chủ động đến sớm để có chỗ ngồi.",
+    "address": "Ngõ 31 Hàng Khay, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "khoảng 30.000đ/suất trở lên",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-bun-dau-hang-khay.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phở Bát Đàn",
+    "description": "Phở Bát Đàn tại 49 Bát Đàn, Hoàn Kiếm là địa chỉ quen thuộc mỗi khi nhắc tới phở bò Hà Nội. Nước dùng thanh, ninh xương kỹ nên trong mà vẫn đậm vị, ăn cùng thịt bò tái chín và rau thơm chuẩn kiểu Bắc. Quán phục vụ nhanh, ít khi để khách đợi lâu dù luôn đông người xếp hàng tự bưng bát. Giá một bát dao động 40.000-50.000 đồng, xứng đáng để chờ thêm vài phút xếp hàng. Nước dùng phở đạt chuẩn phải trong nhưng vẫn đủ độ ngọt từ xương ninh lâu giờ, không đục cợn mà cũng không nhạt – đây là phần đòi hỏi kỹ thuật cao khi nấu phở và cũng là điểm Bát Đàn giữ được qua nhiều năm. Gừng nướng đập dập cùng hoa hồi, quế tạo lớp hương nền ấm, không lấn át vị ngọt thanh của nước xương. Thịt bò tái được trần vừa chín tới, giữ độ mềm và mọng nước hơn là chín kỹ. Vì quán chỉ bán khung giờ sáng và tối, lại theo kiểu tự xếp hàng lấy bát, nên tránh khung 7h-8h sáng nếu không muốn đứng đợi lâu.",
+    "address": "49 Bát Đàn, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "6h-10h sáng, 18h-21h tối",
+    "price_range": "khoảng 40.000-50.000đ/bát",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-pho-bat-dan.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phở Lý Quốc Sư",
+    "description": "Phở Lý Quốc Sư ở số 10 Lý Quốc Sư, Hoàn Kiếm phục vụ đủ loại thịt bò từ tái, chín đến nạm gầu để khách chọn theo khẩu vị. Nước dùng chế biến đậm đà, thịt bò chín mềm và thơm, ăn cùng quẩy giòn rụm. Đây là một trong những hàng phở được người sành phở nhắc tên thường xuyên khi nói về ẩm thực phố cổ. Giá trung bình mỗi bát khoảng 50.000 đồng. Cho khách chọn giữa tái, chín, nạm gầu là cách hàng phở lâu năm giữ chân được nhiều nhóm khẩu vị khác nhau trong một gia đình hay nhóm bạn. Nạm gầu khi ninh đủ giờ sẽ mềm nhưng vẫn giữ được lớp gân giòn sần sật xen giữa, khác hẳn cảm giác của thịt nạc thuần tuý. Nước dùng đậm đà nhờ tỷ lệ xương và gia vị được canh kỹ, không mặn gắt mà vẫn đủ vị. Quẩy giòn rụm là điểm cộng nhỏ nhưng quan trọng, chấm cùng nước dùng nóng tạo thêm lớp kết cấu giòn tan trong miệng.",
+    "address": "10 Lý Quốc Sư, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0304724,
+    "longitude": 105.8488474,
+    "opening_hours": null,
+    "price_range": "khoảng 50.000đ/bát",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/pho-ly-quoc-su-1.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phở gà Nguyệt",
+    "description": "Phở gà Nguyệt tại 5 Phủ Doãn, Hoàn Kiếm nổi tiếng với hai món phở nước và phở khô gà. Sợi phở dai ăn cùng thịt gà hầm mềm, mọng nước, chan nước dùng ngọt thanh đậm đà. Món phở gà ở đây có thể ăn kèm quẩy nóng giòn rụm, tan ngay trong miệng. Quán mở cửa cả sáng lẫn chiều tối nên tiện ghé bất cứ lúc nào trong ngày dạo phố cổ. Phở khô gà là biến thể ít gặp hơn phở nước, sợi phở trộn cùng gia vị và thịt gà xé, ăn kèm bát nước dùng riêng để chan hoặc chấm tuỳ thích – cách ăn này giữ được độ dai của sợi phở lâu hơn vì không ngâm trong nước nóng suốt bữa. Thịt gà được hầm đủ lâu để mềm nhưng không bở, còn giữ được độ ngọt tự nhiên của thớ thịt. Nước dùng ngọt thanh, không nêm quá tay nên hợp với người thích vị nhẹ hơn phở bò. Quẩy nóng giòn là điểm cộng nhỏ giúp bữa ăn có thêm kết cấu giòn xen giữa các miếng phở mềm.",
+    "address": "5 Phủ Doãn, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0302913,
+    "longitude": 105.8476483,
+    "opening_hours": "6h30-13h và 17h-24h",
+    "price_range": "khoảng 30.000-80.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202211091634024846.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phở gà trộn Khánh Béo",
+    "description": "Phở gà trộn Khánh Béo ở 17 Hàng Hòm, Hoàn Kiếm là địa chỉ được nhiều người truyền tai khi hỏi ăn gì ở phố cổ vào buổi tối. Phở gà trộn ở đây thu hút nhờ phần nước sốt mặn ngọt đậm đà, sợi phở dai ăn cùng gà xé và rau thơm. Không gian quán khiêm tốn nhưng luôn sạch sẽ nhờ được lau dọn thường xuyên. Quán chỉ bán từ chiều tối nên hợp để ghé sau một ngày dạo phố. Phở trộn khác phở nước ở chỗ nước sốt phải đủ đậm để bám đều vào từng sợi phở mà không cần chan ngập, đòi hỏi tỷ lệ mặn ngọt được canh kỹ hơn nước dùng thông thường. Gà xé tơi giúp thấm gia vị nhanh hơn thịt miếng, trộn đều cùng rau thơm tạo lớp vị tươi mát cân lại độ đậm của nước sốt. Đây là kiểu ăn phở hợp buổi tối muộn, khi khẩu vị cần thứ gì đó đậm miệng hơn là nhẹ nhàng thanh đạm. Vì quán nhỏ và chỉ bán buổi tối, nên tránh giờ cao điểm sau 19h nếu muốn có chỗ ngồi ngay.",
+    "address": "17 Hàng Hòm, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.03186,
+    "longitude": 105.8488139,
+    "opening_hours": "18h-23h30",
+    "price_range": "khoảng 50.000-75.000đ",
+    "image_urls": [
+      "https://static.vinwonders.com/production/mon-ngon-ho-guom-07.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phở bò Hàng Vải & Hàng Muối",
+    "description": "Ngoài Bát Đàn, phố cổ còn hai địa chỉ phở bò quen thuộc là phở bò Khôi Hói ở 50 Hàng Vải và phở Cường ở 23 Hàng Muối. Một tô phở đạt chuẩn cần nước dùng ninh xương nhiều giờ, nêm nếm hài hoà, thơm mùi gừng nướng, hoa hồi, quế. Thịt bò tuyển chọn kỹ, thái mỏng, ăn tái mới giữ được độ mềm ngọt. Hai quán này là lựa chọn thêm cho ai muốn đổi vị mà vẫn ở gần khu Đồng Xuân. Một bát phở ngon phụ thuộc nhiều vào nước dùng: xương phải ninh đủ giờ để ngọt tự nhiên tiết ra hết, gừng nướng đập dập cùng hoa hồi và quế nướng qua lửa mới dậy mùi thơm ấm mà không bị hắc. Thịt bò thái càng mỏng, khi trần tái sẽ càng giữ được độ mềm và ngọt của thớ thịt, đây là lý do dân sành phở hay gọi tái thay vì chín kỹ. Phở bò Khôi Hói và phở Cường tuy ít được nhắc tên hơn Bát Đàn nhưng vẫn giữ công thức nước dùng truyền thống này, là lựa chọn hợp lý khi khu Hàng Vải, Hàng Muối đang tiện đường hơn.",
+    "address": "50 Hàng Vải (Khôi Hói) & 23 Hàng Muối (phở Cường), Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://commoclam.vn/wp-content/uploads/2024/09/pho-ha-noi-am-thuc-van-hoa-com-moc-lam-300x300.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún ốc ngõ chợ Đồng Xuân",
+    "description": "Bún ốc ngõ chợ Đồng Xuân tuy nằm sâu trong ngõ nhỏ nhưng luôn đông khách nhờ hương vị thơm, tròn vị. Mỗi bát bún ở đây có giá từ 30.000-35.000 đồng, mở bán từ 10h sáng đến 16h chiều. Nước dùng chua thanh đặc trưng của bún ốc, ốc giòn không bị dai, hợp để ăn vào bữa trưa giữa lúc dạo chợ Đồng Xuân. Quán tuy nhỏ nhưng khách quen tới đều đặn, ngồi ăn ngay trong ngõ giữa nhịp chợ tấp nập. Bún ốc ngon phụ thuộc vào độ giòn của ốc và độ chua thanh của nước dùng – ốc phải được luộc vừa tới để không dai, còn nước dùng cần chua nhẹ từ giấm bỗng hoặc me, không chua gắt để không át vị ngọt tự nhiên của ốc. Quán nằm sâu trong ngõ chợ Đồng Xuân nên không gian đơn giản, chủ yếu là khách quen ghé ăn nhanh giữa buổi chợ. Vì chỉ bán trong khung giờ ban ngày, đây là lựa chọn hợp cho bữa trưa hơn là bữa tối khi dạo phố cổ.",
+    "address": "Ngõ chợ Đồng Xuân, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "10h-16h",
+    "price_range": "khoảng 30.000-35.000đ/bát",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-bun-oc-cho-dong-xuan.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún thang Cầu Gỗ",
+    "description": "Bún thang Cầu Gỗ, còn gọi bún thang Bà Đức, tại 48 Cầu Gỗ đã gắn bó với nhiều thế hệ người Hà Nội suốt hàng chục năm. Bún thang ở đây đầy đủ thịt gà, giò lụa, tôm, trứng, nấm hương hoà quyện cùng nước dùng ngọt thanh. Quán chỉ mở buổi chiều nhưng luôn đông nên nhiều hôm hết bàn sớm. Không gian không cầu kỳ nhưng đủ khiến người đi ngang phải dừng chân. Bún thang đòi hỏi sự tỉ mỉ hơn hẳn các loại bún khác vì phải chuẩn bị nhiều loại topping thái sợi mỏng đều nhau: thịt gà xé, giò lụa thái chỉ, trứng tráng mỏng thái sợi, tất cả xếp lên trên bát bún rồi mới chan nước dùng. Nước dùng bún thang phải ngọt thanh từ xương gà và tôm khô, trong chứ không đục, đủ nhẹ để không át vị của từng loại topping. Đây là món ăn đòi hỏi kiên nhẫn hơn là món nước dùng đậm mạnh, hợp buổi chiều muộn khi muốn ăn nhẹ nhàng mà vẫn no bụng.",
+    "address": "48 Cầu Gỗ, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0326343,
+    "longitude": 105.8529776,
+    "opening_hours": "16h-23h15",
+    "price_range": "khoảng 30.000-55.000đ",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-bun-thang-cau-go.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Mỳ phố cổ (vằn thắn, gà tần)",
+    "description": "Mỳ vằn thắn quán Bình Tây ở 54 Hàng Chiếu và mỳ gà tần ở 49 Hàng Bồ là hai địa chỉ mỳ được nhắc tên nhiều khi dạo phố cổ. Bát mỳ vằn thắn to đầy đặn, sợi mì dai, nước dùng ngọt đậm vị tôm và xương hầm, sủi cảo nhân tôm thịt đậm đà. Mỳ gà tần lại ghi điểm với nước dùng thơm táo tàu, kỳ tử, ngải cứu kiểu đông y, thịt gà nhiều không bị xương. Sủi cảo trong bát mỳ vằn thắn phải gói vừa tay để nhân tôm thịt không bị bung khi luộc, nước dùng ngọt đậm nhờ ninh cùng xương và tôm khô nên có vị umami rõ hơn nước dùng phở thông thường. Mỳ gà tần lại đi theo hướng khác hẳn: nước dùng nấu cùng táo tàu, kỳ tử, ngải cứu tạo vị ngọt thanh và mùi thảo mộc ấm, gà được tần đủ lâu để thịt mềm mà không bị bở. Hai món tuy khác phong cách nhưng đều hợp để ăn khi trời se lạnh, muốn thứ gì đó ấm bụng hơn là món nước mát.",
+    "address": "54 Hàng Chiếu (vằn thắn) & 49 Hàng Bồ (gà tần), Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "khoảng 40.000-70.000đ",
+    "image_urls": [],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Miến phố cổ (lươn, trộn mực)",
+    "description": "Miến lươn Đông Thịnh ở 87 Hàng Điếu và miến trộn mực trong ngõ Trung Yên là hai địa chỉ miến quen của khu phố cổ. Không gian miến lươn Đông Thịnh rộng rãi, sạch sẽ, nước dùng nêm đậm đà dễ ăn. Miến trộn mực lại ghi điểm nhờ phần mực giòn, miến dai, nước trộn đậm vị tạo nên món ăn khá độc đáo dù quán chỉ có không gian nhỏ. Cả hai đều hợp cho bữa sáng hoặc bữa trưa nhẹ nhàng giữa lịch trình ăn vặt phố cổ. Miến lươn ngon cần lươn giòn chứ không dai xác, thường được chiên qua dầu nóng để tạo lớp vỏ giòn trong khi thịt bên trong vẫn ngọt. Nước dùng miến lươn nêm đậm nhưng không mặn gắt, ăn cùng miến dong dai mềm là chuẩn của món này. Miến trộn mực lại theo hướng khô, không nước dùng, mực thái miếng vừa ăn trộn cùng miến và nước trộn chua cay mặn ngọt cân bằng – đòi hỏi tay trộn đều để miến không bị vón cục. Hai món tuy khác cách chế biến nhưng đều là lựa chọn nhẹ bụng hơn phở hay bún khi đã ăn nhiều món trong ngày.",
+    "address": "87 Hàng Điếu (miến lươn) & Ngõ Trung Yên (miến trộn mực), Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "khoảng 30.000-70.000đ",
+    "image_urls": [],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Canh bún tóp mỡ phố cổ",
+    "description": "Canh bún ở 19 Nguyễn Siêu và trong ngõ chợ Thanh Hà là món được nhiều người tìm đến vào những ngày hè nóng bức. Một bát canh bún đạt chuẩn gồm bún sợi to, rau muống hoặc rau rút, hành khô, tóp mỡ giòn và nước cua xâm xấp, ai muốn no hơn có thể gọi thêm giò. Nước dùng cua thơm phức, ngậy mùi, thêm chút ớt chưng cay và quất tạo vị chua nhẹ dễ ăn. Nước dùng canh bún ngon nhờ gạch cua được phi cùng hành khô tới khi dậy mùi thơm béo, sau đó hoà cùng nước lọc cua để giữ được vị ngọt tự nhiên mà không cần bột nêm. Tóp mỡ phải chiên giòn tới khi róc hết mỡ thừa, giòn tan chứ không dai, rắc lên trên ngay trước khi ăn để giữ độ giòn. Rau muống hoặc rau rút chần vừa tới, không quá nhũn, thêm chút ớt chưng cay và quất vắt tạo vị chua nhẹ giúp bát canh đỡ ngậy. Đây là món hợp ăn trưa mùa hè khi cần thứ gì đó giải nhiệt mà vẫn no bụng.",
+    "address": "19 Nguyễn Siêu & ngõ chợ Thanh Hà, Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://commoclam.vn/wp-content/uploads/2024/09/canh-bun-top-mo-ha-noi-com-moc-lam-277x300.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bún mọc Hàng Lược",
+    "description": "Bún mọc Hàng Lược nằm ở 57 phố Hàng Lược, Hàng Mã, tuy trong con hẻm nhỏ nhưng là địa chỉ bún mọc được nhiều người Hà Nội tin dùng. Phần bún nhiều topping chất lượng cùng nước dùng đậm đà để lại ấn tượng khá sâu sắc cho người ăn. Quán mở bán từ 6h sáng đến 11h nên hợp cho bữa sáng, thường đông khách vào khoảng 8h. Giá một bát dao động 25.000-50.000 đồng, phù hợp cho cả người đi làm lẫn khách du lịch ghé sáng sớm. Mọc trong bún mọc Hàng Lược được nặn thủ công từ mộc nhĩ và thịt xay tẩm ướp vừa miệng, khi thả vào nước dùng ninh xương ống sẽ nở đều mà không bị bở nát. Măng tươi thêm vào giúp nước dùng có vị ngọt thanh xen chút chua nhẹ tự nhiên, khác với vị ngọt đơn thuần từ xương. Vì quán chỉ bán buổi sáng tới giữa trưa, khung giờ 8h là lúc đông khách nên nếu muốn ăn nhanh có thể ghé sớm hơn một chút trước giờ cao điểm.",
+    "address": "57 Hàng Lược, Hàng Mã, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "6h-11h",
+    "price_range": "khoảng 25.000-50.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202211091623336240.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Chả cá Lã Vọng",
+    "description": "Chả cá Lã Vọng tại 14 Chả Cá, Hoàn Kiếm đã hơn 130 năm tuổi, là địa chỉ ăn ngon ở phố cổ nhiều người muốn ghé một lần. Cá lăng hoặc cá quả được cắt hình quân cờ, tẩm ướp rồi nướng nhanh trên than hoa, sau đó chiên lại ngay tại bàn cùng hành lá, thì là, lạc rang và mắm tôm. Vị ngọt béo của chả cá quyện mùi thơm của rau và mắm tôm tạo nên trải nghiệm khó quên. Việc cắt cá thành hình quân cờ trước khi tẩm ướp giúp gia vị ngấm đều mà thịt cá không bị nát khi nướng qua than hoa – bước nướng sơ này tạo lớp ngoài se lại, giữ nước bên trong. Khi chiên lại tại bàn cùng thì là và hành lá, dầu nóng làm dậy thêm mùi thơm của rau gia vị, hoà quyện cùng vị béo ngậy của cá. Mắm tôm pha đúng độ là điểm quyết định món ăn có tròn vị hay không, vì đây là loại nước chấm đặc trưng không thể thay thế của món chả cá kiểu này. Vì tên tuổi lâu đời, nên đặt bàn trước nếu đi vào giờ ăn tối cuối tuần.",
+    "address": "14 Chả Cá, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0356844,
+    "longitude": 105.8491519,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-cha-ca-la-vong.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bò nướng Xuân Xuân",
+    "description": "Bò nướng Xuân Xuân ở 47 Mã Mây, Hoàn Kiếm là một trong những quán nướng đông đúc của khu phố cổ về đêm. Thịt bò tẩm ướp gia vị được nướng trên bếp than ngay khi khách gọi, ăn kèm rau sống hoặc bánh mì. Đội ngũ nhân viên mặc đồng phục khá chuyên nghiệp, đĩa nướng cũng khá đầy đặn. Giá trung bình khoảng 100.000-150.000 đồng mỗi người, hợp để rủ thêm vài người bạn cùng ăn. Nướng trên bếp than ngay khi khách gọi thay vì nướng sẵn giúp miếng bò giữ được độ mọng nước, không bị khô do để lâu trên vỉ. Lớp ngoài cháy cạnh nhẹ tạo mùi khói đặc trưng của than hoa, trong khi thịt bên trong vẫn hồng và mềm nếu nướng đúng độ lửa. Ăn kèm rau sống giúp cân lại vị đậm của thịt tẩm ướp, còn bánh mì lại hợp cho ai muốn no bụng hơn. Vì là quán đông khách quen thuộc, nên gọi món ngay khi vào bàn để không phải đợi lâu giờ cao điểm 20h-22h.",
+    "address": "47 Mã Mây, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0343417,
+    "longitude": 105.8534198,
+    "opening_hours": null,
+    "price_range": "khoảng 100.000-150.000đ/người",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-bo-nuong-ma-may.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bò nướng 1A Gầm Cầu",
+    "description": "Bò nướng 1A Gầm Cầu, Hàng Mã là địa chỉ ăn đêm được nhiều người nhắc tên khi hỏi ăn gì ở phố cổ buổi tối. Đồ ăn tính theo đĩa, tẩm ướp đậm đà, có thể ăn kèm nước chấm hoặc xì dầu tuỳ thích. Quán mở tới 2h sáng nên hợp cho những buổi lang thang phố cổ về khuya. Thực đơn đa dạng, giá cả hợp lý dù phục vụ đôi lúc hơi chậm vào giờ đông khách. Tính món theo đĩa thay vì theo phần cố định giúp khách linh hoạt gọi thêm tuỳ sức ăn, phù hợp cả nhóm đông lẫn hai người ăn nhẹ. Thịt tẩm ướp trước khi nướng cần đủ thời gian để gia vị ngấm sâu vào thớ thịt chứ không chỉ bám ở lớp ngoài, đây là điểm khác biệt giữa nướng ngon và nướng chỉ đậm bề mặt. Ăn kèm nước chấm hay xì dầu tuỳ khẩu vị giúp món nướng không bị đơn điệu qua nhiều đĩa. Vì mở tới 2h sáng, đây là lựa chọn hợp cho ai kết thúc buổi tối muộn mà vẫn muốn ăn nóng.",
+    "address": "1A Gầm Cầu, Hàng Mã, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "10h-2h",
+    "price_range": "khoảng 80.000-500.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202211091634334102.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Ẩm thực đêm phố Tạ Hiện",
+    "description": "Phố Tạ Hiện nổi tiếng với hàng loạt món ăn đêm, trong đó ba món được nhắc tên nhiều là bún mọc, bò nướng chảo gang và chim nướng. Bún mọc có miếng mọc nặn thủ công từ mộc nhĩ và thịt xay, nước dùng ninh cùng xương ống và măng tươi. Bò nướng chảo gang cho thịt bò ướp đậm nướng ngay trên chảo cùng đồ ăn kèm. Chim cút nướng ở đây được ướp gia vị 5 tiếng trước khi nướng thủ công trên vỉ than. Mọc trong bún mọc Tạ Hiện được nặn tay từng viên nên giữ được độ kết dính vừa phải, không bị bở khi thả vào nước dùng ninh xương ống cùng măng tươi tạo vị ngọt thanh xen chua nhẹ. Bò nướng chảo gang khác cách nướng vỉ ở chỗ thịt tiếp xúc trực tiếp với chảo nóng, tạo lớp cháy cạnh nhanh hơn mà vẫn giữ nước bên trong nếu canh đúng lửa. Chim cút được ướp trước 5 tiếng để gia vị ngấm đều tới tận trong thớ thịt, sau đó nướng thủ công trên than để có mùi khói đặc trưng khó lẫn với nướng điện. Ba món này hợp đi ăn theo nhóm để chia sẻ nhiều món trong một buổi tối.",
+    "address": "Phố Tạ Hiện, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0341902,
+    "longitude": 105.852079,
+    "opening_hours": null,
+    "price_range": "chim cút nướng khoảng 50.000-110.000đ/đĩa",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202209100738292471.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Chân gà nướng ngõ Gạch",
+    "description": "Chân gà nướng ngõ Gạch, 21 Ngõ Gạch là địa chỉ đáng thử dù món chân gà nướng vốn được nhắc tên nhiều hơn ở phố Lý Văn Phức. Chân gà ở đây tẩm ướp đậm đà, chỉ khi khách gọi mới đem nướng nên luôn nóng hổi khi lên bàn. Trung bình mỗi người ăn hết khoảng 40.000-50.000 đồng, khá vừa túi tiền cho một buổi tối lai rai cùng bạn bè giữa phố cổ. Chỉ nướng khi có khách gọi là cách giữ chân gà luôn nóng và giòn da khi lên bàn, tránh tình trạng nướng sẵn để nguội mất độ giòn của lớp da bên ngoài. Gia vị tẩm ướp cần thời gian đủ lâu để ngấm qua lớp da dày của chân gà, đây là phần khó hơn so với tẩm ướp thịt thông thường vì da gà ít thấm gia vị hơn thịt nạc. Món này hợp ăn kèm bia hoặc nước ngọt trong một buổi tối ngồi lai rai, không quá no bụng nhưng đủ để nhâm nhi lâu.",
+    "address": "21 Ngõ Gạch, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0363843,
+    "longitude": 105.8500795,
+    "opening_hours": null,
+    "price_range": "khoảng 40.000-50.000đ/người",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-chan-ga-nuong-ngo-gach.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Há cảo chiên Hàng Bồ",
+    "description": "Há cảo chiên Hàng Bồ tại 55 Hàng Bồ, Hoàn Kiếm có những chiếc há cảo nhỏ xinh nhưng nhân thịt bên trong khá đầy đặn. Ăn kèm rau sống và nước chấm chua ngọt tạo nên sự kết hợp hợp vị. Giá chỉ 9.000 đồng cho 10 chiếc nên quán luôn tấp nập khách tới mua, đặc biệt hợp làm món ăn vặt xế chiều khi dạo phố cổ. Vỏ há cảo chiên vàng giòn bên ngoài mà vẫn giữ độ mềm của nhân bên trong. Vỏ há cảo phải chiên ngập dầu ở nhiệt độ đủ cao để giòn nhanh mà không hút quá nhiều dầu, trong khi nhân thịt bên trong vẫn giữ được độ ẩm và ngọt tự nhiên. Nước chấm chua ngọt pha vừa miệng là phần cân bằng lại độ ngậy của lớp vỏ chiên, ăn cùng rau sống giúp bữa ăn vặt không bị ngán dù ăn nhiều chiếc liền. Với mức giá chỉ 9.000 đồng cho 10 chiếc, đây là món ăn vặt phù hợp để thử trước khi no bụng bởi các món chính khác trong ngày.",
+    "address": "55 Hàng Bồ, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0335669,
+    "longitude": 105.8491527,
+    "opening_hours": null,
+    "price_range": "khoảng 9.000đ/10 chiếc",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-ha-cao-chien-hang-bo.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Nem chua rán ngõ Tạm Thương",
+    "description": "Ngõ Tạm Thương ở Hàng Bông được mệnh danh khu nem chua rán của Hà Nội, dài chỉ khoảng 10 mét nhưng có tới 6-7 hàng cùng bán món ăn vặt này. Nem được rán vừa phải, không ngấy, đặt trên khay lót lá chuối, ăn kèm dưa chuột, củ đậu, xoài xanh. Giá dao động 5.000-55.000 đồng tuỳ số lượng gọi, khá linh hoạt cho cả nhóm đông lẫn người ăn một mình. Rán vừa phải là kỹ thuật quan trọng với nem chua rán: rán quá lâu sẽ làm nem khô và ngấy dầu, trong khi rán chưa đủ lửa lại khiến nem bở, không giòn. Ăn kèm củ đậu và xoài xanh sống giúp cân lại vị béo của nem rán bằng độ giòn mát và chua nhẹ tự nhiên. Vì cả một ngõ có nhiều hàng cùng bán, thực khách có thể đi dạo thử vài hàng để so sánh trước khi chọn quán hợp khẩu vị của mình.",
+    "address": "36 Ngõ Tạm Thương, Hàng Bông, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "8h-23h",
+    "price_range": "khoảng 5.000-55.000đ",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-nem-chua-ran-tam-thuong.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Nem nướng cô Phượng",
+    "description": "Nem nướng cô Phượng tại 10 Ấu Triệu, Hàng Trống tuy chỉ là quán vỉa hè nhưng lúc nào cũng tấp nập. Từng xiên nem được tẩm ướp gia vị hấp dẫn, nướng trên bếp than giữ được mùi hương đậm đà, chấm cùng tương ớt và ăn kèm dưa leo hoặc đồ chua. Ngoài nem nướng, quán còn phục vụ khoai chiên, cá bò, mực nướng để đổi món. Giá mỗi phần khoảng 30.000-75.000 đồng. Nướng xiên nem trên bếp than thay vì chiên giúp lớp ngoài se lại vừa đủ, giữ được độ ẩm bên trong nhân nem mà vẫn dậy mùi khói đặc trưng khó có được nếu nướng bằng điện. Nước chấm tương ớt pha cay ngọt kết hợp cùng đồ chua giòn tạo lớp vị tươi cân lại độ đậm của nem nướng. Đây là món ăn vặt hợp buổi tối, đặc biệt khi dạo quanh khu phố đi bộ Hồ Gươm và muốn dừng chân ăn nhẹ trước khi tiếp tục lịch trình.",
+    "address": "10 Ấu Triệu, Hàng Trống, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "15h-0h",
+    "price_range": "khoảng 30.000-75.000đ",
+    "image_urls": [
+      "https://static.vinwonders.com/production/mon-ngon-ho-guom-12.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Ăn vặt phố đi bộ Hồ Gươm",
+    "description": "Dạo quanh khu phố đi bộ Hồ Gươm sát cạnh phố cổ, ba món ăn vặt được nhắc tên nhiều là bánh tráng trộn ở 86 Hàng Trống, nộm bò khô ở 57A Đinh Tiên Hoàng và kem Tràng Tiền ở 35 Tràng Tiền. Bánh tráng trộn chủ yếu bán mang đi vì ít chỗ ngồi. Nộm bò khô gồm bò khô dai, rau củ bào sợi, lạc rang giòn và nước chấm chua ngọt. Kem Tràng Tiền mát lạnh, giải nhiệt tốt cho ngày hè. Bánh tráng trộn ngon nhờ tỷ lệ trộn đều giữa bánh tráng cắt sợi, khô bò, trứng cút, rau răm và nước sốt me chua ngọt, chỉ cần trộn lệch tay là món dễ bị nhão hoặc quá khô. Nộm bò khô lại thiên về độ giòn: bò khô dai vừa phải, rau củ bào sợi mỏng đều để thấm nước chấm nhanh, lạc rang giòn rắc lên trên cuối cùng để không bị mềm ỉu. Kem Tràng Tiền theo phong cách truyền thống, vị ngọt thanh mát chứ không béo ngậy như kem hiện đại, hợp để kết thúc vòng dạo phố bằng một món giải nhiệt nhẹ nhàng.",
+    "address": "86 Hàng Trống, 57A Đinh Tiên Hoàng & 35 Tràng Tiền, Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "khoảng 10.000-50.000đ",
+    "image_urls": [],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Nộm & xiên nướng phố Hàm Long",
+    "description": "Phố Hàm Long có hai địa chỉ ăn vặt được nhắc tên: nộm tại 25 Hàm Long và xiên nướng ở đầu ngõ 18 Hàm Long. Nộm có hai loại chính là nộm thịt bò khô truyền thống và nộm thập cẩm thêm nội tạng bò, cùng vài món phụ như bánh bột lọc, cổ gà, chim quay. Xiên nướng lại là món ăn đường phố dân dã, ướp gia vị vừa vặn rồi nướng vàng thơm trên bếp than. Nộm bò khô ngon nhờ độ giòn của rau củ bào sợi kết hợp vị dai vừa phải của bò khô, nước trộn chua ngọt phải đủ thấm mà không làm rau bị nhũn khi để lâu. Có thêm nộm thập cẩm với nội tạng bò cho ai muốn đổi vị đậm hơn bản gốc. Xiên nướng lại đơn giản hơn nhiều: thịt ướp gia vị cơ bản, nướng trên than tới khi vàng bóng bề mặt, ngày cao điểm quán có thể bán tới hàng nghìn xiên vì tốc độ nướng nhanh và giá rẻ dễ mua số lượng lớn.",
+    "address": "25 Hàm Long (nộm) & đầu ngõ 18 Hàm Long (xiên nướng), Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "xiên nướng khoảng 6.000-25.000đ",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-nom-bo-kho-ham-long.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Quẩy nóng Hàng Bông",
+    "description": "Quẩy nóng Hàng Bông tại 73 Hàng Bông, Hoàn Kiếm chỉ cắt bột thả vào chảo rán khi có khách gọi nên đĩa quẩy bưng ra luôn nóng hổi. Quẩy có kết cấu nửa mềm nửa giòn, ăn kèm nước chấm chua ngọt đậm đà. Bán theo đĩa khoảng chục cái với giá 20.000 đồng, phù hợp ngồi nhâm nhi vừa ăn vừa trò chuyện cùng bạn bè. Quán mở tối muộn nên hợp làm điểm dừng chân sau bữa tối. Quẩy đạt chuẩn phải nửa mềm nửa giòn: lớp ngoài giòn do vừa ra chảo dầu nóng, còn phần trong vẫn giữ độ xốp mềm nếu không rán quá lâu. Việc chỉ cắt bột và rán khi khách gọi thay vì rán sẵn bán cả buổi là điểm khác biệt giúp quẩy ở đây giữ được độ giòn tươi hơn hẳn cách bán đại trà. Nước chấm chua ngọt đậm là phần cân lại vị béo của bột chiên, khiến món ăn tuy đơn giản nhưng vẫn đủ hấp dẫn để ngồi nhâm nhi lâu cùng bạn bè.",
+    "address": "73 Hàng Bông, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0307584,
+    "longitude": 105.8480508,
+    "opening_hours": "17h-21h30",
+    "price_range": "khoảng 20.000-25.000đ",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-quay-nong-hang-bong.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Quán Cơm Phố Cổ",
+    "description": "Quán Cơm Phố Cổ tại 16 Nguyễn Siêu, Hàng Buồm là địa chỉ ăn trưa được nhiều người tìm đến nhờ thực đơn cơm, canh đa dạng theo khẩu vị. Quán có trang bị máy lạnh nên có thể tận hưởng bữa ăn thoải mái dù trời nóng. Giá mỗi suất khoảng 30.000-110.000 đồng tuỳ món gọi thêm, phù hợp cho bữa trưa nhanh gọn giữa lịch trình dạo phố cổ. Quán khá đông vào khung 11h-13h nên cần tính thời gian chờ. Cơm bình dân kiểu này thường có nhiều món mặn và canh để khách tự chọn theo khẩu vị thay vì set cố định, đây là cách phục vụ phù hợp với nhịp ăn trưa nhanh của cả người đi làm lẫn khách du lịch. Có máy lạnh là điểm cộng đáng kể ở khu phố cổ vốn đông đúc và nóng bức, giúp bữa ăn thoải mái hơn nhiều so với ngồi quạt tay ngoài vỉa hè. Vì khách đông vào khung 11h-13h, nên tránh giờ này nếu muốn có bàn ngồi ngay khi vào.",
+    "address": "16 Nguyễn Siêu, Hàng Buồm, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0828225,
+    "longitude": 105.7784331,
+    "opening_hours": "10h-21h",
+    "price_range": "khoảng 30.000-110.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202211091625162576.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_name",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Cơm sườn Đào Duy Từ",
+    "description": "Cơm sườn Đào Duy Từ tại 47 Đào Duy Từ, Hàng Buồm phục vụ cả ngày nên có thể ghé thưởng thức bất cứ lúc nào. Mỗi phần ăn khá đầy đặn gồm cơm, sườn cốt lết hoặc sườn cây, dưa chua và một bát canh. Miếng sườn được tẩm ướp đậm đà, vừa ăn, kết hợp cùng đồ chua tạo vị cân bằng. Không gian quán thoáng mát, khá sạch sẽ, có trang bị máy lạnh. Sườn cốt lết hay sườn cây muốn ngon cần tẩm ướp đủ thời gian để gia vị ngấm vào tận trong thớ thịt trước khi nướng hoặc rán, tránh tình trạng chỉ đậm ở lớp ngoài mà nhạt bên trong. Đồ chua ăn kèm đóng vai trò cân lại vị đậm của sườn, giúp bữa cơm không bị ngấy dù ăn hết cả suất đầy đặn. Bát canh đi kèm cũng là phần quan trọng để bữa ăn có đủ nước, không bị khô miệng. Vì phục vụ cả ngày, đây là lựa chọn linh hoạt hơn hẳn các quán chỉ bán theo khung giờ cố định.",
+    "address": "47 Đào Duy Từ, Hàng Buồm, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0354652,
+    "longitude": 105.8530397,
+    "opening_hours": "10h-22h30",
+    "price_range": "khoảng 70.000-200.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202209100737213816.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_name",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi xéo Hàng Bài",
+    "description": "Xôi xéo Hàng Bài ở ngã tư Hàng Bài – Lý Thường Kiệt là địa chỉ quen thuộc với nhiều người Hà Nội đã gần 20 năm. Quán chỉ bán xôi xéo thêm ruốc, đậu xanh và một chút mỡ hành nhưng vẫn khiến người ăn thấy cuốn hút. Quán dọn hàng từ 6h30 sáng và thường hết hàng lúc khoảng 9h30, nên ai muốn ăn sáng ở đây cần đến sớm. Vị xôi dẻo quyện cùng đậu xanh bùi và mỡ hành thơm là công thức đơn giản nhưng hiệu quả. Xôi xéo ngon phụ thuộc vào độ dẻo của gạo nếp đồ đúng lửa, không quá khô cũng không nhão, đậu xanh nghiền nhuyễn phải mịn và bùi chứ không lợn cợn. Mỡ hành phi vàng thơm rưới lên trên là lớp gia vị cuối cùng quyết định mùi hương tổng thể của món xôi, thiếu lớp này xôi sẽ mất đi phần hồn. Ruốc thêm vào giúp món xôi có thêm vị mặn nhẹ và kết cấu tơi xốp xen giữa độ dẻo của xôi. Vì lượng bán ra mỗi ngày có giới hạn, khách quen thường đến trước 8h để chắc chắn còn hàng.",
+    "address": "Ngã tư Hàng Bài – Lý Thường Kiệt, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "6h30-9h30",
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-xoi-xeo.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi rán Hàng Điếu",
+    "description": "Xôi rán Hàng Điếu tại 25 Hàng Điếu, Hoàn Kiếm được ưa thích nhờ cách chế biến khác lạ: xôi xới nóng từ chõ, nén dẹt rồi chiên vàng hai mặt. Đĩa xôi giòn rụm bên ngoài mà bên trong vẫn giữ độ dẻo, ăn kèm trứng kho, giò chả, lạp xưởng. Nhiều người ăn một miếng đã muốn gọi thêm vì độ giòn xốp đặc trưng khó tìm ở nơi khác trong khu phố cổ. Kỹ thuật nén xôi thành miếng dẹt trước khi chiên là bước quyết định độ giòn: xôi phải đủ nguội và ráo để khi chiên không bị vỡ nát, đồng thời đủ nén chặt để lớp ngoài tiếp xúc đều với dầu nóng tạo độ giòn đều khắp miếng xôi. Bên trong vẫn giữ được độ dẻo của xôi đồ chõ, tạo cảm giác đối lập thú vị giữa lớp vỏ giòn và ruột mềm dẻo. Ăn kèm trứng kho, giò chả hay lạp xưởng giúp món xôi rán trở thành bữa sáng đủ chất chứ không chỉ là món ăn vặt.",
+    "address": "25 Hàng Điếu, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-xoi-ran-hang-dieu.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Xôi chè phố cổ (bà Thìn, Lê Thịnh)",
+    "description": "Xôi chè bà Thìn tại 1 Bát Đàn và Lê Thịnh – xôi chè phố cổ tại 26 Gia Ngư là hai địa chỉ quen của người thích ăn xôi chè giữa phố cổ. Chè thạch đen mát lịm, ngọt dịu, thơm mùi hoa nhài hợp giải nhiệt ngày hè. Xôi vò đậu xanh và xôi vò cốm lại thơm dẻo, hoà quyện cùng vị ngọt của chè tạo nên món tráng miệng vừa mát vừa no bụng. Chè thạch đen ngon nhờ thạch mềm mịn chứ không dai cứng, nấu đúng tỷ lệ bột thạch để khi đông vẫn giữ độ rung nhẹ khi múc ra bát. Hạt sen ninh nhừ nhưng không nát vụn, dừa nạo thêm lớp bùi béo cân lại vị ngọt thanh của nước đường hoa nhài. Xôi vò cốm là món theo mùa, hạt cốm non giữ được màu xanh và mùi thơm đặc trưng khi trộn cùng xôi nếp, đây là sự kết hợp thể hiện rõ tính mùa vụ của ẩm thực phố cổ chứ không phải món quanh năm.",
+    "address": "1 Bát Đàn (bà Thìn) & 26 Gia Ngư (Lê Thịnh), Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Cháo sườn Huyền Anh",
+    "description": "Cháo sườn Huyền Anh tại 14 Đồng Xuân, Hoàn Kiếm là quán cháo ăn đêm quen thuộc với người Hà Nội, nằm ngay trong khu chợ Đồng Xuân. Cháo được xay sánh mịn, kết hợp vị ngọt từ sườn, ăn kèm quẩy rán và thêm gia vị vừa miệng. Quán bán từ 11h trưa tới tận 3h sáng, khá đông khách vào khoảng 20h, hợp cho những ai đi chơi khuya muốn ăn nhẹ ấm bụng trước khi về. Cháo sườn ngon cần xay đủ mịn để không còn lợn cợn hạt gạo, nhưng vẫn giữ được độ sánh vừa phải chứ không loãng như cháo trắng thông thường. Sườn ninh mềm tới mức có thể tách khỏi xương dễ dàng, vị ngọt từ tuỷ xương hoà vào cháo tạo nền vị đậm mà không cần nêm nhiều gia vị. Quẩy rán giòn ăn kèm là phần không thể thiếu, chấm cùng cháo nóng tạo lớp kết cấu giòn xen giữa vị mềm mịn. Vì mở tới tận 3h sáng, đây là lựa chọn quen thuộc của người đi chơi đêm muốn lót dạ trước khi về.",
+    "address": "14 Đồng Xuân, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0379442,
+    "longitude": 105.8489287,
+    "opening_hours": "11h-3h",
+    "price_range": "khoảng 20.000-50.000đ",
+    "image_urls": [
+      "https://static.vinwonders.com/production/mon-ngon-ho-guom-06.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Quà vặt chợ Đồng Xuân",
+    "description": "Trong chợ Đồng Xuân có ba món quà vặt hay được nhắc tên: bánh tôm vàng ruộm giá 25.000 đồng một chiếc, bánh bột lọc chị Hồng với lớp vỏ trong dai nhân tôm thịt giá chỉ 4.000 đồng, và bánh rán mặn từ một hàng rong nhưng luôn thu hút đông khách. Ba món này tiện ghé ăn liền một mạch khi dạo quanh khu chợ. Mỗi món chỉ cần vài phút là có ngay, hợp cho ai muốn nếm thử nhiều thứ trong thời gian ngắn. Bánh tôm ngon nhờ lớp bột chiên giòn vàng đều mà không ngấm quá nhiều dầu, tôm bên trong vẫn giữ độ ngọt tươi nếu chiên đúng lửa. Bánh bột lọc chị Hồng có lớp vỏ làm từ bột năng nên trong và dai, khác hẳn độ mềm của bột gạo, nhân tôm thịt gói bên trong phải đủ đậm để không bị nhạt khi ăn cùng lớp vỏ ít vị. Bánh rán mặn tuy chỉ bán hàng rong nhưng vẫn giữ được độ giòn ngoài mềm trong đặc trưng. Ba món này hợp đi ăn thử lần lượt khi dạo một vòng chợ Đồng Xuân.",
+    "address": "Trong chợ Đồng Xuân, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "khoảng 4.000-25.000đ/món",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202209100737341329.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh mì 38 Đinh Liệt",
+    "description": "Bánh mì 38 Đinh Liệt, Hoàn Kiếm là địa chỉ được nhiều hội nhóm review nhắc tên khi hỏi ăn gì ở phố cổ. Quán có không gian nhỏ nhưng sạch sẽ, nhân viên phục vụ nhiệt tình và vui vẻ với khách. Ngoài bánh mì, quán còn có bánh bao, sữa đậu nành cho ai muốn đổi món buổi sáng. Quán chỉ bán tới giữa trưa nên cần ghé sớm. Giá mỗi phần khoảng 25.000-50.000 đồng, khá hợp lý cho một bữa sáng gọn nhẹ. Một chiếc bánh mì ngon cần lớp vỏ giòn tan khi cắn nhưng ruột bên trong vẫn mềm, không bị khô cứng nếu để nguội lâu – đây là lý do các hàng bánh mì lâu năm thường nướng theo từng mẻ nhỏ liên tục thay vì để sẵn quá lâu. Có thêm lựa chọn bánh bao và sữa đậu nành giúp quán phục vụ được nhiều kiểu bữa sáng khác nhau trong cùng một điểm dừng chân. Vì chỉ bán tới giữa trưa, đây là địa chỉ hợp cho khách dậy sớm dạo phố cổ hơn là ghé vào buổi chiều.",
+    "address": "38 Đinh Liệt, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0338846,
+    "longitude": 105.8520386,
+    "opening_hours": "7h30-12h",
+    "price_range": "khoảng 25.000-50.000đ",
+    "image_urls": [
+      "https://static.vinwonders.com/production/mon-ngon-ho-guom-10.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Bánh mì pate phố cổ",
+    "description": "Khu phố cổ có nhiều quán bánh mì truyền thống, trong đó bốn địa chỉ hay được nhắc tên là bánh mì Lãn Ông ở 20 Chả Cá, bánh mì cô Hiền ở 76 Hàng Giầy, bánh mì 25 ở 25 Hàng Cá và bánh mì Bà Dần ở 34 Lò Sũ. Mỗi chiếc bánh đều đầy ắp bơ, pate, thịt lợn, xúc xích đỏ, ruốc, dưa leo và đồ chua theo phong cách xưa. Vị pate gan thơm béo, xen chút cay nhẹ của tiêu và hành khô là điểm chung khiến các hàng này được nhớ tên. Pate gan là phần quyết định vị của bánh mì kiểu xưa: pate phải mịn, béo nhưng không ngấy, thường được ủ cùng chút tiêu để dậy mùi cay nhẹ mà không gắt. Bơ phết mỏng đều giúp bánh không bị khô mà cũng không quá ngậy dầu mỡ, cân bằng cùng vị mặn của ruốc và giòn tươi của dưa leo, đồ chua. Bốn địa chỉ tuy khác nhau về vị trí nhưng đều giữ công thức nhân đầy đặn kiểu cũ, hợp cho ai đang dạo phố cổ theo từng cung đường và tiện ghé quán gần đó trên lộ trình.",
+    "address": "20 Chả Cá, 76 Hàng Giầy, 25 Hàng Cá & 34 Lò Sũ, Hoàn Kiếm",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://commoclam.vn/wp-content/uploads/2024/09/banh-mi-pate-300x199.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Nộm Long Vi Dung",
+    "description": "Quán Nộm Long Vi Dung tại 23 phố Hồ Hoàn Kiếm, Hàng Bạc tuy chỉ là quán vỉa hè nhưng là địa chỉ ăn vặt được nhiều người Hà Nội yêu thích. Nộm bò khô ở đây có vị chua ngọt cân bằng, ăn kèm rau củ bào sợi và lạc rang giòn. Quán sạch sẽ, thoáng mát, phục vụ vui vẻ, nhiệt tình. Giá mỗi phần khoảng 15.000-40.000 đồng, khá rẻ cho món ăn vặt quen thuộc này. Nộm bò khô là món quen thuộc nhưng làm ngon lại phụ thuộc vào việc cân đúng tỷ lệ chua, cay, mặn, ngọt trong nước trộn – chỉ cần lệch một chút là mất cân bằng vị. Rau củ bào sợi mỏng đều để thấm gia vị nhanh, còn lạc rang phải rắc ngay trước khi ăn để giữ độ giòn, không bị mềm do ngấm nước trộn quá lâu. Vì nằm ngay cạnh hồ Hoàn Kiếm, đây là điểm dừng chân tiện lợi để vừa ăn vặt vừa ngắm cảnh hồ vào buổi chiều tối.",
+    "address": "23 Hồ Hoàn Kiếm, Hàng Bạc, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "8h-22h30",
+    "price_range": "khoảng 15.000-40.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202211091635196801.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Chè Bốn Mùa Hàng Cân",
+    "description": "Chè Bốn Mùa tại số 4 Hàng Cân, Hoàn Kiếm đã có thâm niên gần 50 năm, đúng như tên gọi thực đơn thay đổi theo bốn mùa trong năm. Mỗi mùa có loại chè riêng như chè khúc bạch, chè đỗ đen, chè hạt sen, sữa chua mít, nấu không quá ngọt nên ăn mãi không ngán. Giá mỗi món chỉ từ 15.000-30.000 đồng, cô chủ quán niềm nở nên luôn đông khách ra vào. Thực đơn đổi theo mùa là cách quán giữ được sự tươi mới suốt gần 50 năm hoạt động: mùa hè thiên về các loại chè mát như đỗ đen, sữa chua mít, còn mùa lạnh lại có thêm chè nóng ấm bụng hơn. Nấu chè không quá ngọt là điểm được nhiều khách quen nhắc tới, vì vị thanh nhẹ giúp ăn được nhiều loại trong một lần ghé mà không bị ngấy đường. Với mức giá chỉ từ 15.000 đồng, đây là món tráng miệng dễ ghé qua bất cứ lúc nào trong ngày dạo phố cổ.",
+    "address": "Số 4 Hàng Cân, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": 21.0346532,
+    "longitude": 105.8496653,
+    "opening_hours": "9h-22h",
+    "price_range": "khoảng 15.000-40.000đ",
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-che-bon-mua-hang-can.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Hoa quả dầm Tô Tịch",
+    "description": "Hoa quả dầm phố Tô Tịch, Hàng Gai là địa chỉ được nhắc tên đầu tiên khi nói tới món trái cây dầm ở Hà Nội. Trái cây ở đây luôn tươi, được lựa chọn kỹ càng, đã làm nên tên tuổi của cả con phố. Một ly hoa quả dầm thường có mít, thanh long, xoài, táo, thêm sữa chua trắng đầy ú ụ, hợp giải khát giữa buổi trưa nắng khi dạo phố cổ. Một ly hoa quả dầm ngon phụ thuộc vào độ tươi của từng loại trái cây được chọn, vì trái cây để lâu sẽ mất độ giòn ngọt tự nhiên và làm nước dầm bị nhạt. Sữa chua trắng thêm vào tạo vị chua nhẹ cân lại độ ngọt của trái cây và đá bào, còn đá lạnh giúp món ăn mát lịm ngay từ ngụm đầu tiên. Vì cả con phố có nhiều hàng cùng bán, khách có thể ghé thử vài nơi để tìm ra công thức trộn hợp khẩu vị của mình.",
+    "address": "Phố Tô Tịch, Hàng Gai, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/mon-ngon-pho-co-hoa-qua-dam-to-tich.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Phố ẩm thực Tống Duy Tân",
+    "description": "Phố ẩm thực Tống Duy Tân và khu vực Trần Phú lân cận tập hợp nhiều món ăn tối được nhắc tên: bánh cuốn Kỳ Đồng ở 11 Tống Duy Tân, cháo 37 ở 1 Tống Duy Tân, ốc bà câm ở 5 Tống Duy Tân, lẩu Phố ở 5B Tống Duy Tân và phở bò đường tàu ở 3 Trần Phú. Cả con phố sáng đèn buổi tối, tiện đi bộ ăn nhiều món liền một mạch. Bánh cuốn Kỳ Đồng có nhân thịt bên trong lớp bánh tráng mỏng hấp chín, ăn cùng ruốc tôm và hành phi giòn thơm rắc bên trên. Cháo 37 nấu dẻo thơm cùng tim, gan, trứng gà tạo bát cháo nóng hổi hợp ăn tối muộn. Ốc bà câm phục vụ đủ loại ốc to nhỏ chế biến nhiều cách, còn lẩu Phố lại hợp không khí gần gũi ấm cúng khi trời se lạnh. Phở bò đường tàu phục vụ đủ tái, chín, sốt vang cho ai muốn kết thúc buổi tối bằng bát phở nóng trước khi về.",
+    "address": "Khu phố Tống Duy Tân & 3 Trần Phú, Hoàn Kiếm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": "lẩu khoảng 50.000-110.000đ, ốc khoảng 15.000-50.000đ",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/10/1466499/top-30-quan-an-ngon-quan-hoan-kiem-noi-tieng-dong-khach-202209100739411823.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://nhahangvian.com/bai-viet/an-gi-o-pho-co-ha-noi/"
+  },
+  {
+    "name": "Vua bún mọc",
+    "description": "Quán bún mọc nổi tiếng tại quận Thanh Xuân với không gian sạch sẽ, rộng rãi, phục vụ những tô bún mọc chất lượng, đầy ú ụ cho buổi sáng. Quán mở cửa từ 06h00 đến 14h00, thực đơn có bún mọc và bún thập cẩm.",
+    "address": "51-53-55 P. Giáp Nhất, Thượng Đình, Thanh Xuân, Hà Nội",
+    "review": "Không gian sạch sẽ, đồ ăn ngon; Phục vụ chưa nhiệt tình",
+    "latitude": 21.0027912,
+    "longitude": 105.8170932,
+    "opening_hours": "06h00 - 14h00 các ngày trong tuần",
+    "price_range": "Khoảng 30.000 - 50.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060926450241.jpg"
+    ],
+    "category_id": "cat-restaurant",
     "verified_in_source": true,
     "coord_source": "maps_link",
-    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/tham-khao-10-quan-bar-nhe-nhang-yen-tinh-tai-ha-noi-1542790"
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Bún riêu cá Trường Sa",
+    "description": "Quán ăn sáng với món bún riêu cá nổi tiếng trên đường Nguyễn Viết Xuân, giá cả bình dân, có măng ăn kèm và trà đá miễn phí. Tô bún nhiều thức ăn đảm bảo no căng bụng.",
+    "address": "61 Nguyễn Viết Xuân, Khương Mai, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn chất lượng, giá cả bình dân; Giờ cao điểm rất đông",
+    "latitude": 20.9984581,
+    "longitude": 105.826727,
+    "opening_hours": "06h00 - 21h00 các ngày trong tuần",
+    "price_range": "Khoảng 20.000 - 50.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060928376876.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Bánh mì chảo Phú Ông",
+    "description": "Quán ăn nhỏ, sạch sẽ và chỉnh chu chuyên phục vụ bánh mì chảo trứ danh cùng các món bít tết, mì Ý, sốt vang nóng hổi, hấp dẫn.",
+    "address": "Số 47 Nguyễn Quý Đức, Thanh Xuân Bắc, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn chất lượng, phục vụ nhiệt tình; Không gian quán nhỏ",
+    "latitude": 20.9929897,
+    "longitude": 105.7972608,
+    "opening_hours": "08h00 - 22h00 các ngày trong tuần",
+    "price_range": "Khoảng 50.000 - 80.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060930352069.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Chợ tình Sapa",
+    "description": "Nhà hàng mang không gian và ẩm thực Tây Bắc độc đáo ngay tại thủ đô với các món truyền thống như cá hồi Sapa, cá lăng sông Đà, rau rừng, lòng mề gà, xôi.",
+    "address": "1 P. Quan Nhân, Nhân Chính, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn chất lượng, không gian đẹp; Phục vụ chưa nhiệt tình",
+    "latitude": 21.008492,
+    "longitude": 105.8133494,
+    "opening_hours": "09h00 - 23h00 các ngày trong tuần",
+    "price_range": "Khoảng 180.000 - 220.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060932265543.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Chef Dzung Buffet Nguyễn Tuân",
+    "description": "Nhà hàng nướng lẩu buffet rộng rãi, thoáng mát, chuyên phục vụ đồ nướng hải sản, thịt và lẩu với chất lượng đồ ăn tốt, liên tục refill.",
+    "address": "47 Đ. Nguyễn Tuân, Thanh Xuân Trung, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn chất lượng, phục vụ nhiệt tình; Giá hơi cao",
+    "latitude": 20.9948839,
+    "longitude": 105.8048486,
+    "opening_hours": "08h00 - 22h30 các ngày trong tuần",
+    "price_range": "Khoảng 30.000 - 300.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060933254652.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Dolpan sam",
+    "description": "Nhà hàng ẩm thực Hàn Quốc nổi tiếng với phong cách nướng bàn đá độc đáo cùng các món như cơm bò xào, lườn cá hồi, bò xào kim chi, bạch tuộc xào.",
+    "address": "Tầng 4, Tòa Nhà Artemis, 3 Lê Trọng Tấn, P. Khương Mai, Quận Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn ngon, phục vụ nhiệt tình; Địa điểm khuất",
+    "latitude": 20.9999664,
+    "longitude": 105.8282735,
+    "opening_hours": "09h00 - 22h00 các ngày trong tuần",
+    "price_range": "Khoảng 100.000 - 400.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060935351626.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Lẩu Phan Thượng Đình",
+    "description": "Nhà hàng buffet bò nổi tiếng với các món lẩu bò cùng nhiều đồ ăn kèm như ba chỉ bò, chả bò, đậu hũ, bánh bao, hoành thánh với mức giá hợp lý.",
+    "address": "278 Thượng Đình, Thanh Xuân, Hà Nội",
+    "review": "Giá cả hợp lý, phục vụ nhiệt tình; Đồ ăn ít",
+    "latitude": 20.9956521,
+    "longitude": 105.8146906,
+    "opening_hours": "10h00 - 23h00 các ngày trong tuần",
+    "price_range": "Khoảng 100.000 - 150.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060936144780.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Hải Sản Biển Đông",
+    "description": "Nhà hàng hải sản nằm trong trung tâm thương mại Royal City, cung cấp đa dạng các loại hải sản tươi ngon được chế biến theo yêu cầu của khách hàng.",
+    "address": "Tầng B2, R6, Royal City, 72A Nguyễn Trãi, Quận Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn tươi ngon, phục vụ tốt; Giá hơi cao",
+    "latitude": 21.0015885,
+    "longitude": 105.8167779,
+    "opening_hours": "08h00 - 22h00 các ngày trong tuần",
+    "price_range": "Khoảng 250.000 - 400.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060937054353.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Sườn Mười - Sườn nướng BBQ",
+    "description": "Chuỗi nhà hàng sườn nướng BBQ nổi tiếng với không gian sạch sẽ, ứng dụng công nghệ hiện đại vào dịch vụ order và chăm sóc khách hàng. Thực đơn có sườn nướng BBQ, gà bỏ lò, khoai chiên, cơm sườn nướng.",
+    "address": "264 P. Hoàng Văn Thái, Khương Trung, Thanh Xuân, Hà Nội",
+    "review": "Quán sạch sẽ, phục vụ nhiệt tình; Ra món lâu, giá hơi cao",
+    "latitude": 20.9980968,
+    "longitude": 105.821632,
+    "opening_hours": "10h00 - 22h00 các ngày trong tuần",
+    "price_range": "Khoảng 80.000 - 300.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060937378618.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Nhất Cháo quán",
+    "description": "Quán ăn đêm mở bán đến khá khuya với thực đơn cháo đa dạng như cháo sườn, cháo bò, cháo bào ngư, cháo cá, cháo chim bồ câu, đảm bảo nóng hổi và chế biến sạch sẽ.",
+    "address": "Ngõ 1 P. Hoàng Đạo Thúy, Nhân Chính, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn đa dạng, sạch sẽ; Phục vụ chưa nhiệt tình",
+    "latitude": 21.0064671,
+    "longitude": 105.8048087,
+    "opening_hours": "08h00 - 23h00 các ngày trong tuần",
+    "price_range": "Khoảng 50.000 - 80.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060938148491.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Bánh xèo Tư Đông",
+    "description": "Quán ăn chuyên các món đặc trưng Trung bộ được chế biến công phu như bánh xèo, bánh bột lọc, nem lụi, bánh tráng.",
+    "address": "29 P. Vũ Tông Phan, Khương Trung, Thanh Xuân, Hà Nội",
+    "review": "Giá cả hợp lý, phục vụ nhiệt tình; Đồ ăn nguội, không quá đặc biệt",
+    "latitude": 20.9991228,
+    "longitude": 105.8182542,
+    "opening_hours": "10h00 - 23h00 các ngày trong tuần",
+    "price_range": "Khoảng 20.000 - 70.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060939040498.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Nhà hàng Hà Vân",
+    "description": "Nhà hàng đồng quê phục vụ các món dân dã, mở bán đến rất khuya phù hợp cho họp mặt, ăn nhậu hoặc ăn đêm với thực đơn gồm gà đồi, lẩu ếch, lẩu riêu cua, vịt om măng, thịt heo nướng.",
+    "address": "E9, Thanh Xuân Bắc, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn tươi ngon, phục vụ nhiệt tình; Giá hơi đắt",
+    "latitude": 20.9894264,
+    "longitude": 105.798427,
+    "opening_hours": "Mở cửa cả ngày các ngày trong tuần",
+    "price_range": "Khoảng 50.000 - 500.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060939505054.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Chè ngon Vy Vy",
+    "description": "Quán chè nhỏ nằm trong ngõ với thực đơn đa dạng các loại chè ngon như chè khúc bạch, chè khoai dẻo, dừa caramen, dừa khúc bạch, chè xoài.",
+    "address": "49 Ng. 69A Hoàng Văn Thái, Khương Mai, Thanh Xuân, Hà Nội",
+    "review": "Thực đơn đa dạng, chè ngon; Nghỉ bán sớm",
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "08h30 - 20h00 các ngày trong tuần",
+    "price_range": "Khoảng 15.000 - 40.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060940497839.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Ăn Vặt Quán 99 món",
+    "description": "Quán ăn vặt với đa dạng các món ăn phong phú, giá cả bình dân như gà viên, cá viên, chân gà, nộm.",
+    "address": "Ng. 13 Đ. Khuất Duy Tiến, Thanh Xuân Bắc, Thanh Xuân, Hà Nội",
+    "review": "Đồ ăn phong phú, giá cả phải chăng; Chưa được sạch sẽ",
+    "latitude": 20.9948921,
+    "longitude": 105.7981336,
+    "opening_hours": "08h00 - 22h30 các ngày trong tuần",
+    "price_range": "Khoảng 5.000 - 20.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060941474846.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Chè mít quán",
+    "description": "Quán chè truyền thống nổi tiếng với món chè mít ngon cùng nhiều loại chè khác như chè sầu với giá cả phải chăng.",
+    "address": "27A, Đường Chính Kinh, Quận Thanh Xuân, Thanh Xuân Trung, Thanh Xuân, Hà Nội",
+    "review": "Nhiều món chè, phục vụ nhiệt tình; Chè hơi ngọt",
+    "latitude": 20.997311,
+    "longitude": 105.8110064,
+    "opening_hours": "09h00 - 23h00 các ngày trong tuần",
+    "price_range": "Khoảng 15.000 - 30.000 đồng",
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060942336552.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "maps_link",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Meat Plus",
+    "description": "Nhà hàng chuyên các món bò kiểu Hàn Quốc nằm trong trung tâm thương mại với thực đơn đa dạng.",
+    "address": null,
+    "review": null,
+    "latitude": 21.0016822,
+    "longitude": 105.8167784,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060944085442.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_name",
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Bami Bread",
+    "description": "Quán bán bánh mì trứ danh của Hội An với giá cả hợp lý, bánh mì thơm ngon, sạch sẽ và chế biến cẩn thận.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Ẩm Thực Hàn Quốc JJang",
+    "description": "Nhà hàng phục vụ các món ăn từ xứ sở kim chi được chế biến theo phong cách bắt miệng, hấp dẫn và giá cả phải chăng.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060945009315.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Lươn O Quế",
+    "description": "Quán ăn chuyên các món lươn - đặc sản Nghệ An có tiếng tại Hà Nội.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060945160951.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Bún ốc bà Giao",
+    "description": "Nhà hàng chuyên bún ốc với không gian khá rộng rãi, giá bình dân, tập trung chế biến sạch sẽ và chỉnh chu.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060947314697.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Nhà hàng Thế Giới Nồi Hơi",
+    "description": "Nhà hàng phục vụ món lẩu nồi hơi vô cùng độc đáo, chất lượng và thơm ngon.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060947509765.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Nhà hàng Box BBQ",
+    "description": "Nhà hàng ẩm thực Hàn Quốc do đầu bếp người Hàn Quốc có kinh nghiệm hơn 15 năm trực tiếp chế biến, từ đồ nướng đến các món mặn đều phù hợp với khẩu vị người Việt.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060948032206.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "HaoChi Dimsum TaiPei",
+    "description": "Nhà hàng Dimsum và ẩm thực Đài Loan với không gian ấm cúng, rộng rãi, nhân viên phục vụ nhiệt tình và các món ăn độc đáo.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060948188166.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Nhà hàng Ngói Xanh",
+    "description": "Nhà hàng nhậu và bia hơi phục vụ họp mặt đông người với nhiều món thịt thú rừng và hải sản đa dạng, giá cả phải chăng.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060948349350.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Buffet Poseidon",
+    "description": "Nhà hàng buffet phục vụ đủ các món từ ẩm thực Á đến Âu, thiết kế sang trọng, quầy đồ ăn đầy ắp được refill liên tục.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060948450643.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "GoGi Steak House Lê Văn Lương",
+    "description": "Chuỗi nhà hàng chuyên phục vụ các món steak cao cấp làm từ thịt bò hảo hạng cùng nhiều món ăn độc đáo khác.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060949031883.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Mr Lòng - Lòng sạch cho người Sành",
+    "description": "Chuỗi nhà hàng chuyên các món lòng, nổi tiếng với món cháo lòng trứ danh có hương vị hấp dẫn, đầy đủ lòng, gan, tim.",
+    "address": null,
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": null,
+    "price_range": null,
+    "image_urls": [
+      "https://cdn.tgdd.vn/Files/2022/09/06/1465574/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-202209060949173276.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/diem-danh-27-quan-an-ngon-quan-thanh-xuan-duoc-nhieu-nguoi-yeu-thich-1465574"
+  },
+  {
+    "name": "Box BBQ",
+    "description": "Box BBQ là một địa điểm nổi bật dành cho các tín đồ đam mê ẩm thực Hàn Quốc tại quận Thanh Xuân, Hà Nội. Sức hút của quán đến từ cách ướp gia vị đậm đà, miếng thịt nướng cay cay cùng rau sống và kim chi, mang đến một bữa tiệc BBQ Hàn Quốc đúng nghĩa. Quán có không gian thoáng mát, thiết kế theo dạng ngồi bệt với phong cách đơn giản, thanh lịch, sử dụng gam màu trắng làm chủ đạo tạo cảm giác sáng sủa và hiện đại. Thực đơn phong phú với các món như ba chỉ bò Mỹ cao cấp, sườn heo, canh đậu tương, canh kim chi, mì cay, nạc vai heo, gầu bò, lõi vai bò Mỹ, nấm nướng và trứng hấp nồi đá, được chuẩn bị bởi những đầu bếp có hơn 15 năm kinh nghiệm.",
+    "address": "Cơ sở 1: 14N7B Nguyễn Thị Thập, Trung Hòa, Nhân Chính, quận Thanh Xuân, Hà Nội. Cơ sở 2: 37 Đỗ Quang, Trung Hòa, quận Thanh Xuân, Hà Nội. Cơ sở 3: 195 Hoàng Công Chất (phía sau R1 GoldMark City), Cầu Diễn, Từ Liêm, Hà Nội",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "17:00 - 21:00",
+    "price_range": "200.000vnđ - 250.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-6.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-7.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Dolpan Sam Lê Trọng Tấn",
+    "description": "Dolpan Sam ghi điểm với thực khách bằng hương vị món ăn tươi ngon và phong cách nấu ăn độc đáo, kết hợp giữa các món lẩu nướng kiểu Hàn và trải nghiệm nướng đá độc lạ giúp giữ trọn hương vị tuyệt hảo. Kiến trúc và cách trang trí tại quán được mô phỏng theo phong cách quán ăn Hàn Quốc chuẩn mực từ bàn bếp nướng, thìa, đũa cho đến ghế ngồi, kết hợp cùng gam màu nâu ấm mang lại cảm giác yên bình, thư giãn. Menu đa dạng các món đặc sắc như ba chỉ bò, năm chỉ heo, nạc vai heo, trứng hấp, canh rong biển, gầu bò nướng, xúc xích, tokbokki và cá hồi theo hình thức buffet.",
+    "address": "tầng 4, tòa nhà Artemis, 3 Lê Trọng Tấn, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "10:00 - 22:00",
+    "price_range": "100.000vnđ - 400.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ăn-ngon-Thanh-Xuân.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-3.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Lẩu nướng Wang Wang Thượng Đình",
+    "description": "Lẩu nướng Wang Wang Thượng Đình là quán ăn được đánh giá cao về chất lượng nhờ sử dụng các nguyên liệu tươi ngon, được tuyển chọn kỹ càng để mang lại hương vị tinh túy của món ăn. Quán có phong cách trang trí đặc sắc, màu sắc tươi sáng, hiện đại kết hợp bàn ghế gỗ đơn giản, thanh lịch và có sức chứa lớn phù hợp cho các sự kiện, tụ họp, liên hoan. Thực đơn đa dạng từ gà chiên, ba chỉ bò, bạch tuộc, tôm sú, mực trứng, xúc xích, sụn heo, nạc vai bò Mỹ cho đến các vị nước lẩu hấp dẫn như lẩu Thái chua cay và lẩu nấm.",
+    "address": "6 Thượng Đình, phường Thượng Đình, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "11:00 - 13:30, 17:30 - 21:30",
+    "price_range": "150.000vnđ - 200.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-4.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-5.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Thai BBQ Royal City",
+    "description": "Thai BBQ Royal City mang đến trải nghiệm ẩm thực Thái Lan chú trọng sự hài hòa giữa các nguyên liệu và tiêu chí tươi ngon hàng đầu. Không gian quán hiện đại, trang nhã, thoáng mát với điểm nhấn độc đáo là sự kết hợp hài hòa giữa màu vàng và đen, cùng hệ thống phòng riêng tạo cảm giác thoải mái, ấm cúng. Quán kết hợp các món Thái quen thuộc như Tomyum, Pad Thái, gỏi đu đủ, lẩu chua cay Thái cùng các món mang phong cách Nhật như cá hồi sashimi, cá thu nướng, lẩu nấm và các món nướng kèm hải sản, thịt bò Mỹ, sườn heo nhúng sốt.",
+    "address": "B2-R6 Royal city, 72 Nguyễn Trãi, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "10:00 - 22:00",
+    "price_range": "200.000vnđ - 350.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-8.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-9.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Dedi Deli BBQ",
+    "description": "Dedi Deli BBQ là nhà hàng kết hợp buffet lẩu nướng từ nhiều quốc gia trên thế giới như Hàn, Trung, Nhật, mang lại sự lựa chọn đúng đắn cho các bữa tiệc ấm áp bên gia đình và người thân với đội ngũ nhân viên chu đáo, nhiệt tình. Quán sở hữu không gian mở độc đáo trang trí bằng chùm đèn, cột tre nứa, bàn ghế gỗ nâu thanh lịch cùng các quầy thức ăn tự phục vụ dễ dàng di chuyển. Thực đơn các món nướng rất đa dạng gồm ba chỉ bò Mỹ, sườn heo, thịt xiên hoa quả, chả cá, ếch tươi, cá Ba Sa, tôm sú, mực đại dương, hàu nướng cùng nhiều món ăn kèm như salad, mì Ý, cơm rang, súp gà hầm, pizza, khoai tây chiên và tráng miệng.",
+    "address": "tầng hầm 2, B2 R6 30C, Royal City, 72A Nguyễn Trãi, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "09:00 - 22:00",
+    "price_range": "250.000vnđ - 350.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-10.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-11.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Cơm Ngũ Vị Khương Trung",
+    "description": "Cơm Ngũ Vị Khương Trung mang lại sự độc đáo với món ăn gồm năm hương vị khác nhau kích thích vị giác, hướng đến việc đem lại bữa cơm gia đình đúng nghĩa cho những người bận rộn. Không gian quán được thiết kế với tường gạch trắng, bàn ghế ngồi màu trắng cùng các bức tranh trang trí tạo cảm giác thoáng mát, dịu dàng, thanh lịch và yên bình. Thực đơn gồm các món ăn truyền thống pha chút biến tấu quen thuộc trong bữa cơm gia đình Việt như cơm gà ngũ vị, cơm xá xíu, cơm bò kho, cơm cá thu, cơm bò lúc lắc, kho quẹt kèm rau xào.",
+    "address": "37 Khương Trung Mới, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "08:00 - 22:00",
+    "price_range": "40.000vnđ - 60.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-12.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-13.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Cơm niêu Singapore Kombo Lê Văn Thiêm",
+    "description": "Kombo Lê Văn Thiêm chuyên phục vụ món cơm niêu Singapore mang ba tiêu chuẩn ngon - bổ - tiện lợi, giữ được trọn vẹn hương vị đậm đà nhờ niêu cơm đặc trưng. Quán có diện tích nhỏ nhắn, cửa kính trong suốt hướng ra đường phố cùng phong cách thiết kế độc lạ, cá tính, mang lại sự trẻ trung năng động qua sắc đỏ của tường và ghế kết hợp bàn ăn màu vàng nhạt ấm cúng, ngoài ra còn có khu vực ngồi sofa. Các món cơm niêu nổi bật gồm bò nướng, gà nướng sốt Teriyaki, bò sốt tiêu đen, thịt sốt BBQ, gà sốt nấm, sườn nướng ăn kèm canh chua thịt băm, đậu chiên giòn, ngô chiên và đậu sốt Tứ Xuyên.",
+    "address": "60 Lê Văn Thiêm, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": 21.0008768,
+    "longitude": 105.8038143,
+    "opening_hours": "09:00 - 21:00",
+    "price_range": "70.000vnđ - 100.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-14.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-15.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Quán Cơm Hạt Dẻ - Cơm Gà Online",
+    "description": "Quán Cơm Hạt Dẻ là địa chỉ quán ăn online chuyên phục vụ các món ăn nóng hổi, kết hợp phong cách ẩm thực Hàn Việt với chất lượng vệ sinh an toàn thực phẩm được đặt lên hàng đầu. Menu quán đa dạng với các loại gà rán truyền thống, đùi tỏi gà rán, cánh gà rán, salad gà sốt me, salad cá ngừ, gần 10 món cơm khác nhau như đùi góc tư sốt tiêu, sườn sốt ngọt, gà rán sốt phô mai cay, cơm trộn Hàn Quốc cùng các món gimbap, tokbokki, mì tương đen và đồ ăn vặt.",
+    "address": "10 ngõ 68 Triều Khúc, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "09:00 - 22:00",
+    "price_range": "60.000vnđ - 80.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-16.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-17.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },
+  {
+    "name": "Bún cá Thanh Loan",
+    "description": "Bún cá Thanh Loan là quán ăn mang hương vị truyền thống được lưu truyền qua nhiều thế hệ với nước dùng thanh mát, chả cá giòn ngọt, bún dai và vị tương cay trộn lẫn tinh tế. Quán có cả không gian trong nhà và ngoài trời được thiết kế đơn giản bằng tông màu trắng và bàn ghế gỗ tạo cảm giác thanh lịch, cùng đội ngũ nhân viên nhiệt tình, chuyên nghiệp. Thực đơn ngoài bún cá nổi tiếng còn phục vụ bún bò, bún ốc bò, bún ốc đậu, miến trộn, bánh đa trộn, bún chả cá và bún cá đậu giò.",
+    "address": "94 Nguyễn Tuân, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": null,
+    "longitude": null,
+    "opening_hours": "07:00 - 22:00",
+    "price_range": "40.000vnđ - 60.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-18.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-19.jpg"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": null,
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
+  },{
+    "name": "Hào Béo",
+    "description": "Hào Béo là quán ăn chuyên bún đậu mắm tôm và bún cá được thiết kế theo phong cách dân dã, mang đậm chất thôn quê và sử dụng các chất liệu xưa cũ tạo sự ấm cúng. Quán có thực đơn gồm bún đậu mắm tôm đầy đủ với đậu rán giòn rụm, dồi nướng dai, thịt heo mỡ màng kết hợp mắm tôm nồng vị, cùng các món bún cá, bún cá trộn, miến cá trộn và bánh đa cá trộn mang hương vị độc đáo, dậy mùi thơm.",
+    "address": "133 Triều Khúc, quận Thanh Xuân, Hà Nội.",
+    "review": null,
+    "latitude": 20.9825824,
+    "longitude": 105.7939238,
+    "opening_hours": "8:00 - 23:00",
+    "price_range": "30.000vnđ - 60.000vnđ",
+    "image_urls": [
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-22.jpg",
+      "https://digiticket.vn/blog/wp-content/uploads/2021/08/quán-ngon-Thanh-Xuân-23.jpg",
+      "https://digiticket.vn/images/common/master-card.png",
+      "https://digiticket.vn/images/common/visa.png",
+      "https://digiticket.vn/images/common/momo.png",
+      "https://digiticket.vn/images/common/napas.png",
+      "https://digiticket.vn/images/common/jcb.png",
+      "https://digiticket.vn/images/common/certificate.png"
+    ],
+    "category_id": "cat-restaurant",
+    "verified_in_source": true,
+    "coord_source": "geocode_address",
+    "source_url": "https://digiticket.vn/blog/quan-ngon-thanh-xuan/"
   }
 ]

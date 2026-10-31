@@ -153,6 +153,8 @@ python -m core.pipeline search "quán cà phê yên tĩnh gần Hồ Tây" --top
 
 `retrieval/query.py` tách giá/quận và phân tích danh mục, tag, landmark. `retrieval/search.py` tạo embedding truy vấn, tìm dense/hybrid trên Qdrant, áp dụng bộ lọc và xếp hạng kết quả.
 
+Kết quả hybrid được rerank bằng cosine similarity giữa embedding truy vấn và dense vector đã lưu của từng địa điểm, dùng lại model embedding hiện tại. Chỉ kết quả đạt `MIN_RELEVANCE_SCORE` mới được trả về; mặc định `0.45` là ngưỡng thử nghiệm, chưa được hiệu chuẩn trên dữ liệu thực tế. Có thể đặt ngưỡng trong `.env`. Điểm trả về là cosine similarity (không phải xác suất đúng).
+
 Chạy API:
 
 ```bash
@@ -174,7 +176,18 @@ GET /search?q=khách%20sạn%20yên%20tĩnh%20ở%20Tây%20Hồ&top_k=5
 python -m core.pipeline evaluate
 ```
 
-Hàm đánh giá nằm trong `retrieval/search.py`, tính recall@k và MRR cho dense, hybrid và smart search. Hiện `EVAL_SET` đang để trống; cần thêm câu hỏi và tập ID đúng trước khi có kết quả đánh giá.
+Hàm đánh giá nằm trong `retrieval/search.py`, tính precision@k, recall@k và MRR cho dense, hybrid và smart search. Thêm dữ liệu đã gán nhãn vào `data/search_eval.json` theo định dạng:
+
+```json
+[
+  {
+    "query": "khách sạn yên tĩnh dưới 3 triệu ở Tây Hồ",
+    "relevant_ids": ["ID_ĐỊA_ĐIỂM_ĐÚNG"]
+  }
+]
+```
+
+Sau đó chạy lệnh đánh giá để xem chất lượng thực tế và điều chỉnh `MIN_RELEVANCE_SCORE`. Nếu chưa có bộ câu hỏi và ID đúng, ngưỡng mặc định vẫn chỉ là giá trị tạm thời.
 
 ## Thứ tự chạy đầy đủ
 

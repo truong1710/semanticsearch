@@ -1,8 +1,15 @@
+import json
 import numpy as np
 
 from qdrant_client import models
 
-from config import CANDIDATE_MULT, COLLECTION, TAG_BOOST
+from config import (
+    CANDIDATE_MULT,
+    COLLECTION,
+    MIN_RELEVANCE_SCORE,
+    SEARCH_EVAL_FILE,
+    TAG_BOOST,
+)
 from embedding.vectors import embed_dense, embed_sparse_query
 from .query import (
     _unit,
@@ -113,7 +120,23 @@ def search_hybrid(query, top_k=5, flt=None, q_dense=None):
         ),
         limit=candidate_count,
         with_payload=True,
+        with_vectors=["dense"],
     ).points
+
+
+def _dense_similarity(query_vector, hit):
+    """Cosine similarity between the query and stored document embeddings."""
+    vectors = hit.vector
+    document_vector = vectors.get("dense") if isinstance(vectors, dict) else vectors
+    if document_vector is None:
+        raise RuntimeError(f"Qdrant result {hit.id} did not include its dense vector.")
+
+    query_vector = np.asarray(query_vector, dtype=float)
+    document_vector = np.asarray(document_vector, dtype=float)
+    denominator = np.linalg.norm(query_vector) * np.linalg.norm(document_vector)
+    if denominator == 0:
+        raise ValueError("Cannot rerank a zero-length embedding vector.")
+    return float(np.clip(np.dot(query_vector, document_vector) / denominator, -1.0, 1.0))
 
 
 def smart_search(query, top_k=5, debug=False):
@@ -191,30 +214,34 @@ def smart_search(query, top_k=5, debug=False):
             break
 
     hits = list(pool.values())
+    below_threshold = 0
 
     # 7. Xếp hạng lại theo điểm hybrid và mức khớp tag.
     if hits:
-        max_score = max(hit.score for hit in hits)
-
-        if max_score == 0:
-            max_score = 1.0
-
+        reranked = []
         for hit in hits:
+            dense_score = _dense_similarity(q_dense, hit)
             payload_tags = set(hit.payload.get("tags") or [])
             overlap = len(wanted & payload_tags)
+            if dense_score < MIN_RELEVANCE_SCORE:
+                below_threshold += 1
+                continue
 
-            hit.score = (
-                hit.score / max_score
-                + TAG_BOOST * overlap
-            )
+            # Keep the exposed score interpretable as cosine similarity.
+            hit.score = dense_score
+            rerank_score = dense_score + TAG_BOOST * overlap
+            reranked.append((hit, rerank_score))
 
-        hits = sorted(
-            hits,
-            key=lambda hit: (
-                tier[hit.id],
-                -hit.score,
-            ),
-        )[:top_k]
+        hits = [
+            hit
+            for hit, _ in sorted(
+                reranked,
+                key=lambda item: (
+                    tier[item[0].id],
+                    -item[1],
+                ),
+            )[:top_k]
+        ]
 
     # 8. In thông tin debug.
     if debug:
@@ -226,6 +253,8 @@ def smart_search(query, top_k=5, debug=False):
         print(f"  price_max={price_max}")
         print(f"  district={district}")
         print(f"  Bộ lọc được sử dụng={used}")
+        print(f"  cosine threshold={MIN_RELEVANCE_SCORE} (tạm thời)")
+        print(f"  Bị loại do dưới ngưỡng={below_threshold}")
 
         top_similarities = sorted(
             similarities(q_vec, tag_vectors()).items(),
@@ -260,33 +289,60 @@ def show_smart(query, top_k=5, skip=("location",)):
             print(f"  {key}: {value}")
 
 
-# Điền ID thật từ MySQL; để trống thì bỏ qua bước đánh giá.
-EVAL_SET = []
+# Thêm câu hỏi và ID địa điểm đúng vào SEARCH_EVAL_FILE để đánh giá trên dữ liệu thật.
+def load_eval_set():
+    if not SEARCH_EVAL_FILE.exists():
+        return []
+
+    data = json.loads(SEARCH_EVAL_FILE.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError(f"{SEARCH_EVAL_FILE} phải chứa một danh sách JSON.")
+
+    eval_set = []
+    for index, item in enumerate(data):
+        if (
+            not isinstance(item, dict)
+            or not isinstance(item.get("query"), str)
+            or not item["query"].strip()
+            or not isinstance(item.get("relevant_ids"), list)
+            or not item["relevant_ids"]
+            or not all(isinstance(place_id, str) for place_id in item["relevant_ids"])
+        ):
+            raise ValueError(
+                f"Mục đánh giá #{index + 1} cần query và relevant_ids (danh sách ID)."
+            )
+        eval_set.append((item["query"], set(item["relevant_ids"])))
+
+    return eval_set
 
 
-def evaluate(search_fn, k=5, name=""):
-    recalls, reciprocal_ranks = [], []
-    for query, relevant in EVAL_SET:
+def evaluate(search_fn, eval_set, k=5, name=""):
+    recalls, precisions, reciprocal_ranks = [], [], []
+    for query, relevant in eval_set:
         ids = [hit.payload["id"] for hit in search_fn(query, k)]
         recalls.append(len(set(ids) & relevant) / len(relevant))
+        precisions.append(len(set(ids) & relevant) / len(ids) if ids else 0.0)
         rank = next((i for i, place_id in enumerate(ids, 1) if place_id in relevant), None)
         reciprocal_ranks.append(1 / rank if rank else 0.0)
 
     print(
-        f"{name:18s} recall@{k} = {np.mean(recalls):.3f} "
+        f"{name:18s} precision@{k} = {np.mean(precisions):.3f} "
+        f"| recall@{k} = {np.mean(recalls):.3f} "
         f"| MRR = {np.mean(reciprocal_ranks):.3f}"
     )
 
 
 def run_evaluation():
-    if not EVAL_SET:
-        print("(EVAL_SET đang trống, bỏ qua đánh giá)")
+    eval_set = load_eval_set()
+    if not eval_set:
+        print(f"(Chưa có truy vấn đánh giá trong {SEARCH_EVAL_FILE})")
         return
 
     print("\n=== ĐÁNH GIÁ ===")
-    evaluate(search_dense, name="dense")
-    evaluate(lambda query, k: search_hybrid(query, k)[:k], name="hybrid")
-    evaluate(smart_search, name="smart (đầy đủ)")
+    print(f"Ngưỡng cosine hiện tại: {MIN_RELEVANCE_SCORE} (giá trị tạm thời)")
+    evaluate(search_dense, eval_set, name="dense")
+    evaluate(lambda query, k: search_hybrid(query, k)[:k], eval_set, name="hybrid")
+    evaluate(smart_search, eval_set, name="smart (đầy đủ)")
 
 
 def main():

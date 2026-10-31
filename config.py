@@ -20,6 +20,12 @@ if not _model_cache_path.is_absolute():
 MODEL_CACHE_DIR = str(_model_cache_path)
 BATCH = 16
 TAG_VERSION = "taxonomy-v2"
+_search_eval_path = Path(os.getenv("SEARCH_EVAL_FILE", "data/search_eval.json"))
+SEARCH_EVAL_FILE = (
+    _search_eval_path
+    if _search_eval_path.is_absolute()
+    else PROJECT_ROOT / _search_eval_path
+)
 
 # ---------- Ngưỡng tìm kiếm ----------
 CATEGORY_THR = 0.55
@@ -27,6 +33,10 @@ CATEGORY_MARGIN = 0.05
 TAG_THR = 0.75
 TAG_BOOST = 0.45
 CANDIDATE_MULT = 4
+# Provisional cosine cutoff for search results; tune with labeled queries.
+MIN_RELEVANCE_SCORE = float(os.getenv("MIN_RELEVANCE_SCORE", "0.45"))
+if not -1.0 <= MIN_RELEVANCE_SCORE <= 1.0:
+    raise ValueError("MIN_RELEVANCE_SCORE must be between -1 and 1.")
 
 # ---------- MySQL ----------
 # Không cần cấu hình MySQL để import package; kết nối chỉ mở khi load_places() chạy.

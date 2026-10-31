@@ -84,7 +84,7 @@ CATEGORY_TAGS = {
     "cat-cafe": ALLOWED_TAGS - _HOTEL_ONLY - _RESTAURANT_ONLY - _CULTURE_ONLY,
         "cat-park": {
         "quiet", "lively", "romantic", "family", "couple", "solo", "lake-view",
-        "spacious", "outdoor", "garden", "green",
+            "spacious", "outdoor", "garden", "green",
     },
     "cat-culture": {
         "quiet", "lively", "family", "couple", "solo", "lake-view",

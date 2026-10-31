@@ -143,14 +143,36 @@ def cache_key(prompt):
     # Khóa cache gồm model + toàn bộ prompt (văn bản, TARGET, danh mục...) nên đổi bất cứ thứ gì là tự gọi lại AI
     return hashlib.sha1((cfg.EXTRACT_MODEL + "\n" + prompt).encode("utf-8")).hexdigest()
 
-
 def load_cache():
     path = Path(cfg.CACHE_FILE)
-    if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
-    return {}
 
+    if not path.exists():
+        return {}
 
+    try:
+        content = path.read_text(encoding="utf-8").strip()
+
+        # Kiểm tra file rỗng
+        if not content:
+            print(f"[CACHE] File cache rỗng: {path}")
+            return {}
+
+        # Chuyển JSON thành dictionary
+        data = json.loads(content)
+
+        # Kiểm tra kiểu dữ liệu
+        if not isinstance(data, dict):
+            print(f"[CACHE] Cache không phải dictionary: {path}")
+            return {}
+
+        return data
+
+    except json.JSONDecodeError as e:
+        print(f"[CACHE] File JSON bị lỗi: {path}")
+        print(f"[CACHE] Chi tiết: {e}")
+        return {}
+
+    
 def save_cache(cache):
     path = Path(cfg.CACHE_FILE)
     path.parent.mkdir(parents=True, exist_ok=True)

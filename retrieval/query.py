@@ -170,28 +170,22 @@ def parse_query(query):
             text = text[:match.start()] + " " + text[match.end():]
     text = normalize_text(text)
 
-    # Tìm quận bằng chuỗi đã bỏ dấu.
-    text_folded = fold(text)
+    # Bỏ địa danh đã nhận diện khỏi lượt tìm quận để "gần Hồ Hoàn Kiếm"
+    # không bị hiểu nhầm thành bộ lọc quận Hoàn Kiếm.
+    district_search_text = fold(text)
+    for landmark in LANDMARKS:
+        district_search_text = re.sub(
+            rf"(?<!\w){re.escape(landmark)}(?!\w)",
+            " ",
+            district_search_text,
+            count=1,
+        )
+    district_search_text = normalize_text(district_search_text)
 
     for name in DISTRICTS:
         folded_name = fold(name)
-
-        # Tìm vị trí theo từng ký tự gốc để xóa đúng
-        # cả khi chuỗi đầu vào dùng Unicode tổ hợp dấu.
-        found = None
-        for start in range(len(text) + 1):
-            for end in range(start + 1, len(text) + 1):
-                if fold(text[start:end]) == folded_name:
-                    found = (start, end)
-                    break
-            if found:
-                break
-
-        if found:
-            start, end = found
+        if re.search(rf"(?<!\w){re.escape(folded_name)}(?!\w)", district_search_text):
             district = name
-            text = text[:start] + " " + text[end:]
-            text = normalize_text(text)
             break
 
     # Không để câu tìm kiếm rỗng.
